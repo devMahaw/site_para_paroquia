@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <BrowserRouter>
+      <GlobalCss />
       <header>
         <Navbar />
       </header>
