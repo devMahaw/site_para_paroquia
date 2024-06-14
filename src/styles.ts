@@ -24,4 +24,26 @@ export const GlobalCss = createGlobalStyle`
     scrollbar-width: thin;
     text-decoration: none;
   }
+
+  body {
+    background-color: ${colors.gray};
+    color: ${colors.black};
+
+    &::-webkit-scrollbar {
+      width: 12px; 
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: ${colors.gray}; 
+      border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: ${colors.gray};
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
 `;
