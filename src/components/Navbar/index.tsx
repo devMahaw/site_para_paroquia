@@ -1,4 +1,10 @@
-import { NavbarContainer, NavbarItemsList, NavbarText } from "./styles";
+import {
+  NavbarContainer,
+  NavbarItemsList,
+  NavbarSubItemsText,
+  NavbarSubMenu,
+  NavbarText,
+} from "./styles";
 
 const Navbar = () => {
   return (
@@ -14,9 +20,7 @@ const Navbar = () => {
         <NavbarItemsList>
           <li>
             <div>
-              <a href="">
-                <NavbarText>Institucional</NavbarText>
-              </a>
+              <NavbarText>Institucional</NavbarText>
               <span>
                 <svg
                   fill="currentColor"
@@ -32,16 +36,25 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <ul>
-              <li></li>
-              <li></li>
-            </ul>
+            <NavbarSubMenu>
+              <li>
+                <NavbarSubItemsText href="">NSPS</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">História</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Pároco</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Secretaria</NavbarSubItemsText>
+              </li>
+            </NavbarSubMenu>
           </li>
           <li>
             <div>
-              <a href="">
-                <NavbarText>Nossas atividades</NavbarText>
-              </a>
+              <NavbarText>Nossas atividades</NavbarText>
+
               <span>
                 <svg
                   fill="currentColor"
@@ -57,16 +70,42 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <ul>
-              <li></li>
-              <li></li>
-            </ul>
+            <NavbarSubMenu>
+              <li>
+                <NavbarSubItemsText href="">
+                  Evangelho diário
+                </NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Santo do dia</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">
+                  Horários das Missas
+                </NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Catequese</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Pastorais</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">
+                  Terço dos Homens
+                </NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">
+                  Como rezar o terço
+                </NavbarSubItemsText>
+              </li>
+            </NavbarSubMenu>
           </li>
           <li>
             <div>
-              <a href="">
-                <NavbarText>Notícias</NavbarText>
-              </a>
+              <NavbarText>Notícias</NavbarText>
+
               <span>
                 <svg
                   fill="currentColor"
@@ -82,16 +121,24 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <ul>
-              <li></li>
-              <li></li>
-            </ul>
+            <NavbarSubMenu>
+              <li>
+                <NavbarSubItemsText href="">Avisos</NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">
+                  Notícias da Paróquia
+                </NavbarSubItemsText>
+              </li>
+              <li>
+                <NavbarSubItemsText href="">Redes sociais</NavbarSubItemsText>
+              </li>
+            </NavbarSubMenu>
           </li>
           <li>
             <div>
-              <a href="">
-                <NavbarText>Ajude-nos</NavbarText>
-              </a>
+              <NavbarText>Ajude-nos</NavbarText>
+
               <span>
                 <svg
                   fill="currentColor"
@@ -107,10 +154,11 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <ul>
-              <li></li>
-              <li></li>
-            </ul>
+            <NavbarSubMenu>
+              <li>
+                <NavbarSubItemsText href="">Dízimo</NavbarSubItemsText>
+              </li>
+            </NavbarSubMenu>
           </li>
           <li>
             <a href="" style={{ letterSpacing: "1px" }}>
