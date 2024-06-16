@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { GlobalCss } from "./styles";
 import RoutesVar from "./routes";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <main>
         <RoutesVar />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </BrowserRouter>
   );
 }

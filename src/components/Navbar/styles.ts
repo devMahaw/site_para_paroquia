@@ -1,10 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../styles";
 
-export const ArrowImg = styled.img`
-  width: 8px;
-`;
-
 export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -81,4 +77,5 @@ export const NavbarSubItemsText = styled.a`
   letter-spacing: 1px;
   white-space: nowrap;
   padding: 2px;
+  color: ${colors.white};
 `;

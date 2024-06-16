@@ -10,11 +10,13 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       <a href="">
-        <img
-          src="/assets/nsps_logo.png"
-          alt="Logo Nossa Senhora do Perpétuo Socorro"
-          style={{ width: "350px" }}
-        />
+        <h1>
+          <img
+            src="/assets/nsps_logo.png"
+            alt="Logo Nossa Senhora do Perpétuo Socorro"
+            style={{ width: "350px" }}
+          />
+        </h1>
       </a>
       <div>
         <NavbarItemsList>
@@ -81,7 +83,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavbarSubItemsText href="">
-                  Horários das Missas
+                  Horários das missas
                 </NavbarSubItemsText>
               </li>
               <li>
@@ -92,7 +94,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavbarSubItemsText href="">
-                  Terço dos Homens
+                  Terço dos homens
                 </NavbarSubItemsText>
               </li>
               <li>
@@ -127,7 +129,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavbarSubItemsText href="">
-                  Notícias da Paróquia
+                  Notícias da paróquia
                 </NavbarSubItemsText>
               </li>
               <li>
