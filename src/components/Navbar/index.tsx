@@ -99,7 +99,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavbarSubItemsText href="">
-                  Como rezar o terço
+                  Guia do rosário e do terço
                 </NavbarSubItemsText>
               </li>
             </NavbarSubMenu>
