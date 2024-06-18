@@ -1,14 +1,15 @@
-import {
-  NavbarContainer,
-  NavbarItemsList,
-  NavbarSubItemsText,
-  NavbarSubMenu,
-  NavbarText,
-} from "./styles";
+import * as S from "./styles";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const goToRosario = () => {
+    navigate("/rosario");
+  };
+
   return (
-    <NavbarContainer>
+    <S.NavbarContainer>
       <a href="">
         <h1>
           <img
@@ -19,10 +20,10 @@ const Navbar = () => {
         </h1>
       </a>
       <div>
-        <NavbarItemsList>
+        <S.NavbarItemsList>
           <li>
             <div>
-              <NavbarText>Institucional</NavbarText>
+              <S.NavbarText>Institucional</S.NavbarText>
               <span>
                 <svg
                   fill="currentColor"
@@ -38,24 +39,24 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <NavbarSubMenu>
+            <S.NavbarSubMenu>
               <li>
-                <NavbarSubItemsText href="">NSPS</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">NSPS</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">História</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">História</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Pároco</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Pároco</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Secretaria</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Secretaria</S.NavbarSubItemsText>
               </li>
-            </NavbarSubMenu>
+            </S.NavbarSubMenu>
           </li>
           <li>
             <div>
-              <NavbarText>Nossas atividades</NavbarText>
+              <S.NavbarText>Nossas atividades</S.NavbarText>
 
               <span>
                 <svg
@@ -72,41 +73,43 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <NavbarSubMenu>
+            <S.NavbarSubMenu>
               <li>
-                <NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="">
                   Evangelho diário
-                </NavbarSubItemsText>
+                </S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Santo do dia</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">
+                  Santo do dia
+                </S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="">
                   Horários das missas
-                </NavbarSubItemsText>
+                </S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Catequese</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Catequese</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Pastorais</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Pastorais</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="">
                   Terço dos homens
-                </NavbarSubItemsText>
+                </S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">
-                  Guia do rosário e do terço
-                </NavbarSubItemsText>
+                <S.NavbarSubItemsText onClick={goToRosario}>
+                  Rosário
+                </S.NavbarSubItemsText>
               </li>
-            </NavbarSubMenu>
+            </S.NavbarSubMenu>
           </li>
           <li>
             <div>
-              <NavbarText>Notícias</NavbarText>
+              <S.NavbarText>Notícias</S.NavbarText>
 
               <span>
                 <svg
@@ -123,24 +126,25 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <NavbarSubMenu>
+            <S.NavbarSubMenu>
               <li>
-                <NavbarSubItemsText href="">Avisos</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Avisos</S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="">
                   Notícias da paróquia
-                </NavbarSubItemsText>
+                </S.NavbarSubItemsText>
               </li>
               <li>
-                <NavbarSubItemsText href="">Redes sociais</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">
+                  Redes sociais
+                </S.NavbarSubItemsText>
               </li>
-            </NavbarSubMenu>
+            </S.NavbarSubMenu>
           </li>
           <li>
             <div>
-              <NavbarText>Ajude-nos</NavbarText>
-
+              <S.NavbarText>Ajude-nos</S.NavbarText>
               <span>
                 <svg
                   fill="currentColor"
@@ -156,20 +160,20 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <NavbarSubMenu>
+            <S.NavbarSubMenu>
               <li>
-                <NavbarSubItemsText href="">Dízimo</NavbarSubItemsText>
+                <S.NavbarSubItemsText href="">Dízimo</S.NavbarSubItemsText>
               </li>
-            </NavbarSubMenu>
+            </S.NavbarSubMenu>
           </li>
           <li>
             <a href="" style={{ letterSpacing: "1px" }}>
               Contato
             </a>
           </li>
-        </NavbarItemsList>
+        </S.NavbarItemsList>
       </div>
-    </NavbarContainer>
+    </S.NavbarContainer>
   );
 };
 

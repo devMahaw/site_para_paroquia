@@ -20,7 +20,7 @@ export const GlobalCss = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    scrollbar-color: ${colors.gray} transparent;
+    scrollbar-color: ${colors.yellow} transparent;
     scrollbar-width: thin;
     text-decoration: none;
   }
@@ -28,19 +28,6 @@ export const GlobalCss = createGlobalStyle`
   body {
     background-color: ${colors.gray};
     color: ${colors.black};
-
-    &::-webkit-scrollbar {
-      width: 12px; 
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: ${colors.gray}; 
-      border-radius: 6px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background-color: ${colors.gray};
-    }
   }
 
   button {

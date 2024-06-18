@@ -8,6 +8,7 @@ export const NavbarContainer = styled.nav`
   padding: 20px 100px;
   background-color: ${colors.white};
   position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
 export const NavbarText = styled.span`

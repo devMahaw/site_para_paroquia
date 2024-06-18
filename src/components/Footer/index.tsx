@@ -40,9 +40,7 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <NavbarSubItemsText href="">
-            Guia do rosário e do terço
-          </NavbarSubItemsText>
+          <NavbarSubItemsText href="">Rosário</NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Avisos</NavbarSubItemsText>
