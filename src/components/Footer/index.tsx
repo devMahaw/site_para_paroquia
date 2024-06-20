@@ -1,7 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import { NavbarSubItemsText } from "../Navbar/styles";
 import { FooterContainer } from "./styles";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const goToRosario = () => {
+    navigate("/rosario");
+  };
+
   return (
     <FooterContainer>
       <ul>
@@ -40,7 +47,7 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <NavbarSubItemsText href="">Rosário</NavbarSubItemsText>
+          <NavbarSubItemsText onClick={goToRosario}>Rosário</NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Avisos</NavbarSubItemsText>

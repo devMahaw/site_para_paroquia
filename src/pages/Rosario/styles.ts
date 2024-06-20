@@ -9,6 +9,13 @@ export const ImageContainer = styled.div`
 
 export const RosarioContainer = styled.div`
   margin-left: 100px;
+
+  ul {
+    li {
+      list-style: disc;
+      margin-left: 40px;
+    }
+  }
 `;
 
 export const BigText = styled.h2`
@@ -18,7 +25,7 @@ export const BigText = styled.h2`
 `;
 
 export const DefaultText = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   width: 60%;
   line-height: 30px;
 
@@ -32,4 +39,8 @@ export const SmallText = styled.p`
   font-size: 18px;
   width: 50%;
   padding: 10px 0px;
+
+  span {
+    color: #868686;
+  }
 `;
