@@ -3,17 +3,18 @@ import * as S from "./styles";
 const Rosario = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
-      <S.ImageContainer>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           style={{
             borderRadius: "20px",
             objectFit: "cover",
             height: "600px",
+            marginTop: "120px",
           }}
           src="assets/ns_banner.png"
           alt="Nossa Senhora com Rosário"
         />
-      </S.ImageContainer>
+      </div>
       <div>
         <S.BigText>Um guia para rezar o rosário</S.BigText>
         <S.DefaultText
@@ -314,7 +315,7 @@ const Rosario = () => {
           style={{
             paddingBottom: "30px",
             borderBottom: "1px solid #D4D4D4",
-            width: "100%",
+            width: "50%",
           }}
         >
           <span>1. Lc 1,78-79</span>
@@ -354,7 +355,8 @@ const Rosario = () => {
           simples, é um memorial de toda a vida de Jesus.
         </S.SmallText>
         <S.BigText>
-          O que são os mistérios do terço e por que devemos contemplá-los?
+          O que são os mistérios do terço
+          <br /> e por que devemos contemplá-los?
         </S.BigText>
         <S.SmallText>
           Os mistérios do terço indicam os eventos mais marcantes da vida de
@@ -377,7 +379,7 @@ const Rosario = () => {
           style={{
             paddingBottom: "30px",
             borderBottom: "1px solid #D4D4D4",
-            width: "100%",
+            width: "50%",
           }}
         >
           Ao conhecer a vida de Cristo e crer nele, somos impelidos a refletir
@@ -388,23 +390,26 @@ const Rosario = () => {
           alegre messe de frutos, porque incita maravilhosamente a alma a
           propósitos de virtude.”
         </S.SmallText>
-        <S.ImageContainer>
-          <img
-            style={{
-              borderRadius: "20px",
-              width: "1100px",
-              height: "400px",
-            }}
-            src="assets/anunciacao_gozozos.jpg"
-            alt="Anunciação do anjo"
-          />
-        </S.ImageContainer>
-        <S.BigText>Mistérios Gozosos: nascimento e infância de Jesus</S.BigText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "820px",
+            height: "700px",
+            marginTop: "30px",
+            objectFit: "cover",
+          }}
+          src="assets/anunciacao_gozozos.jpg"
+          alt="Anunciação do anjo"
+        />
+        <S.BigText>
+          Mistérios Gozosos: nascimento e infância
+          <br /> de Jesus
+        </S.BigText>
         <S.DefaultText
           style={{
             borderBottom: "1px solid #D4D4D4",
             paddingBottom: "30px",
-            width: "100%",
+            width: "50%",
           }}
         >
           <span>

@@ -89,9 +89,37 @@ const Navbar = () => {
                   Horários das missas
                 </S.NavbarSubItemsText>
               </li>
-              <li>
-                <S.NavbarSubItemsText href="">Catequese</S.NavbarSubItemsText>
-              </li>
+              <S.CatequeseList>
+                <S.NavbarText>Catequese</S.NavbarText>
+                <S.NavbarSubSubMenu>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Santíssima trindade
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Os 10 mandamentos
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Os 7 sacramentos
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">Orações</S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Dogmas marianos
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">Dulias</S.NavbarSubItemsText>
+                  </li>
+                </S.NavbarSubSubMenu>
+              </S.CatequeseList>
               <li>
                 <S.NavbarSubItemsText href="">Pastorais</S.NavbarSubItemsText>
               </li>

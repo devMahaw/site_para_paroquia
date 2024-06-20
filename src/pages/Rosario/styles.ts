@@ -4,7 +4,6 @@ import { colors } from "../../styles";
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 `;
 
 export const MisteriosList = styled.li`
@@ -20,7 +19,7 @@ export const BigText = styled.h2`
 
 export const DefaultText = styled.p`
   font-size: 24px;
-  width: 60%;
+  width: 50%;
   line-height: 30px;
 
   span {
