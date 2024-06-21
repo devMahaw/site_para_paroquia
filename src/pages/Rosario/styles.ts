@@ -33,6 +33,11 @@ export const SmallText = styled.p`
   width: 50%;
   padding: 10px 0px;
 
+  a {
+    color: #3a83f7;
+    font-weight: bold;
+  }
+
   span {
     color: ${colors.darkGray};
   }

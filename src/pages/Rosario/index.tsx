@@ -71,7 +71,15 @@ const Rosario = () => {
           mosteiros. Rezavam e trabalhavam muito intensamente, em contraste com
           os nossos tempos. Por exemplo, rezavam os 150 salmos por dia, em coro
           na igreja, como uma oração diária. Enquanto outros lavravam o solo sob
-          o sol duro, outros rezavam ao sol que nasce do alto.
+          o sol duro, outros rezavam ao sol que nasce do alto.&nbsp;
+          <sup>
+            <a
+              href="https://www.bible.com/pt/bible/211/LUK.1.78-79.NTLH"
+              target="blank"
+            >
+              1
+            </a>
+          </sup>
         </S.SmallText>
         <S.SmallText>
           No entanto, houve uma dificuldade: nem todos tinham a oportunidade de
@@ -127,22 +135,56 @@ const Rosario = () => {
           dividido em Pai-nossos, Ave-Marias e Glórias, organizados em dezenas
           de contas menores e maiores. Dessa forma, a cristandade quis organizar
           a vida de Cristo em 5 mistérios, referindo-se talvez teologicamente ao
-          Pentateuco, uma vez que a nova lei “faço novas todas as coisas”, e a
-          verdadeira lei “Eu sou a verdade, o caminho e a vida”, é o próprio
-          Cristo. Ou porque historicamente, aqueles que não podiam rezar os 150
-          salmos, devido a circunstâncias da vida, refugiaram-se na Mãe de Deus
-          com amor e admiração, para seguirem o seu exemplo de guardar no
-          coração e viver os mistérios de Cristo, e para cada salmo recitaram
-          uma Ave-Maria.
+          Pentateuco, uma vez que a nova lei “faço novas todas as coisas”&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/ap/21/5"
+              target="blank"
+            >
+              2
+            </a>
+          </sup>
+          , e a verdadeira lei “Eu sou a verdade, o caminho e a vida”&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/14/6"
+              target="blank"
+            >
+              3
+            </a>
+          </sup>
+          , é o próprio Cristo. Ou porque historicamente, aqueles que não podiam
+          rezar os 150 salmos, devido a circunstâncias da vida, refugiaram-se na
+          Mãe de Deus com amor e admiração, para seguirem o seu exemplo de
+          guardar no coração e viver os mistérios de Cristo, e para cada salmo
+          recitaram uma Ave-Maria.
         </S.SmallText>
         <S.SmallText>
           No entanto, o que nunca deve ser esquecido é que cada Santo Rosário é
-          como aquela passagem do Evangelho onde Jesus subiu a uma montanha para
-          rezar, levando consigo os seus três discípulos favoritos, Pedro, Tiago
-          e João. E enquanto rezava, o seu corpo foi transfigurado. A sua roupa
-          tornou-se mais branca do que a neve, e o seu rosto mais brilhante do
-          que o sol. E Moisés e Elias apareceram e falaram-lhe do que lhe estava
-          prestes a acontecer em Jerusalém.
+          como aquela passagem do Evangelho&nbsp;
+          <sup>
+            <a href="https://www.bibliaonline.com.br/acf/lc/9" target="blank">
+              4
+            </a>
+          </sup>
+          <sup>
+            ,
+            <a href="https://www.bibliaonline.com.br/acf/mc/6" target="blank">
+              5
+            </a>
+          </sup>
+          <sup>
+            ,
+            <a href="https://www.bibliaonline.com.br/acf/mt/10" target="blank">
+              6
+            </a>
+          </sup>
+          &nbsp;onde Jesus subiu a uma montanha para rezar, levando consigo os
+          seus três discípulos favoritos, Pedro, Tiago e João. E enquanto
+          rezava, o seu corpo foi transfigurado. A sua roupa tornou-se mais
+          branca do que a neve, e o seu rosto mais brilhante do que o sol. E
+          Moisés e Elias apareceram e falaram-lhe do que lhe estava prestes a
+          acontecer em Jerusalém.
         </S.SmallText>
         <S.SmallText>
           Pedro ficou muito entusiasmado e exclamou: “Senhor, como é bom que
@@ -163,7 +205,7 @@ const Rosario = () => {
         <S.SmallText style={{ fontWeight: "bold" }}>Passo 2:</S.SmallText>
         <S.SmallText>
           Ofereça a oração por alguma intenção que você queira rezar, para
-          alguém ou alguma situação.{" "}
+          alguém ou alguma situação.
         </S.SmallText>
         <S.SmallText style={{ fontWeight: "bold" }}>Passo 3:</S.SmallText>
         <S.SmallText>
@@ -275,11 +317,19 @@ const Rosario = () => {
         <S.SmallText>
           Em suas aparições aos pastorinhos, em 1917, Nossa Senhora de Fátima
           sempre falou sobre a necessidade de muita oração e, especialmente, da
-          oração do Santo Terço. Na primeira aparição, em maio, ela já dizia:{" "}
+          oração do Santo Terço. Na primeira aparição, em maio, ela já dizia:
         </S.SmallText>
         <S.SmallText>
           “Rezem o terço, todos os dias, para alcançarem a paz para o mundo e o
-          fim da guerra.”
+          fim da guerra.”&nbsp;
+          <sup>
+            <a
+              href="https://www.fatima.pt/files/upload/fontes/F002_Memorias1.pdf"
+              target="blank"
+            >
+              7
+            </a>
+          </sup>
         </S.SmallText>
         <S.SmallText>
           Nas demais aparições, feitas até outubro do mesmo ano, esse foi o
@@ -298,7 +348,15 @@ const Rosario = () => {
           se chamava por ele e Ihe perguntava que andava a fazer, levantava o
           braço e mostrava-me o terço. Se Ihe dizia que viesse brincar, que
           depois rezava conosco, respondia: - Depois também rezo. Não te lembras
-          que Nossa Senhora disse que tinha de rezar muitos terços?”
+          que Nossa Senhora disse que tinha de rezar muitos terços?”&nbsp;
+          <sup>
+            <a
+              href="https://www.fatima.pt/files/upload/fontes/F002_Memorias1.pdf"
+              target="blank"
+            >
+              8
+            </a>
+          </sup>
         </S.SmallText>
         <S.SmallText>
           Assim como essas crianças, Nossa Senhora também espera de nós um
@@ -321,10 +379,12 @@ const Rosario = () => {
           <span>1. Lc 1,78-79</span>
           <br /> <span>2. Apocalipse 21,5</span>
           <br /> <span>3. Jo 14, 6</span>
-          <br /> <span>4. Lc. 9, Mc. 6, Mt. 10</span>
+          <br /> <span>4. Lc. 9</span>
+          <br /> <span>5. Mc. 6 </span>
+          <br /> <span>6. Mt. 10</span>
           <br />
-          <span>5. Memórias da Ir. Lúcia, p.174</span>
-          <br /> <span>6. Memórias da Ir. Lúcia, p.141</span>
+          <span>7. Memórias da Ir. Lúcia, p.176</span>
+          <br /> <span>8. Memórias da Ir. Lúcia, p.143</span>
           <br />
         </S.SmallText>
         <S.BigText>O que é a oração do terço?</S.BigText>
@@ -346,7 +406,15 @@ const Rosario = () => {
             <span>
               — Podemos dizer que a recitação do Rosário tem o seu modelo
               precisamente em Maria, porque consiste em contemplar os mistérios
-              de Cristo em união espiritual com a Mãe do Senhor.
+              de Cristo em união espiritual com a Mãe do Senhor.&nbsp;
+              <sup>
+                <a
+                  href="https://www.vatican.va/content/benedict-xvi/pt/audiences/2011/documents/hf_ben-xvi_aud_20111228.html#:~:text=Audiência%20Geral%20de%2028%20de,Família%20de%20Nazaré%20%7C%20Bento%20XVI&text=Queridos%20irmãos%20e%20irmãs%2C,liturgia%20de%20todos%20estes%20dias."
+                  target="blank"
+                >
+                  1
+                </a>
+              </sup>
             </span>
           </cite>
         </S.SmallText>
@@ -388,7 +456,15 @@ const Rosario = () => {
           dos mistérios do terço, portanto, além de ser um pedido incessante de
           Nossa Senhora, “ajuda a fazer brotar da nossa fé uma abundante e
           alegre messe de frutos, porque incita maravilhosamente a alma a
-          propósitos de virtude.”
+          propósitos de virtude.”&nbsp;
+          <sup>
+            <a
+              href="https://www.vatican.va/content/leo-xiii/pt/encyclicals/documents/hf_l-xiii_enc_08091892_magnae-dei-matris.html"
+              target="blank"
+            >
+              2
+            </a>
+          </sup>
         </S.SmallText>
         <img
           style={{
@@ -426,9 +502,18 @@ const Rosario = () => {
           A prática da oração do terço nos conduz à contemplação dos principais
           episódios da vida de Cristo. Os Mistérios Gozosos, que constituem o
           primeiro ciclo do Rosário, são marcados, sobretudo, pela alegria que
-          emana da Encarnação. O anúncio do anjo, em particular, inaugura de
-          forma concreta a história de nossa redenção, envolvendo toda a criação
-          em regozijo diante da Encarnação do Verbo Divino.
+          emana da Encarnação.&nbsp;
+          <sup>
+            <a
+              href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+              target="blank"
+            >
+              3
+            </a>
+          </sup>
+          &nbsp;O anúncio do anjo, em particular, inaugura de forma concreta a
+          história de nossa redenção, envolvendo toda a criação em regozijo
+          diante da Encarnação do Verbo Divino.
         </S.SmallText>
         <S.SmallText>
           Neste mistério, exploraremos cada episódio dos Mistérios Gozosos,
@@ -452,16 +537,31 @@ const Rosario = () => {
             <span>
               «No sexto mês, o anjo Gabriel foi enviado por Deus a uma cidade da
               Galiléia, chamada Nazaré, a uma virgem desposada com um homem que
-              se chamava José, da casa de Davi e o nome da virgem era Maria» (Lc
-              1, 26-27).
+              se chamava José, da casa de Davi e o nome da virgem era Maria» (
+              <a
+                href="https://www.bibliaonline.com.br/nvi/lc/1/26,27"
+                target="blank"
+              >
+                Lc 1, 26-27
+              </a>
+              ).
             </span>
           </cite>
         </S.SmallText>
         <S.SmallText>
           No primeiro mistério gozoso, somos transportados para o humilde lar de
           Nazaré, onde o Arcanjo Gabriel é enviado por Deus para anunciar a
-          boa-nova a Maria. O episódio é narrado no Evangelho de Lucas, o anjo
-          Gabriel saúda Maria como “cheia de graça” e revela o plano divino:
+          boa-nova a Maria. O episódio é narrado no Evangelho de Lucas&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/1/26-38"
+              target="blank"
+            >
+              4
+            </a>
+          </sup>
+          , o anjo Gabriel saúda Maria como “cheia de graça” e revela o plano
+          divino:
           <br />
           <cite>
             <span>
@@ -469,7 +569,29 @@ const Rosario = () => {
               Maria, pois encontraste graça diante de Deus. Eis que conceberás e
               darás à luz um filho, e lhe porás o nome de Jesus.” […] Então
               disse Maria: “Eis aqui a serva do Senhor. Faça-se em mim segundo a
-              tua palavra.”
+              tua palavra.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaonline.com.br/acf/lc/1/28"
+                  target="blank"
+                >
+                  5
+                </a>
+                ,
+                <a
+                  href="https://www.bibliaonline.com.br/acf/lc/1/30"
+                  target="blank"
+                >
+                  6
+                </a>
+                ,
+                <a
+                  href="https://www.bibliaonline.com.br/acf/lc/1/38"
+                  target="blank"
+                >
+                  7
+                </a>
+              </sup>
             </span>
           </cite>
         </S.SmallText>
@@ -495,6 +617,467 @@ const Rosario = () => {
           a sua sombra”. Desvendava, assim, o sentido oculto da profecia de
           Isaías sobre a gravidez de uma virgem. “Para Deus, nada é impossível”.
           E o consentimento de Maria é imediato.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          2º mistério gozoso: a visitação de Maria a sua prima Santa Isabel
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            height: "600px",
+            objectFit: "cover",
+          }}
+          src="assets/visitacao_maria.jpg"
+          alt="Visitação de Nossa Senhora a sua prima Santa Isabel"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Naqueles dias, Maria se levantou e foi às pressas às montanhas, a
+              uma cidade de Judá. Entrou em casa de Zacarias e saudou Isabel.
+              Ora, apenas Isabel ouviu a saudação de Maria, a criança estremeceu
+              no seu seio; e Isabel ficou cheia do Espírito Santo. E exclamou em
+              alta voz: "Bendita és tu entre as mulheres e bendito é o fruto do
+              teu ventre"» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/lc/1/39-42"
+                target="blank"
+              >
+                Lc 1, 39-42
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          O segundo mistério gozoso leva-nos à emocionante visita da Virgem
+          Maria à sua prima Isabel.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/1/39-56"
+              target="blank"
+            >
+              8
+            </a>
+          </sup>
+          &nbsp;Maria, logo após saber que seria mãe do Salvador, por obra do
+          Espírito Santo, parte apressadamente para visitar Isabel, que, por
+          graça divina, também está grávida. Este encontro é marcado pela
+          alegria e pelo reconhecimento sobrenatural, culminando na exclamação
+          inspirada de Isabel:
+          <br />
+          <cite>
+            <span>
+              — “Donde me vem esta honra de vir a mim a mãe de meu
+              Senhor?”&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaon.com/versiculo/lucas_1_43/"
+                  target="blank"
+                >
+                  9
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos a visita de Maria tanto como um ato de
+          serviço e amor, quanto como um testemunho sensível da presença de
+          Deus. A Visitação de Maria à sua parenta deve levar-nos a meditar
+          especialmente sobre o serviço desinteressado e a prontidão em servir
+          àqueles que mais precisam — começando pelos que estão mais próximos de
+          nós. Ao mesmo tempo consideramos a alegria que Maria compartilha com
+          Isabel, refletindo sobre como nossas próprias vidas podem ser veículos
+          de alegria divina para os outros.
+        </S.SmallText>
+        <S.SmallText>
+          É muito mais pelos atos do que pelas palavras que se conhece uma
+          pessoa. No diálogo entre a Virgem e o arcanjo, durante a Anunciação,
+          Maria pronunciou apenas duas frases curtas que a revelaram. Diante da
+          mudança de vida que ela entrevia para si, sua reação foi de humildade,
+          simplicidade e retidão. Sua resposta denota generosidade e sua partida
+          para junto de sua prima, bem como sua rapidez de decisão e sua
+          caridade atuante, demonstram uma pronta obediência à ligeira
+          insinuação feita pelo anjo, a respeito de Elizabeth, Com a saudação de
+          Maria, o Espírito Santo se apossa de Elizabeth. Sem que esta tenha
+          recebido qualquer notícia ou confidência a respeito da Encarnação do
+          Verbo, Elizabeth se mostra milagrosamente informada, saudando sua
+          jovem parenta em termos de elevado respeito. E foi ela a primeira
+          pessoa neste mundo a conferir o magnífico título que a posteridade
+          reconheceria: ela a nomeia Mãe de seu Senhor. A explosão de júbilo que
+          eclode das palavras de Elizabeth, faz brotar em Maria, do mais íntimo
+          de seu coração, um cântico espontâneo de louvor: “Minha alma
+          engrandece o Senhor…” Este arroubo de fé em Deus que realiza o que ele
+          prometera, esse grito de compaixão pelos oprimidos e pelos pobres,
+          esse cântico de reconhecimento dirigido a Deus que vem salvar a
+          humanidade, a Igreja escolheu-o para o Ofício das Vésperas:
+          “Magnificat anima mea dominum…”
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          3º mistério gozoso: o nascimento de Jesus em Belém
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            objectFit: "cover",
+          }}
+          src="assets/nascimento_jesus.jpg"
+          alt="Presépio"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Naqueles tempos apareceu um decreto de César Augusto, ordenando o
+              recenseamento de toda a terra. Este recenseamento foi feito antes
+              do governo de Quirino, na Síria. Todos iam alistar-se, cada um na
+              sua cidade. Também José subiu da Galiléia, da cidade de Nazaré, à
+              Judéia, à Cidade de Davi, chamada Belém, porque era da casa e
+              família de Davi, para se alistar com a sua esposa Maria, que
+              estava grávida. Estando eles ali, completaram-se os dias dela. E
+              deu à luz seu filho primogênito, e, envolvendo-o em faixas,
+              reclinou-o num presépio; porque não havia lugar para eles na
+              hospedaria» (
+              <a
+                href="https://www.bibliaonline.com.br/nvi/lc/2/1-7"
+                target="blank"
+              >
+                Lc 2,1-7
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No terceiro mistério gozoso, mergulhamos na adoração silenciosa do
+          Natal.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/lc/2/1-20"
+              target="blank"
+            >
+              10
+            </a>
+          </sup>
+          &nbsp;Em meio a simplicidade, a pobreza e ao frio de uma gruta em
+          Belém, Maria dá à luz Jesus Cristo — e “os céus e a terra se
+          regozijaram pelo nascimento do Salvador.”&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/lc/2/11"
+              target="blank"
+            >
+              11
+            </a>
+          </sup>
+          &nbsp; A meditação nos conduz, desse modo, à humildade da manjedoura,
+          à alegria dos pastores e à reverência dos Reis Magos.
+        </S.SmallText>
+        <S.SmallText>
+          Contemplamos aqui o extraordinário acontecimento do Filho de Deus que
+          se faz presente entre nós, trazendo luz e esperança ao mundo. Meditar
+          sobre o nascimento de Jesus convida-nos a acolher a presença de Cristo
+          em nossas vidas diárias, encontrando alegria na simplicidade e no dom
+          da vida. Além disso, o mistério do Natal faz-nos meditar sobre a
+          importância de estar sempre vigilantes, esperando pela segunda vinda
+          de Cristo no fim dos tempos, pois não sabemos o dia ou a hora em que
+          Ele voltará.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mt/25/13"
+              target="blank"
+            >
+              12
+            </a>
+          </sup>
+        </S.SmallText>
+        <S.SmallText>
+          A pobreza, em geral, é mal vista pela maioria dos homens. No entanto,
+          foi o que Jesus escolheu para seus pais e para si mesmo. Será esse
+          quadro que nós imaginaríamos para um nascimento divino? Onde a pompa,
+          o conforto, o luxo requintado com que os grandes deste mundo costumam
+          se cercar? Os primeiros adoradores de Cristo, no seu nascimento, foram
+          Maria e José unidos em sua fé por um sublime segredo.. Os primeiros
+          visitantes foram… os pastores, marginalizados e excluídos pela
+          sociedade civil e religiosa de seu tempo No entanto, a atmosfera de
+          todo o desenrolar da cena do presépio, em Belém, deve ter sido
+          impregnada de extremo júbilo e grande regozijo! O nascimento do
+          Salvador do mundo foi cantado pelos anjos e anunciado aos pastores
+          como uma grande alegria: “Glória a Deus no mais alto dos céus!”
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          4º mistério gozoso: a apresentação do Menino Jesus no templo
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            height: "600px",
+            objectFit: "cover",
+          }}
+          src="assets/apresentacao_jesus.jpg"
+          alt="Apresentação do menino Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Completados que foram os oito dias para ser circuncidado o
+              menino, foi-lhe posto o nome de Jesus, como lhe tinha chamado o
+              anjo, antes de ser concebido no seio materno. Concluídos os dias
+              da sua purificação segundo a Lei de Moisés, levaram-no a Jerusalém
+              para o apresentar ao Senhor, conforme o que está escrito na lei do
+              Senhor: Todo primogênito do sexo masculino será consagrado ao
+              Senhor; e para oferecerem o sacrifício prescrito pela lei do
+              Senhor, um par de rolas ou dois pombinhos.» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/lc/2/21-24"
+                target="blank"
+              >
+                Lc 2, 21-24
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Maria e José foram apresentar o Menino Jesus no Templo, este é o
+          quarto mistério gozoso.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/2/22-38"
+              target="blank"
+            >
+              13
+            </a>
+          </sup>
+          &nbsp; A sua contemplação nos leva a refletir sobre a entrega de Maria
+          e José ao apresentarem o Filho de Deus, aceitando as palavras
+          proféticas de Simeão.
+          <br />
+          <cite>
+            <span>
+              — “Eis que este menino está destinado a ser uma causa de queda e
+              de soerguimento para muitos homens em Israel, e a ser um sinal que
+              provocará contradições, a fim de serem revelados os pensamentos de
+              muitos corações. E uma espada transpassará a tua alma.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.bible.com/pt/bible/211/LUK.2.34-35.NTLH"
+                  target="blank"
+                >
+                  14
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos sobre o profundo significado do Filho de
+          Deus submetendo-se à Lei e aos seus preceitos. Na vida da Sagrada
+          Família, o respeito pela Lei não era apenas um cumprimento mecânico,
+          mas uma expressão da certeza de que Deus era o seu alicerce. Sendo
+          assim, na Apresentação de Jesus no Templo, assim como em outros
+          episódios de sua vida oculta, temos a oportunidade de contemplar o
+          Deus Santo que adota o ritmo dos homens. Ele é, portanto, o Deus de
+          Amor que entra na história humana para nos ensinar a viver uma vida
+          com verdadeiro sentido.
+        </S.SmallText>
+        <S.SmallText>
+          Humildemente, para guardar o segredo de Deus, Maria e José foram
+          consagrar seu filho primogênito ao Senhor e fazer a oferta dos pobres:
+          duas pombas brancas. Os ricos ofereciam um carneiro. Quanta emoção
+          contida no coração daqueles pais, ao ouvirem as palavras do velho
+          Simeão, visivelmente inspirado pelo Espírito Santo! O grande segredo
+          que traziam consigo estava confirmado por aquela profecia que
+          designava Jesus como a Salvação do mundo, Luz das nações e Glória de
+          Israel! Mas, tanto quanto o encontro com Simeão proporcionara grande
+          felicidade a Maria e a José, a despedida deixara dolorosos
+          pressentimentos à Sagrada Família. Dirigindo-se a Maria, o velho
+          Simeão lhe anunciara que Jesus sofreria por ser alvo de violenta
+          contradição e que ela própria teria seu coração traspassado por uma
+          espada de dor… E Ana, uma velha viúva, ao ver chegar o Menino Jesus,
+          reconheceu-o como sendo o Messias.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          5º mistério gozoso: a perda e o reencontro de Jesus no templo
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/jesus_doutores.jpg"
+          alt="Jesus entre os doutores"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Seus pais iam todos os anos a Jerusalém para a festa da Páscoa.
+              Tendo ele atingido doze anos, subiram a Jerusalém, segundo o
+              costume da festa. Acabados os dias da festa, quando voltavam,
+              ficou o menino Jesus em Jerusalém, sem que os seus pais o
+              percebessem... Três dias depois o acharam no templo, sentado no
+              meio dos doutores, ouvindo-os e interrogando-os. Todos os que o
+              ouviam estavam maravilhados da sabedoria de suas respostas» (
+              <a
+                href="https://www.bibliaonline.com.br/nvi/lc/2/41-47"
+                target="blank"
+              >
+                Lc 2, 41-47
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quinto mistério gozoso, vivenciamos a aflição de Maria e José ao
+          perderem o jovem Jesus durante a peregrinação anual a Jerusalém.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/2/41-52"
+              target="blank"
+            >
+              15
+            </a>
+          </sup>
+          &nbsp;Jesus estava entre os doutores da lei, que se admiravam com as
+          Suas respostas tão cheias de sabedoria. Sobre este acontecimento,
+          Lucas narra que
+          <br />
+          <cite>
+            <span>
+              — “Maria conservava todas essas palavras, meditando-as no seu
+              coração.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaonline.com.br/nvi/lc/2/19"
+                  target="blank"
+                >
+                  16
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Assim também nós devemos meditar cada acontecimento da vida de Cristo
+          em nossos corações. A meditação deste mistério leva-nos a refletir
+          sobre a importância de buscar constantemente a presença de Jesus em
+          nossas vidas, especialmente em meio às ocupações cotidianas. A
+          contemplação da alegria que Maria e José experimentaram ao reencontrar
+          Jesus após três dias deve servir como um impulso para intensificarmos
+          nossas práticas de oração e buscarmos uma vida mais íntima com o
+          Senhor.
+        </S.SmallText>
+        <S.SmallText>
+          Para os judeus, a idade de doze anos representava a maioridade
+          espiritual (correspondendo aproximadamente à idade da Primeira
+          Comunhão e Crisma dos católicos).. Assim sendo, Jesus ingressava neste
+          novo período de sua vida, com um comportamento inusitado para os
+          leigos, mas absolutamente certo, no entender das pessoas religiosas,
+          ele estava na idade de se dedicar ao serviço de Deus. Este episódio em
+          que Jesus inicia seu ministério de pregador e de testemunho da
+          verdade, nos permite compreender o fato de que Maria só vivenciava o
+          mistério de seu filho na parte espiritual. Quantos momentos de
+          angústia, de ansiedade e de inquietação terão perturbado o coração de
+          seus pais! Aquele desaparecimento de três dias, prenunciava a Paixão e
+          morte de Jesus em semelhante data, naquele mesmo lugar. Por esta
+          atitude profética, o Menino Jesus preparava sua mãe para a provação da
+          última Páscoa, levando-a mais depressa a penetrar nos sofrimentos de
+          sua maternidade divina. Mas, o drama terminou em alegria e ação de
+          graças: Jesus, se perdera e fora reencontrado.
+        </S.SmallText>
+        <S.BigText>
+          Em que dias devemos contemplar os
+          <br /> mistérios gozosos?
+        </S.BigText>
+        <S.SmallText>
+          Cada dia da semana é dedicado a uma categoria específica de mistérios
+          — o que não impede que você reze o Rosário todos os dias. Para a
+          contemplação dos Mistérios Gozosos são reservadas as segundas e os
+          sábados. Ao seguir essa programação, os fiéis têm a oportunidade de
+          percorrer, ao longo da semana, a riqueza dos Mistérios do Rosário,
+          mergulhando nas diversas etapas da vida de Nosso Senhor.
+        </S.SmallText>
+        <S.BigText>
+          A importância dos mistérios gozosos na
+          <br /> nossa vida espiritual
+        </S.BigText>
+        <S.SmallText>
+          A contemplação dos Mistérios Gozosos do Rosário guia-nos através dos
+          momentos alegres da vida de Nosso Senhor e da Virgem Maria. Esse
+          conjunto de mistérios não apenas narra eventos históricos, mas oferece
+          lições valiosas. Na Anunciação, aprendemos a acolher a vontade divina
+          com humildade; na Visitação, a importância da caridade e do serviço ao
+          próximo. O Nascimento de Jesus lembra-nos da luz divina presente em
+          nossas vidas. E, por fim, a Apresentação e o Encontro no Templo
+          destacam a dedicação a Deus e a busca pela sabedoria.
+        </S.SmallText>
+        <S.SmallText>
+          Esses acontecimentos, ao serem meditados, convidam-nos a incorporar em
+          nossas vidas as virtudes de Maria e a vivência da Sagrada Família. A
+          nossa vida espiritual se beneficia da meditação dos Mistérios Gozosos,
+          especialmente porque eles dirigem o nosso olhar para a realidade
+          concreta do mistério da Encarnação, quando Deus se torna humano para
+          compartilhar nossa condição:
+          <br />
+          <cite>
+            <span>
+              — “meditar os mistérios gozosos significa entrar nas motivações
+              últimas e no significado profundo da alegria cristã. Significa
+              fixar o olhar sobre a realidade concreta do mistério da Encarnação
+              e sobre o obscuro prenúncio do mistério do sofrimento
+              salvífico.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+                  target="blank"
+                >
+                  17
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+          Referências
+        </S.DefaultText>
+        <S.SmallText
+          style={{
+            paddingBottom: "30px",
+            borderBottom: "1px solid #D4D4D4",
+            width: "50%",
+          }}
+        >
+          <span>
+            1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
+          </span>
+          <br />
+          <span>
+            2. Papa Bento XVI, Audiência Geral, 28 de dezembro de 2011
+          </span>
+          <br />
+          <span>3. Papa Leão XIII, Carta Encíclica Magnae Dei Matris</span>
+          <br /> <span>4. Lc1, 26-38</span>
+          <br /> <span>5. Lc 1, 28 </span>
+          <br /> <span>6. Lc 1, 30</span>
+          <br />
+          <span>7. Lc 1, 38</span>
+          <br /> <span>8. Lc 1, 39-56</span>
+          <br /> <span>9. Lc 1, 43</span>
+          <br /> <span>10. Lc 2, 1-20</span>
+          <br /> <span>11. Lc 2, 11</span>
+          <br /> <span>12. Mt 25, 13</span>
+          <br /> <span>13. Lc 2, 22-38</span>
+          <br /> <span>14. Lc 2, 34-35</span>
+          <br /> <span>15. Lucas 2, 41-52</span>
+          <br /> <span>16. Lc 2, 19</span>
+          <br />
+          <span>
+            17. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
+          </span>
         </S.SmallText>
       </div>
     </div>
