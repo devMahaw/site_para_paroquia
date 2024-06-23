@@ -1,12 +1,8 @@
+import useNavigation from "../../utils/navigation";
 import * as S from "./styles";
-import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
-  const goToRosario = () => {
-    navigate("/rosario");
-  };
+  const { goTo } = useNavigation();
 
   return (
     <S.NavbarContainer>
@@ -94,17 +90,42 @@ const Navbar = () => {
                 <S.NavbarSubSubMenu>
                   <li>
                     <S.NavbarSubItemsText href="">
-                      Santíssima trindade
+                      Santíssima Trindade
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
                     <S.NavbarSubItemsText href="">
-                      Os 10 mandamentos
+                      Dogmas da Igreja Católica
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Decálogo e mandamentos da igreja
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
                     <S.NavbarSubItemsText href="">
                       Os 7 sacramentos
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Os 7 dons do Espírito Santo
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Os frutos do Espírito Santo
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Virtudes
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      As obras de misericórdia
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
@@ -119,6 +140,9 @@ const Navbar = () => {
                     <S.NavbarSubItemsText href="">
                       Graus de adoração
                     </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">Pecados</S.NavbarSubItemsText>
                   </li>
                   <li>
                     <S.NavbarSubItemsText href="">
@@ -136,7 +160,7 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText onClick={goToRosario}>
+                <S.NavbarSubItemsText onClick={() => goTo("/rosario")}>
                   Rosário
                 </S.NavbarSubItemsText>
               </li>

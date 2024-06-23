@@ -1,13 +1,9 @@
-import { useNavigate } from "react-router-dom";
 import { NavbarSubItemsText } from "../Navbar/styles";
 import { FooterContainer } from "./styles";
+import useNavigation from "../../utils/navigation";
 
 const Footer = () => {
-  const navigate = useNavigate();
-
-  const goToRosario = () => {
-    navigate("/rosario");
-  };
+  const { goTo } = useNavigation();
 
   return (
     <FooterContainer>
@@ -47,7 +43,9 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <NavbarSubItemsText onClick={goToRosario}>Rosário</NavbarSubItemsText>
+          <NavbarSubItemsText onClick={() => goTo("/rosario")}>
+            Rosário
+          </NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Avisos</NavbarSubItemsText>
