@@ -708,12 +708,15 @@ const Rosario = () => {
           pessoa neste mundo a conferir o magnífico título que a posteridade
           reconheceria: ela a nomeia Mãe de seu Senhor. A explosão de júbilo que
           eclode das palavras de Elizabeth, faz brotar em Maria, do mais íntimo
-          de seu coração, um cântico espontâneo de louvor: “Minha alma
-          engrandece o Senhor…” Este arroubo de fé em Deus que realiza o que ele
-          prometera, esse grito de compaixão pelos oprimidos e pelos pobres,
-          esse cântico de reconhecimento dirigido a Deus que vem salvar a
-          humanidade, a Igreja escolheu-o para o Ofício das Vésperas:
-          “Magnificat anima mea dominum…”
+          de seu coração, um cântico espontâneo de louvor: “Minha alma glorifica
+          ao Senhor, meu espírito exulta de alegria em Deus, meu Salvador,
+          porque olhou para sua pobre serva. Por isto, desde agora, me
+          proclamarão bem-aventurada todas as gerações, porque realizou em mim
+          maravilhas aquele que é poderoso e cujo nome é Santo.” Este arroubo de
+          fé em Deus que realiza o que ele prometera, esse grito de compaixão
+          pelos oprimidos e pelos pobres, esse cântico de reconhecimento
+          dirigido a Deus que vem salvar a humanidade, a Igreja escolheu-o para
+          o Ofício das Vésperas: “Magnificat anima mea dominum…”
         </S.SmallText>
         <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
           3º mistério gozoso: o nascimento de Jesus em Belém
@@ -901,7 +904,8 @@ const Rosario = () => {
           reconheceu-o como sendo o Messias.
         </S.SmallText>
         <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
-          5º mistério gozoso: a perda e o reencontro de Jesus no templo
+          5º mistério gozoso: a perda e o reencontro de Jesus no templo entre os
+          doutores
         </S.DefaultText>
         <img
           style={{
