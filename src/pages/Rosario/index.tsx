@@ -1562,7 +1562,10 @@ const Rosario = () => {
               um pouco e, prostrando-se com a face por terra, assim rezou: "Meu
               Pai, se é possível, afasta de mim este cálice! Todavia não se faça
               o que eu quero, mas sim o que tu queres"» (
-              <a href="Mt 26, 36-39" target="blank">
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/26/36-39"
+                target="blank"
+              >
                 Mt 26, 36-39
               </a>
               ).
@@ -2022,7 +2025,7 @@ const Rosario = () => {
             p.18
           </span>
           <br /> <span>4. Mt 27, 26</span>
-          <br />{" "}
+          <br />
           <span>
             5. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
             p.24
@@ -2035,7 +2038,7 @@ const Rosario = () => {
           </span>
           <br /> <span>8. Jo 19,16-17</span>
           <br /> <span>9. Is 53, 6</span>
-          <br />{" "}
+          <br />
           <span>
             10. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
             p.31
@@ -2046,6 +2049,500 @@ const Rosario = () => {
             12. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
             p.34
           </span>
+        </S.SmallText>
+        <img
+          style={{
+            borderRadius: "20px",
+            marginTop: "30px",
+            width: "800px",
+          }}
+          src="assets/rosario/ressureicao_banner.png"
+          alt="Coroação de Nossa Senhora"
+        />
+        <S.BigText>
+          Mistérios Gloriosos: a ressurreição de Jesus
+          <br /> e seus efeitos
+        </S.BigText>
+        <S.DefaultText
+          style={{
+            borderBottom: "1px solid #D4D4D4",
+            paddingBottom: "30px",
+            width: "50%",
+          }}
+        >
+          <span>
+            Saiba como meditar os mistérios gloriosos do terço, nos quais
+            contemplamos a glória de Jesus e da Virgem Maria.
+          </span>
+        </S.DefaultText>
+        <S.SmallText>
+          Meditar a Paixão de Cristo é parte fundamental da vida do cristão,
+          pois conduz ao cerne da mensagem redentora. No entanto, a contemplação
+          do rosto de Cristo não se restringe à imagem do crucificado: Ele é
+          também o Ressuscitado! Por isso, a contemplação dos Mistérios
+          Gloriosos torna-se uma jornada enriquecedora, por meio da qual o
+          cristão não apenas recorda as alegrias manifestadas aos Apóstolos, a
+          Madalena e aos discípulos de Emaús, mas também mergulha na intensidade
+          da nova existência do Cristo glorificado.&nbsp;
+          <sup>
+            <a
+              href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+              target="blank"
+            >
+              1
+            </a>
+          </sup>
+        </S.SmallText>
+        <S.SmallText>
+          Os Mistérios Gloriosos do terço englobam o episódio da Ressurreição
+          até a Coroação de Maria como Rainha dos Anjos e Santos. Nesse
+          percurso, a Ascensão de Cristo à direita do Pai e a Assunção de Maria
+          tornam-se destinos que revelam não apenas a glória individual de
+          ambos, mas também apontam para a condição escatológica da Igreja — de
+          cada um de nós. Enquanto isso, somos conduzidos na caminhada terrena
+          pelo Espírito Santo, enviado do Pai. Vamos, neste artigo, passar por
+          estes mistérios, a fim de compreender como podemos meditar cada um
+          deles.
+        </S.SmallText>
+        <S.BigText>Os Mistérios Gloriosos</S.BigText>
+        <S.DefaultText style={{ paddingBottom: "30px", fontWeight: "bold" }}>
+          1º mistério glorioso: a ressurreição de Jesus Cristo
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            objectFit: "cover",
+          }}
+          src="assets/rosario/ressureicao_jesus.jpg"
+          alt="Ressureição de Jesus Cristo"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «No primeiro dia da semana, muito cedo, dirigiram-se ao sepulcro
+              com os aromas que haviam preparado. Acharam a pedra removida longe
+              da abertura do sepulcro. Entraram, mas não encontraram o corpo do
+              Senhor Jesus. Não sabiam elas o que pensar, quando apareceram em
+              frente delas dois personagens com vestes resplandecentes. Como
+              estivessem amedrontadas e voltassem o rosto para o chão,
+              disseram-lhes eles: "Por que buscais entre os mortos aquele que
+              está vivo? Não está aqui, mas ressuscitou"» (
+              <a
+                href="https://www.bibliaonline.com.br/nvi/lc/24/1-6"
+                target="blank"
+              >
+                Lc 24, 1-6
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No primeiro mistério glorioso, contemplamos a Ressurreição de Jesus
+          Cristo. O mistério pascal é o ápice da nossa fé, a Paixão de Cristo
+          que culmina em sua ressurreição.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/mt/28/1-10"
+              target="blank"
+            >
+              2
+            </a>
+          </sup>
+          &nbsp; Ela simboliza a vitória de Cristo sobre o pecado e a morte,
+          oferecendo, assim, a esperança e a vida eterna aos fiéis.
+          <br />
+          <cite>
+            <span>
+              — “O cristão, que une a sua própria morte à de Jesus, encara a
+              morte como chegada até junto d’Ele, como entrada na vida
+              eterna.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html"
+                  target="blank"
+                >
+                  3
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Ao meditar este mistério, refletimos, durante as Ave-Marias, sobre a
+          alegria da Ressurreição, renovando a nossa confiança na promessa de
+          vida eterna por meio de Cristo. Saber que Cristo ressuscitou dos
+          mortos e triunfou sobre a morte deve levar-nos a desejar também esta
+          vitória, que se alcança dia após dia lutando contra o pecado. Meditar
+          a ressurreição, portanto, deve inspirar-nos a uma vida reta, por meio
+          da qual buscamos alcançar o céu, uma vez que — como rezamos no Credo —
+          cremos na ressurreição dos mortos:
+          <br />
+          <cite>
+            <span>
+              — “Os que tiverem praticado o bem, para uma ressurreição de vida e
+              os que tiverem praticado o mal, para uma ressurreição de
+              condenação” (
+              <a
+                href="https://www.bibliaonline.com.br/acf/jo/5/29"
+                target="blank"
+              >
+                Jo 5, 29
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          A Ressurreição de Jesus Cristo é o fato principal da história. Sobre
+          este fato repousa o Cristianismo: “Ele ressuscitou!” foi o “toque de
+          reunir” dos discípulos, na manhã de Páscoa, profissão de fé selada com
+          sangue. Os onze, a quem Jesus apareceu, reconheceram Jesus vivo. E
+          durante quarenta dias, puderam conversar com Ele, tocá-lo e comer em
+          sua companhia. Entre os Evangelistas, só Mateus tentou evocar a
+          Ressurreição com discrição e sobriedade, partindo do testemunho das
+          mulheres, a quem o anjo aparecera. Abstiveram-se de descrever a
+          Ressurreição propriamente dita, mistério que ocorreu sem testemunhas.
+          O anjo confiou às mulheres uma mensagem para os Apóstolos. E o próprio
+          Jesus veio-lhes ao encontro e lhes reiterou a mesma mensagem..
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          2º mistério glorioso: a ascensão de Jesus ao Céu
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            height: "650px",
+            objectFit: "cover",
+          }}
+          src="assets/rosario/ascencao_jesus.jpg"
+          alt="Ascenção de Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Depois que o Senhor Jesus lhes falou, foi levado ao céu e está
+              sentado à direita de Deus» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/mc/16/19"
+                target="blank"
+              >
+                Mc 16, 19
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No segundo mistério glorioso, voltamos nossa atenção para a Ascensão
+          de Jesus ao Céu, ou seja, Jesus sobe aos céus, diante de seus
+          discípulos, após ter cumprido plenamente sua missão.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/24/50-53"
+              target="blank"
+            >
+              4
+            </a>
+            ,
+            <a
+              href="https://www.bibliaonline.com.br/acf/atos/1/9-11"
+              target="blank"
+            >
+              5
+            </a>
+          </sup>
+          <br />
+          <cite>
+            <span>
+              — “A ascensão de Cristo marca a entrada definitiva da humanidade
+              de Jesus no domínio celeste de Deus, de onde há-de voltar mas que,
+              entretanto, O oculta aos olhos dos homens.”&nbsp;
+              <sup>
+                <a
+                  href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html"
+                  target="blank"
+                >
+                  6
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          A Ascensão ressalta a natureza divina de Cristo e sua soberania sobre
+          o universo. Ao meditar sobre este mistério, recordamos a promessa de
+          Cristo de nos preparar um lugar na morada celeste&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/14/2"
+              target="blank"
+            >
+              7
+            </a>
+          </sup>
+          &nbsp;, apontando para o céu como nosso destino final. Ao mesmo tempo,
+          essa reflexão nos conduz a considerar a missão evangelizadora que
+          Jesus confiou a seus seguidores após sua partida. Como cristãos,
+          assumimos essa mesma responsabilidade, reconhecendo-a como nossa antes
+          de alcançarmos o Reino Celeste. Cada Ave-Maria é, portanto, uma
+          oportunidade para renovar o compromisso pessoal com a missão cristã,
+          buscando o auxílio divino para viver o Evangelho e proclamá-lo —
+          começando sempre pelos que estão mais próximos.
+        </S.SmallText>
+        <S.SmallText>
+          No 40º dia depois da Ressurreição, Jesus apareceu pela última vez aos
+          seus discípulos, no Cenáculo, em Jerusalém. Depois de compartilhar da
+          refeição deles, marca encontro com eles no Monte das Oliveiras. Jesus
+          refez, portanto, o percurso da noite da Quinta Feira Santa. Que
+          distância entre Jesus do Getsêmani e Jesus da Ascensão! O primeiro,
+          curvado ao peso de um sofrimento tal que se manifestava num suor de
+          sangue e o segundo, triunfante sobre a morte e sobre o inferno, numa
+          glória radiosa. O pequeno grupo passa pelo jardim do Getsêmani,
+          galgando o Monte das Oliveiras até o seu pico, onde Jesus dirige aos
+          seus um solene adeus e em seguida uma última benção. Jesus começa,
+          então. a elevar-se majestosamente da terra, diante dos discípulos
+          prosternados.. Em pouco tempo uma nuvem luminosa escondeu-o dos
+          olhares humanos.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          3º mistério glorioso: a descida do Espírito Santo sobre Maria e os
+          Apóstolos
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            objectFit: "cover",
+          }}
+          src="assets/rosario/pentecostes.jpg"
+          alt="Ascenção de Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Chegando o dia de Pentecostes, estavam todos reunidos no mesmo
+              lugar. De repente, veio do céu um ruído, como se soprasse um vento
+              impetuoso, e encheu toda a casa onde estavam sentados.
+              Apareceu-lhes então uma espécie de línguas de fogo que se
+              repartiram e pousaram sobre cada um deles. Ficaram todos cheios do
+              Espírito Santo e começaram a falar em línguas, conforme o Espírito
+              Santo lhes concedia que falassem» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/atos/2/1-4"
+                target="blank"
+              >
+                At 2, 1-4
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No terceiro mistério glorioso, contemplamos a Descida do Espírito
+          Santo sobre Maria e os Apóstolos — episódio conhecido como
+          Pentecostes.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/atos/2/1-13"
+              target="blank"
+            >
+              8
+            </a>
+          </sup>
+          &nbsp; Neste evento, o Espírito Santo desce sobre os discípulos
+          reunidos manifestando-se como línguas de fogo. Esta efusão capacita os
+          apóstolos a proclamarem o Evangelho em diversas línguas, simbolizando
+          a universalidade da mensagem cristã.
+        </S.SmallText>
+        <S.SmallText>
+          Ao meditar sobre este mistério, recordamos a{" "}
+          <b>presença ativa do Espírito Santo na vida da Igreja</b> e na nossa
+          própria vida; refletimos sobre a importância do Espírito Santo como
+          nosso guia e consolador. Enquanto rezamos as Ave-Marias, podemos
+          invocar também a presença do Espírito Santo, pedindo discernimento e
+          coragem para testemunhar a fé de maneira corajosa, assim como fizeram
+          os apóstolos depois de Pentecostes.
+        </S.SmallText>
+        <S.SmallText>
+          Depois da Ascensão, o momento era crucial: Cristo desaparecera e não
+          estava mais visivelmente presente. Refere o historiador São Lucas que
+          os Apóstolos, reunidos no Cenáculo com Maria e as santas mulheres,
+          aguardavam pela realização das promessas de Jesus. Ao fim de dez dias
+          de retiro, aconteceu o extraordinário prodígio, considerado como
+          evidente milagre pelos Apóstolos e pelos próprios judeus. Um vento
+          impetuoso invadiu o Cenáculo. Surgiram línguas de fogo pairando sobre
+          cada um deles. O Espírito Santo apossou-se da Igreja de Cristo.
+          Aqueles homens simples e medrosos começam a falar em línguas e deixam
+          de ter medo. E proclamavam nas praças públicas a divindade de Jesus
+          Cristo.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          4º mistério glorioso: a assunção de Maria ao Céu
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+          }}
+          src="assets/rosario/assuncao_maria.jpg"
+          alt="Ascenção de Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Por isto, desde agora, me proclamarão bem-aventurada todas as
+              gerações, porque realizou em mim maravilhas aquele que é poderoso
+              e cujo nome é Santo» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/lc/1/48,49"
+                target="blank"
+              >
+                Lc 1, 48-49
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quarto mistério glorioso, dirigimos nossa atenção à Assunção de
+          Maria ao Céu. A Assunção refere-se à subida de Maria, em corpo e alma,
+          ao céu.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaon.com/versiculo/apocalipse_12_1/"
+              target="blank"
+            >
+              9
+            </a>
+          </sup>
+          &nbsp; Ao meditar sobre este mistério, recordamos a pureza de Nossa
+          Senhora e seu papel único na história da redenção. A Assunção da
+          Santíssima Virgem é uma singular participação na ressurreição do seu
+          Filho e uma antecipação da ressurreição dos outros cristãos.
+        </S.SmallText>
+        <S.SmallText>
+          Desse modo, ao contemplar este mistério, meditamos sobre a importância
+          da dignidade e da honra concedidas a Maria. Este evento leva-nos a
+          meditar a posição única que ocupa a Mãe de Deus entre todos os santos.
+          Uma vez que a morte é consequência do pecado, não seria oportuno que
+          Ela passasse por esta experiência, já que foi isenta do pecado desde a
+          sua concepção. Sendo assim, a Assunção da Virgem Maria é consequência
+          de outro dogma, o da Imaculada Conceição; a pureza de Nossa Senhora
+          acompanhou-a desde a concepção até o fim de sua vida terrena,
+          culminando na sua assunção.
+        </S.SmallText>
+        <S.SmallText>
+          Por fim, a meditação deste mistério leva-nos a recordar dois dogmas
+          marianos e, assim, reforçar a nossa fé no que a Igreja crê há muitos
+          séculos.
+        </S.SmallText>
+        <S.SmallText>
+          A última morada de Nossa Senhora terá sido provavelmente na cidade de
+          Éfeso. Lá, ao término de sua vida terrestre (a tradição oriental
+          emprega o termo “dormição”) Maria foi elevada, em corpo e alma, à
+          glória do céu. O corpo de Maria não conheceu a corrupção. Isso foi o
+          que Pio XII solenemente proclamou a 1º de novembro de 1950, no dogma
+          da Assunção de Maria, participação especial na Ressurreição de Cristo
+          e numa antecipação de nossa própria ressurreição. Este privilégio
+          concedido à Virgem Maria, é decorrente de sua maternidade divina.
+          Assim como, para o homem pecador, a ressurreição só se realizará no
+          último dia da existência do mundo, para a Virgem Maria, isenta de toda
+          e qualquer falta pessoal e preservada do pecado original, a
+          glorificação de seu corpo foi imediata.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          4º mistério glorioso: a assunção de Maria ao Céu
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            height: "600px",
+          }}
+          src="assets/rosario/coroacao_nossa.jpg"
+          alt="Coroação de Nossa Senhora"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Apareceu em seguida um grande sinal no céu: uma Mulher revestida
+              do sol, a lua debaixo dos seus pés e na cabeça uma coroa de doze
+              estrelas» (
+              <a
+                href="https://www.bibliaon.com/versiculo/apocalipse_12_1/"
+                target="blank"
+              >
+                Ap 12, 1
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quinto mistério glorioso, contemplamos a Coroação de Maria como
+          Rainha do Céu e da Terra.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/ap/12/1-6"
+              target="blank"
+            >
+              10
+            </a>
+          </sup>
+          &nbsp; De acordo com a tradição cristã, Maria é reverenciada como
+          Rainha devido à sua singular maternidade divina; sua participação na
+          redenção do gênero humano, trazendo-nos o Salvador; seu papel como Mãe
+          de Cristo e, por fim, sua elevação acima de todos os anjos e santos.
+        </S.SmallText>
+        <S.SmallText>
+          Ao contemplar este mistério, meditamos, à luz das Escrituras, que
+          Maria recebe o título de Rainha, cumprindo a promessa feita a Davi. A
+          tradição da “Rainha Mãe”, iniciada com Salomão e sua mãe Betsabé, é um
+          eco dessa promessa.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/1rs/2/19"
+              target="blank"
+            >
+              11
+            </a>
+          </sup>
+          &nbsp; Maria, ao transmitir a Cristo seu sangue, torna-se com todo
+          direito Rainha dos céus e da terra, sendo seu Filho Senhor de toda a
+          criação. Além disso, cabe nesta meditação lembrar que essa majestade
+          de Maria foi sempre acompanhada por uma profunda humildade. Apesar de
+          ser Rainha, Maria se reconhece como serva do Senhor, ensinando-nos,
+          com a sua vida, uma verdadeira lição de amor, serviço e submissão à
+          vontade de Deus.
+        </S.SmallText>
+        <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+          Referências
+        </S.DefaultText>
+        <S.SmallText
+          style={{
+            paddingBottom: "30px",
+            width: "50%",
+          }}
+        >
+          <span>
+            1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
+          </span>
+          <br />
+          <span>2. Mt 28, 1-10</span>
+          <br />
+          <span>3. CIC, 1020</span>
+          <br /> <span>4. Lc 24, 50-53</span>
+          <br />
+          <span>5. Atos 1, 9-11</span>
+          <br /> <span>6. CIC, 665</span>
+          <br />
+          <span>7. João 14, 2</span>
+          <br /> <span>8. Atos 2, 1-13</span>
+          <br /> <span>9. Ap 12, 1</span>
+          <br />
+          <span>10. Ap 12,1-6</span>
+          <br /> <span>11. 1Rs 2, 19</span>
         </S.SmallText>
       </div>
     </div>
