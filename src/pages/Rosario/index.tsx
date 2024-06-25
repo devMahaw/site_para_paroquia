@@ -11,7 +11,7 @@ const Rosario = () => {
             height: "600px",
             margin: "120px 0px",
           }}
-          src="assets/ns_banner.png"
+          src="assets/rosario/ns_banner.png"
           alt="Nossa Senhora com Rosário"
         />
       </div>
@@ -408,9 +408,9 @@ const Rosario = () => {
           <br />
           <cite>
             <span>
-              — Podemos dizer que a recitação do Rosário tem o seu modelo
+              — “Podemos dizer que a recitação do Rosário tem o seu modelo
               precisamente em Maria, porque consiste em contemplar os mistérios
-              de Cristo em união espiritual com a Mãe do Senhor.&nbsp;
+              de Cristo em união espiritual com a Mãe do Senhor.”&nbsp;
               <sup>
                 <a
                   href="https://www.vatican.va/content/benedict-xvi/pt/audiences/2011/documents/hf_ben-xvi_aud_20111228.html#:~:text=Audiência%20Geral%20de%2028%20de,Família%20de%20Nazaré%20%7C%20Bento%20XVI&text=Queridos%20irmãos%20e%20irmãs%2C,liturgia%20de%20todos%20estes%20dias."
@@ -478,7 +478,7 @@ const Rosario = () => {
             marginTop: "30px",
             objectFit: "cover",
           }}
-          src="assets/anunciacao_gozozos.jpg"
+          src="assets/rosario/anunciacao_gozozos.jpg"
           alt="Anunciação do anjo"
         />
         <S.BigText>
@@ -528,7 +528,7 @@ const Rosario = () => {
             borderRadius: "20px",
             width: "800px",
           }}
-          src="assets/anunciacao_misterios_gozozos.jpg"
+          src="assets/rosario/anunciacao_misterios_gozozos.jpg"
           alt="Anunciação do anjo"
         />
         <S.SmallText>
@@ -627,7 +627,7 @@ const Rosario = () => {
             height: "600px",
             objectFit: "cover",
           }}
-          src="assets/visitacao_maria.jpg"
+          src="assets/rosario/visitacao_maria.jpg"
           alt="Visitação de Nossa Senhora a sua prima Santa Isabel"
         />
         <S.SmallText>
@@ -726,7 +726,7 @@ const Rosario = () => {
             width: "800px",
             objectFit: "cover",
           }}
-          src="assets/nascimento_jesus.jpg"
+          src="assets/rosario/nascimento_jesus.jpg"
           alt="Presépio"
         />
         <S.SmallText>
@@ -819,7 +819,7 @@ const Rosario = () => {
             height: "600px",
             objectFit: "cover",
           }}
-          src="assets/apresentacao_jesus.jpg"
+          src="assets/rosario/apresentacao_jesus.jpg"
           alt="Apresentação do menino Jesus"
         />
         <S.SmallText>
@@ -911,7 +911,7 @@ const Rosario = () => {
             borderRadius: "20px",
             width: "800px",
           }}
-          src="assets/jesus_doutores.jpg"
+          src="assets/rosario/jesus_doutores.jpg"
           alt="Jesus entre os doutores"
         />
         <S.SmallText>
@@ -1032,7 +1032,7 @@ const Rosario = () => {
             width: "820px",
             marginTop: "30px",
           }}
-          src="assets/eucaristia_anjos.jpg"
+          src="assets/rosario/eucaristia_anjos.jpg"
           alt="Eucaristia e anjos"
         />
         <S.BigText>Mistérios Luminosos: a vida pública de Jesus</S.BigText>
@@ -1074,7 +1074,7 @@ const Rosario = () => {
             borderRadius: "20px",
             width: "800px",
           }}
-          src="assets/batismo_jesus.jpg"
+          src="assets/rosario/batismo_jesus.jpg"
           alt="Batismo de Jesus"
         />
         <S.SmallText>
@@ -1165,7 +1165,7 @@ const Rosario = () => {
           style={{
             borderRadius: "20px",
           }}
-          src="assets/bodas_cana.jpg"
+          src="assets/rosario/bodas_cana.jpg"
           alt="Milagre nas bodas de Caná"
         />
         <S.SmallText>
@@ -1247,7 +1247,7 @@ const Rosario = () => {
             borderRadius: "20px",
             width: "800px",
           }}
-          src="assets/anuncio_reino.jpg"
+          src="assets/rosario/anuncio_reino.jpg"
           alt="Anúncio do Reino de Deus"
         />
         <S.SmallText>
@@ -1325,8 +1325,8 @@ const Rosario = () => {
             height: "650px",
             objectFit: "cover",
           }}
-          src="assets/transfiguracao.jpg"
-          alt="Anúncio do Reino de Deus"
+          src="assets/rosario/transfiguracao.jpg"
+          alt="Transfiguração"
         />
         <S.SmallText>
           <cite>
@@ -1409,7 +1409,7 @@ const Rosario = () => {
             borderRadius: "20px",
             width: "800px",
           }}
-          src="assets/ultima_ceia.jpg"
+          src="assets/rosario/ultima_ceia.jpg"
           alt="A Última Ceia"
         />
         <S.SmallText>
@@ -1487,6 +1487,565 @@ const Rosario = () => {
           <br />
           <span>7. CIC, 556</span>
           <br /> <span>8. Mt 26, 26-30</span>
+        </S.SmallText>
+        <img
+          style={{
+            borderRadius: "20px",
+            marginTop: "30px",
+          }}
+          src="assets/rosario/crucificacao_paisagem.jpg"
+          alt="Maria e Jesus morto"
+        />
+        <S.BigText>
+          Mistérios Dolorosos: o sofrimento redentor
+          <br /> de Nosso Senhor Jesus Cristo
+        </S.BigText>
+        <S.DefaultText
+          style={{
+            borderBottom: "1px solid #D4D4D4",
+            paddingBottom: "30px",
+            width: "50%",
+          }}
+        >
+          <span>
+            Conheça o que contemplamos nos Mistérios Dolorosos da oração do
+            terço e saiba como meditar as dores de Jesus em cada um deles.
+          </span>
+        </S.DefaultText>
+        <S.SmallText>
+          Os Evangelhos conferem uma grande importância aos mistérios da dor de
+          Cristo, destacando a relevância da meditação sobre esses episódios
+          centrais da nossa fé. A piedade cristã, ao longo dos séculos,
+          encontrou na Quaresma, sobretudo com o exercício da Via Sacra, uma
+          maneira de mergulhar nos diferentes momentos da Paixão, reconhecendo
+          nesses eventos o ápice da revelação do amor divino e a fonte da nossa
+          salvação.&nbsp;
+          <sup>
+            <a
+              href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+              target="blank"
+            >
+              1
+            </a>
+          </sup>
+        </S.SmallText>
+        <S.SmallText>
+          O Rosário, por sua vez, oferece um caminho de meditação das dores de
+          Jesus, ao selecionar momentos específicos da Paixão. Desse modo, os
+          mistérios dolorosos guiam o fiel orante a fixar o olhar do coração
+          nessas cenas, revivê-las espiritualmente e unir os seus sofrimentos
+          aos de Cristo. Conheça a seguir os mistérios da dor e o que meditamos
+          em cada um deles.
+        </S.SmallText>
+        <S.BigText>Os Mistérios Dolorosos </S.BigText>
+        <S.DefaultText style={{ paddingBottom: "30px", fontWeight: "bold" }}>
+          1º mistério doloroso: a agonia de Jesus no Horto das Oliveiras
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            height: "600px",
+            objectFit: "cover",
+          }}
+          src="assets/rosario/agonia_jesus.jpg"
+          alt="Agonia no Horto das Oliveiras"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Retirou-se Jesus com eles para um lugar chamado Getsêmani e
+              disse-lhes: "Assentai-vos aqui, enquanto eu vou ali orar". E,
+              tomando consigo Pedro e os dois filhos de Zebedeu, começou a
+              entristecer-se e a angustiar-se. Disse-lhes, então: "Minha alma
+              está triste até a morte. Ficai aqui e vigiai comigo". Adiantou-se
+              um pouco e, prostrando-se com a face por terra, assim rezou: "Meu
+              Pai, se é possível, afasta de mim este cálice! Todavia não se faça
+              o que eu quero, mas sim o que tu queres"» (
+              <a href="Mt 26, 36-39" target="blank">
+                Mt 26, 36-39
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No primeiro mistério doloroso, deparamo-nos com a agonia de Jesus no
+          Horto das Oliveiras, onde Ele chega a transpirar sangue.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/22/39-46"
+              target="blank"
+            >
+              2
+            </a>
+          </sup>
+          &nbsp; Antecipando a sua crucificação, Jesus retira-se para rezar. Em
+          um estado de angústia profunda, Ele roga ao Pai para afastar dele o
+          cálice da Paixão, mas submete-se à vontade divina.
+        </S.SmallText>
+        <S.SmallText>
+          Neste momento, meditamos sobre a humanidade genuína de Jesus, que se
+          manifesta ao implorar ao Pai para afastar dele o cálice da morte na
+          Cruz. No entanto, de todos os tormentos que Jesus passaria, o que mais
+          o afligia era saber que — apesar de todas as suas penas — ainda se
+          cometeriam tantos pecados no mundo.&nbsp;
+          <sup>
+            <a
+              href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
+              target="blank"
+            >
+              3
+            </a>
+          </sup>
+          &nbsp; Assim, contemplamos o grande amor de Deus por nós que, mesmo
+          sabendo disso, segue firme na sua decisão até a Cruz, entregando-se ao
+          plano redentor. Além disso, este mistério leva-nos a pensar sobre a
+          nossa própria capacidade de aceitar a vontade de Deus em meio às
+          adversidades, buscando a oração e nutrindo a confiança na providência
+          divina.
+        </S.SmallText>
+        <S.SmallText>
+          Ao jardim chamado Getsêmani, Jesus leva consigo os três apóstolos:
+          Pedro, Tiago e João que haviam assistido à Transfiguração. Uma
+          angústia mortal leva o pensamento de Jesus a meditar sobre os
+          suplícios que deveria sofrer e uma insondável desolação: a tristeza do
+          amigo traído, do Mestre abandonado, do Mestre rejeitado; o horror dos
+          pecados e das infâmias da humanidade; a dor diante da ingratidão com
+          que os homens retribuem seu amor; e as almas que o rejeitam. Na
+          provação, Jesus se volta com humildade e confiança para seu Pai. Ele
+          se afasta para rezar e depois volta para junto dos três apóstolos que
+          tinham adormecido. Ele dirige a Pedro algumas palavras de reprovação,
+          juntando uma exortação: “Vigiai e orai…” E pela segunda vez e depois
+          pela terceira vez, Jesus se afasta para rezar. Quando, finalmente, se
+          junta aos discípulos, Jesus estava pronto para o combate. Sua oração
+          perseverante havia sido ouvida. Fortificado pela graça, Jesus aceita o
+          cálice da Paixão.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          2º mistério doloroso: a flagelação de Jesus
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+          }}
+          src="assets/rosario/flagelado_jesus.jpg"
+          alt="Flagelação de Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Então lhes soltou Barrabás; mas a Jesus mandou açoitar, e o
+              entregou para ser crucificado» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/27/26"
+                target="blank"
+              >
+                Mt 27,26
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No segundo mistério doloroso, dirigimos nosso olhar à flagelação de
+          Jesus.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mt/27/26"
+              target="blank"
+            >
+              4
+            </a>
+          </sup>
+          &nbsp; Nesse ato de crueldade, Jesus é impiedosamente açoitado por
+          soldados romanos, suportando dores indescritíveis por amor à
+          humanidade — cada um de nós, em particular. Meditar sobre essa
+          flagelação nos mergulha na profundidade do sacrifício de Cristo pela
+          nossa redenção.
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos Jesus, inocente, recebendo um dos castigos
+          reservados somente aos escravos. Alguns escritos, como os de Cornélio
+          a Lápide e os de S. Lourenço auxiliam-nos nessa meditação. Eles
+          revelam que nesse tormento Jesus deveria naturalmente ter morrido —
+          uma vez que foram muitos algozes. Contudo, por virtude divina, quis
+          conservar a sua vida para sofrer tormentos ainda maiores por amor a
+          nós.&nbsp;
+          <sup>
+            <a
+              href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
+              target="blank"
+            >
+              5
+            </a>
+          </sup>
+          &nbsp; Ao contemplar este cenário podemos examinar nossas próprias
+          fraquezas e pecados, reconhecendo a necessidade de redenção e
+          renovando nosso compromisso com uma vida alinhada aos ensinamentos de
+          Cristo, que suportou a flagelação — e outros tormentos — para nos
+          libertar do peso do pecado.
+        </S.SmallText>
+        <S.SmallText>
+          Jesus foi flagelado. Trata-se de um fato histórico, relatado pelos
+          quatro Evangelistas como um episódio marcante de sua Paixão. Pilatos,
+          a quem Jesus foi conduzido, depois da conspiração com o grande
+          sacerdote Caifás, livra Jesus do seu jugo, mesmo antes de pronunciar a
+          sentença de morte. Efetivamente, desconcertado por todos aqueles
+          acontecimentos, propôs a anistia, mas um famoso prisioneiro, chamado
+          Barrabás, tinha a preferência dos judeus. Pilatos ainda esperava
+          acalmar os inimigos de Jesus, livrando-o do suplício da flagelação. Os
+          soldados romanos despojaram Jesus de suas vestes, amarraram-no a uma
+          coluna e começaram a açoitá-lo com seus chicotes compostos de duas ou
+          três correias, tendo às suas extremidades ossos de carneiro ou bolas
+          de metal aos pares. Entre os judeus, o limite máximo de açoites era de
+          49 golpes. A flagelação romana era muito mais violenta. No Sudário de
+          Turim, os especialistas encontraram cerca de 120 impressões de golpes
+          desfechados contra Jesus.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          3º mistério doloroso: a coroação de espinhos de Jesus
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/rosario/coroacao_espinhos.jpg"
+          alt="Coroação de Espinhos"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Os soldados do governador conduziram Jesus para o pretório e
+              rodearam-no com todo o pelotão. Arrancaram-lhe as vestes e
+              colocaram-lhe um manto escarlate. Depois, trançaram uma coroa de
+              espinhos, meteram-lha na cabeça e puseram-lhe na mão uma vara.
+              Dobrando os joelhos diante dele, diziam com escárnio: "Salve, rei
+              dos judeus!"» (
+              <a
+                href="https://www.bibliaon.com/versiculo/mateus_27_27-29/#:~:text=27%20Então%2C%20os%20soldados%20do,a%20colocaram%20em%20sua%20cabeça."
+                target="blank"
+              >
+                Mt 27, 27-29
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No terceiro mistério doloroso, voltamos nossa atenção à coroação de
+          espinhos em Nosso Senhor.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mt/27/29"
+              target="blank"
+            >
+              6
+            </a>
+          </sup>
+          &nbsp; Jesus é cruelmente zombado e torturado por soldados romanos,
+          que o coroam com espinhos, escarnecendo de Sua realeza divina.
+        </S.SmallText>
+        <S.SmallText>
+          Aqui meditamos o tormento mais prolongado da paixão, pois Jesus o
+          suportou até a morte.
+          <br />
+          <cite>
+            <span>
+              — “E o manso Cordeiro deixava atormentar-se ao gosto deles, sem
+              dizer palavras, sem se lamentar.”&nbsp;
+              <sup>
+                <a
+                  href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
+                  target="blank"
+                >
+                  7
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Ao meditar sobre esse mistério, contemplamos a humilhação de Jesus e a
+          injustiça sofrida em nome da nossa redenção. Sendo assim, ao
+          considerar a coroa de espinhos, somos convidados a examinar as vezes
+          em que nossa própria dignidade foi menosprezada. Como reagimos? Nosso
+          modelo deve ser a paciência e o perdão de Cristo, que transforma o
+          sofrimento em redenção e dignifica até os maiores sofrimentos.
+        </S.SmallText>
+        <S.SmallText>
+          Quando os algozes fartaram-se de açoitar Jesus, desamarraram-no da
+          coluna e jogaram sobre seus ombros ensangüentados um manto vermelho,
+          colocaram uma coroa feita por longos espinhos entrelaçados, cujas
+          pontas lhe rasgavam a cabeça e a fronte. Com risos de escárnio,
+          prostravam-se aos seus pés, zombando de suas pretensões reais e
+          esbofeteando-lhe o rosto. A realeza do Cristo, Rei do Céu e da terra,
+          transformava-se em motivo de deboche, mas através daquele abismo de
+          humilhações, a coroação de espinhos deixava antever o triunfo de
+          Cristo-Rei. A coroa de espinhos, objeto da veneração dos cristãos, foi
+          depositada na Catedral de Paris devido a um ofício importante de São
+          Luis, rei de França, que, para conservá-la, fez construir a “Sainte
+          Chapelle”, isto em 1246. A coroa de espinhos é venerada em todas as
+          primeiras sextas-feiras do mês e nas sextas-feiras da Quaresma, na
+          Igreja de Notre Dame de Paris.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          4º mistério doloroso: a subida ao Calvário
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+          }}
+          src="assets/rosario/subida_calvario.jpg"
+          alt="Subida ao Calvário"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Passava por ali certo homem de Cirene, chamado Simão, que vinha
+              do campo, pai de Alexandre e de Rufo, e obrigaram-no a que lhe
+              levasse a cruz. Conduziram Jesus ao lugar chamado Gólgota, que
+              quer dizer lugar do crânio» (
+              <a
+                href="https://www.bibliaon.com/versiculo/marcos_15_21-22/"
+                target="blank"
+              >
+                Mc 15, 21-22
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quarto mistério doloroso acompanhamos a penosa subida de Jesus ao
+          Calvário.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/jo/19/16,17"
+              target="blank"
+            >
+              8
+            </a>
+          </sup>
+          &nbsp; Jesus, exausto e carregando a cruz, caminha em direção ao local
+          da crucificação. Jesus carrega em seus ombros o instrumento de sua
+          própria morte. O mesmo por meio do qual nos viria a salvação: a cruz
+          tão pesada.
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos o efeito do peso dos nossos pecados sobre os
+          ombros de um inocente, o próprio Deus Encarnado. A iniquidade de todos
+          nós pesou sobre Ele.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/is/53/6"
+              target="blank"
+            >
+              9
+            </a>
+          </sup>
+          &nbsp; Pensemos na cruz que
+          <br />
+          <cite>
+            <span>
+              — “foi o nobre instrumento com que Jesus Cristo adquiriu tantas
+              almas, porque, morrendo nela, pagou a pena de nossos pecados e
+              assim as resgatou do inferno, fazendo-as suas.”&nbsp;
+              <sup>
+                <a
+                  href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
+                  target="blank"
+                >
+                  10
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Ao contemplar este episódio, consideramos o peso da cruz em nossas
+          próprias vidas e como devemos seguir o exemplo de Cristo na aceitação
+          das dificuldades. Cada passo que Cristo deu em direção a crucificação
+          foi pensando em nós. Ao meditar sobre a subida ao Calvário,
+          refletimos, portanto, sobre o amor de Deus por nós e o modo como
+          carregamos nossas próprias cruzes.
+        </S.SmallText>
+        <S.SmallText>
+          Desse modo, ele nos ensina que a nossa “cruz” pode se tornar um meio
+          de transformação e, até mesmo, de redenção em nossa vida — se a
+          abraçarmos como Ele fez.
+          <br />
+          <cite>
+            <span>
+              — “Se alguém quiser vir após mim, abnegue-se a si mesmo e tome sua
+              cruz e siga-me.”(
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/16/24"
+                target="blank"
+              >
+                Mt 16, 24
+              </a>
+              )
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Segundo as regras, o condenado devia levar, até o lugar do suplício, a
+          pesada parte transversal da cruz, à qual seria pregado ou amarrado. Do
+          alto de antiga pedreira, nos arredores de Jerusalém, ergue-se um pico
+          rochoso de cerca de 4 metros de altura. Três estacas foram
+          enfileiradas, sobre o montículo chamado Gólgota. Pouco a pouco a
+          lembrança do caminho por onde passou o lúgubre cortejo tornou-se local
+          de crescente devoção dos cristãos. No século XVIII definiram-se e
+          difundiram-se as quatorze estações sob a influência de São Leonardo de
+          Port-Maurice que fez reproduzir um total de 572 ditos Caminhos da Cruz
+          inclusive a Via Sacra do Coliseu, em Roma, que a cada ano, na
+          Sexta-Feira Santa, o Papa percorre em oração.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          5º mistério doloroso: a crucificação e morte de Nosso Senhor
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            height: "650px",
+            objectFit: "cover",
+          }}
+          src="assets/rosario/crucificacao_vertical.jpg"
+          alt="Jesus crucificado"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Chegados que foram ao lugar chamado Calvário, ali o crucificaram,
+              como também os ladrões, um à direita e outro à esquerda. E Jesus
+              dizia: "Pai, perdoa-lhes; porque não sabem o que fazem"... Era
+              quase à hora sexta e em toda a terra houve trevas até a hora nona.
+              Escureceu-se o sol e o véu do templo rasgou-se pelo meio. Jesus
+              deu então um grande brado e disse: "Pai, nas tuas mãos entrego o
+              meu espírito". E, dizendo isso, expirou» (
+              <a
+                href="https://www.bible.com/pt/bible/211/LUK.23.33-46.NTLH"
+                target="blank"
+              >
+                Lc 23, 33-46
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quinto mistério doloroso, direcionamos nossa atenção para a
+          crucificação e morte de Nosso Senhor.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/19/17-37"
+              target="blank"
+            >
+              11
+            </a>
+          </sup>
+          &nbsp; Jesus é pregado na cruz, oferecendo Sua vida como sacrifício
+          redentor por cada um de nós individualmente. Neste mistério,
+          contemplamos o imenso amor de Deus, pois a morte de Cristo é
+          reconhecida como a mais dolorosa, revelando-se um testemunho supremo
+          desse amor divino. Ele suportou inúmeros tormentos em seu corpo e, de
+          maneira ainda mais profunda, experimentou na alma a dor pelos nossos
+          pecados.
+        </S.SmallText>
+        <S.SmallText>
+          Ao contemplar este mistério, meditamos sobre imenso amor de Deus
+          manifestado na cruz, que nos leva a encontrar sentido na dor através
+          da fé na ressurreição. Diante da meditação da morte de Jesus na cruz,
+          podemos identificar-nos com a figura do bom ladrão e pedir
+          <br />
+          <cite>
+            <span>
+              — “recordai-vos, Senhor, que eu sou uma daquelas ovelhas pelas
+              quais vós destes a vida. Consolai-me, fazendo-me sentir que me
+              perdoastes, dando-me uma grande dor de meus pecados. Ó grande
+              sacerdote, que vos sacrificastes a vós mesmo por amor das vossas
+              criaturas, tende compaixão de mim. Sacrifico-vos de agora em
+              diante a minha vontade, os meus sentidos, as minhas satisfações e
+              todos os meus desejos. Eu creio que vós, meu Deus, morrestes
+              pregado na cruz por mim. Caia sobre mim, vos suplico, o vosso
+              sangue divino: ele me lave de todos os meus pecados; ele me abrase
+              em vosso santo amor e me faça todo vosso. Eu vos amo, ó meu Jesus,
+              e desejo morrer crucificado por vós que morrestes crucificado por
+              mim.”&nbsp;
+              <sup>
+                <a
+                  href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
+                  target="blank"
+                >
+                  12
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          São três horas da tarde. Nesta hora trágica, o Filho de Deus acaba de
+          morrer, executado pelos homens. É sem resistência que o Mestre do céu
+          e da terra sujeitou-se ao terrível suplício da crucificação. Quão
+          despedaçado o coração de sua Mãe, que o acompanhou até o Calvário e
+          permaneceu de pé junto à Cruz! Testemunha ocular da morte de Jesus,
+          João nos reporta seu testamento. Quatro mulheres também estavam perto
+          da Cruz. Diante desse grupo Jesus declara sua vontade suprema: confia
+          à sua mãe o discípulo bem-amado e através dele sua Igreja e a
+          humanidade inteira; e sobre a terra, João ocupará junto à Mãe de Jesus
+          o lugar de seu Filho que vai morrer. Ele lhe dará abrigo,
+          alimentando-a e amando-a como filho. Depois de sua morte, uma
+          derradeira revelação do amor de Jesus nos é dada através de um ato
+          cheio de simbolismos: seu coração é trespassado por uma lança e dali
+          sai sangue e água.
+        </S.SmallText>
+        <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+          Referências
+        </S.DefaultText>
+        <S.SmallText
+          style={{
+            paddingBottom: "30px",
+            borderBottom: "1px solid #D4D4D4",
+            width: "50%",
+          }}
+        >
+          <span>
+            1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
+          </span>
+          <br />
+          <span>2. Lc 22, 39-46</span>
+          <br />
+          <span>
+            3. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
+            p.18
+          </span>
+          <br /> <span>4. Mt 27, 26</span>
+          <br />{" "}
+          <span>
+            5. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
+            p.24
+          </span>
+          <br /> <span>6. Mt 27, 29</span>
+          <br />
+          <span>
+            7. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
+            p.26
+          </span>
+          <br /> <span>8. Jo 19,16-17</span>
+          <br /> <span>9. Is 53, 6</span>
+          <br />{" "}
+          <span>
+            10. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
+            p.31
+          </span>
+          <br /> <span>11. Jo 19,17-37</span>
+          <br />
+          <span>
+            12. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus Cristo.
+            p.34
+          </span>
         </S.SmallText>
       </div>
     </div>
