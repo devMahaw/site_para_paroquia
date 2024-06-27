@@ -8,6 +8,7 @@ export const colors = {
   white: "#FFFFFF",
   yellow: "#FFC42E ",
   blue: "#3998C7",
+  darkBlue: "#3a83f7",
 };
 
 export const breakpoints = {
@@ -24,6 +25,10 @@ export const GlobalCss = createGlobalStyle`
     list-style: none;
     scrollbar-color: ${colors.yellow} transparent;
     text-decoration: none;
+  }
+
+  html {
+    scroll-padding-top: 120px;
   }
 
   body {
