@@ -103,11 +103,46 @@ const Navbar = () => {
                       Decálogo e mandamentos da igreja
                     </S.NavbarSubItemsText>
                   </li>
-                  <li>
-                    <S.NavbarSubItemsText href="">
-                      Os 7 sacramentos
-                    </S.NavbarSubItemsText>
-                  </li>
+                  <S.CatequeseList>
+                    <S.NavbarText>Os 7 sacramentos</S.NavbarText>
+                    <S.NavbarSubSubMenu style={{ left: "-63.8%" }}>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Batismo
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Eucaristia
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Crisma
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Confissão
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Unção dos enfermos
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Ordem
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Matrimônio
+                        </S.NavbarSubItemsText>
+                      </li>
+                    </S.NavbarSubSubMenu>
+                  </S.CatequeseList>
                   <li>
                     <S.NavbarSubItemsText href="">
                       Os 7 dons do Espírito Santo

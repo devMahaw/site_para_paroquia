@@ -2535,7 +2535,8 @@ const Rosario = () => {
               glorificação de seu corpo foi imediata.
             </S.SmallText>
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
-              4º mistério glorioso: a assunção de Maria ao Céu
+              5º mistério glorioso: a coroação de Maria como Rainha do Céu e da
+              Terra
             </S.DefaultText>
             <img
               style={{
@@ -2598,6 +2599,24 @@ const Rosario = () => {
               humildade. Apesar de ser Rainha, Maria se reconhece como serva do
               Senhor, ensinando-nos, com a sua vida, uma verdadeira lição de
               amor, serviço e submissão à vontade de Deus.
+            </S.SmallText>
+            <S.SmallText>
+              Em 1954, por ocasião do centenário do dogma da Imaculada
+              Conceição, o Papa Pio XII instituiu a festa litúrgica da “Santa
+              Virgem Maria Rainha” no dia 22 de agosto. Não se trata de uma nova
+              verdade para se acreditar. Realmente, a dignidade real de Maria já
+              havia sido formulada desde muito tempo, em antigos documentos da
+              Igreja e nos livros litúrgicos. A intenção do Papa era de oferecer
+              aos cristãos uma ocasião de louvar Maria reavivando a lembrança
+              desta antiga tradição a que corresponde numerosa e importante
+              iconografia. Mais próximo a nós, o Concílio Vaticano II lembrou
+              que a Virgem Imaculada, tendo sido elevada em corpo e alma à
+              glória do céu, fora elevada pelo Senhor como Rainha do Universo. É
+              preciso compreender a realeza de Maria dentro do espírito do
+              Evangelho, isto é, muito mais como uma atribuição do que como um
+              título. Maria é uma Rainha maternal, já que ela é nossa Mãe na
+              ordem da graça, e uma Rainha suplicante que intercede pela
+              humanidade.
             </S.SmallText>
             <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
               Referências
