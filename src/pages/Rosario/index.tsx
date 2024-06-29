@@ -1146,12 +1146,20 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No primeiro mistério luminoso, somos conduzidos às águas do Rio
-              Jordão, onde Cristo é batizado. 2 Neste episódio, Jesus, mesmo não
-              tendo pecado, aceita o batismo ministrado por João Batista. Este
-              ato de humildade e obediência simboliza a consagração de Jesus ao
-              cumprimento da vontade divina. É o momento que do Céu ouve-se a
-              voz do pai dizendo “Eis meu Filho muito amado em quem ponho minha
-              afeição”.
+              Jordão, onde Cristo é batizado.&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaonline.com.br/acf/mt/3/13-17"
+                  target="blank"
+                >
+                  1
+                </a>
+              </sup>
+              &nbsp; Neste episódio, Jesus, mesmo não tendo pecado, aceita o
+              batismo ministrado por João Batista. Este ato de humildade e
+              obediência simboliza a consagração de Jesus ao cumprimento da
+              vontade divina. É o momento que do Céu ouve-se a voz do pai
+              dizendo
               <br />
               <cite>
                 <span>
@@ -1162,7 +1170,7 @@ const Rosario = () => {
                       href="https://www.bibliaonline.com.br/acf/mt/3/17"
                       target="blank"
                     >
-                      1
+                      2
                     </a>
                   </sup>
                 </span>
@@ -1251,7 +1259,7 @@ const Rosario = () => {
                   href="https://www.bibliaonline.com.br/nvi/jo/2/1-11"
                   target="blank"
                 >
-                  2
+                  3
                 </a>
               </sup>
               &nbsp; Durante uma festa de casamento, Jesus realiza seu primeiro
@@ -1269,13 +1277,13 @@ const Rosario = () => {
               nossa participação na operação da graça: “Enchei as talhas de
               água”. Além disso, a presença de Jesus nas bodas de Caná leva-nos
               a compreender o matrimônio como um sinal eficaz da presença de
-              Deus.&nbsp;{" "}
+              Deus.&nbsp;
               <sup>
                 <a
                   href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
                   target="blank"
                 >
-                  3
+                  4
                 </a>
               </sup>
             </S.SmallText>
@@ -1283,7 +1291,7 @@ const Rosario = () => {
               Uma festa em Caná! Um banquete de casamento! A Mãe de Jesus está
               presente. Jesus também tinha sido convidado para o casamento, bem
               como seus amigos. De repente um incidente bastante banal veio
-              chamar a atenção de Maria: não.havia mais vinho. Compadecida do
+              chamar a atenção de Maria: não havia mais vinho. Compadecida do
               constrangimento de seus anfitriões, Maria dirige-se ao seu Filho,
               dizendo-lhe: “Eles não têm mais vinho”. Sua oração formula-se com
               tato e discrição. Entretanto, quanta confiança em sua breve
@@ -1331,7 +1339,7 @@ const Rosario = () => {
                   href="https://www.bibliaonline.com.br/acf/mc/1/14,15"
                   target="blank"
                 >
-                  4
+                  5
                 </a>
               </sup>
               , onde Jesus proclama:
@@ -1345,7 +1353,7 @@ const Rosario = () => {
                       href="https://www.bibliaonline.com.br/nvi/mc/1/15"
                       target="blank"
                     >
-                      5
+                      6
                     </a>
                   </sup>
                 </span>
@@ -1413,7 +1421,7 @@ const Rosario = () => {
                   href="https://www.bibliaonline.com.br/acf/mt/17/1-8"
                   target="blank"
                 >
-                  6
+                  7
                 </a>
               </sup>
               &nbsp; Ao contemplarmos a Transfiguração, elevamos os nossos olhos
@@ -1441,7 +1449,7 @@ const Rosario = () => {
                   href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html"
                   target="blank"
                 >
-                  7
+                  8
                 </a>
               </sup>
             </S.SmallText>
@@ -1497,7 +1505,7 @@ const Rosario = () => {
                   href="https://www.bibliaonline.com.br/acf/mt/26/26-30"
                   target="blank"
                 >
-                  8
+                  9
                 </a>
               </sup>
               &nbsp; Neste mistério, mergulhamos na profundidade do amor
@@ -1538,17 +1546,19 @@ const Rosario = () => {
                 borderBottom: "1px solid #D4D4D4",
               }}
             >
-              <span>1. Mt 3, 17</span>
+              <span>1. Mt 3, 13-17</span>
               <br />
-              <span>2. Jo 2, 1-11</span>
+              <span>2. Mt 3, 17</span>
               <br />
-              <span>3. CIC, 1613</span>
-              <br /> <span>4. Marcos 1, 14-15</span>
-              <br /> <span>5. Mc 1, 15 </span>
-              <br /> <span>6. Mt 17, 1-8</span>
+              <span>3. Jo 2, 1-11</span>
               <br />
-              <span>7. CIC, 556</span>
-              <br /> <span>8. Mt 26, 26-30</span>
+              <span>4. CIC, 1613</span>
+              <br /> <span>5. Marcos 1, 14-15</span>
+              <br /> <span>6. Mc 1, 15 </span>
+              <br /> <span>7. Mt 17, 1-8</span>
+              <br />
+              <span>8. CIC, 556</span>
+              <br /> <span>9. Mt 26, 26-30</span>
             </S.SmallText>
             <img
               style={{
