@@ -2666,7 +2666,7 @@ const Rosario = () => {
             <a href="#oque-misterios">
               O que são os mistérios do terço e por que devemos contemplá-los?
             </a>
-            <a href="#gozozos">Mistérios Gozosos
+            <a href="#gozozos">Mistérios Gozosos</a>
             <a href="#luminosos">Mistérios Luminosos</a>
             <a href="#dolorosos">Mistérios Dolorosos</a>
             <a href="#gloriosos">Mistérios Gloriosos</a>
