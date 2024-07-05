@@ -24,7 +24,7 @@ const Rosario = () => {
         >
           <span>
             A oração diária do rosário é o maior pedido que Nossa Senhora nos
-            fez. Nesta aba, veja um guia completo para aprender a rezá-lo.
+            fez. Neste artigo, veja um guia completo para aprender a rezá-lo.
           </span>
         </S.DefaultText>
         <S.SmallText style={{ paddingTop: "30px" }}>

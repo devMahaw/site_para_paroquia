@@ -30,7 +30,7 @@ export const DefaultText = styled.p`
   line-height: 30px;
 
   span {
-    color: #868686;
+    color: ${colors.darkGray};
   }
 `;
 
@@ -41,6 +41,6 @@ export const SmallText = styled.p`
   padding: 10px 0px;
 
   span {
-    color: #868686;
+    color: ${colors.darkGray};
   }
 `;
