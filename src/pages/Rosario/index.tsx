@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 const Rosario = () => {
   return (
-    <div style={{ marginTop: "50px" }}>
+    <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
         <img
           style={{
@@ -14,17 +14,19 @@ const Rosario = () => {
           alt="Nossa Senhora com Rosário"
         />
       </S.ImageContainer>
-      <S.RosarioContainer>
+      <div>
         <S.BigText>Um guia para rezar o rosário</S.BigText>
         <S.DefaultText
           style={{
             borderBottom: "1px solid #D4D4D4",
             paddingBottom: "30px",
+            width: "100%",
           }}
         >
           <span>
             A oração diária do rosário é o maior pedido que Nossa Senhora nos
-            fez. Neste artigo, veja um guia completo para aprender a rezá-lo.
+            fez.
+            <br /> Neste artigo, veja um guia completo para aprender a rezá-lo.
           </span>
         </S.DefaultText>
         <S.SmallText style={{ paddingTop: "30px" }}>
@@ -208,26 +210,26 @@ const Rosario = () => {
           Ave-Marias. No terço, eles são separados da seguinte forma:
         </S.SmallText>
         <ul>
-          <li>
+          <S.MisteriosList>
             <S.SmallText>
               Segunda e sábado: quando oramos os mistérios gozosos;
             </S.SmallText>
-          </li>
-          <li>
+          </S.MisteriosList>
+          <S.MisteriosList>
             <S.SmallText>
               Terças e sextas: quando oramos os mistérios dolorosos;
             </S.SmallText>
-          </li>
-          <li>
+          </S.MisteriosList>
+          <S.MisteriosList>
             <S.SmallText>
               Quartas e domingos: quando oramos os mistérios gloriosos;{" "}
             </S.SmallText>
-          </li>
-          <li>
+          </S.MisteriosList>
+          <S.MisteriosList>
             <S.SmallText>
               Quinta: quando oramos os mistérios luminosos.
             </S.SmallText>
-          </li>
+          </S.MisteriosList>
         </ul>
         <S.SmallText style={{ fontWeight: "bold" }}>Passo 5:</S.SmallText>
         <S.SmallText>
@@ -312,7 +314,7 @@ const Rosario = () => {
           style={{
             paddingBottom: "30px",
             borderBottom: "1px solid #D4D4D4",
-            width: "60%",
+            width: "100%",
           }}
         >
           <span>1. Lc 1,78-79</span>
@@ -324,7 +326,172 @@ const Rosario = () => {
           <br /> <span>6. Memórias da Ir. Lúcia, p.141</span>
           <br />
         </S.SmallText>
-      </S.RosarioContainer>
+        <S.BigText>O que é a oração do terço?</S.BigText>
+        <S.SmallText>
+          A oração do terço, com sua simplicidade tocante e profundidade
+          espiritual, destaca-se como uma das práticas mais amadas pelos
+          devotos, sendo fortemente encorajada pela Igreja. Contudo, mais do que
+          uma mera expressão de piedade popular, o Rosário se revela como uma
+          jornada espiritual extraordinariamente rica. Ele se baseia na
+          <b>contemplação dos principais episódios da vida de Cristo</b>,
+          enquanto se recita as Ave-Marias. Por isso, é capaz de guiar os fiéis
+          pelas mãos amorosas da Santíssima Virgem Maria em direção a uma união
+          íntima com Deus.
+        </S.SmallText>
+        <S.SmallText>
+          Nas palavras do Papa Bento XVI
+          <br />
+          <cite>
+            <span>
+              — Podemos dizer que a recitação do Rosário tem o seu modelo
+              precisamente em Maria, porque consiste em contemplar os mistérios
+              de Cristo em união espiritual com a Mãe do Senhor.
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          A oração do terço, portanto, apesar de sua estrutura aparentemente
+          simples, é um memorial de toda a vida de Jesus.
+        </S.SmallText>
+        <S.BigText>
+          O que são os mistérios do terço e por que devemos contemplá-los?
+        </S.BigText>
+        <S.SmallText>
+          Os mistérios do terço indicam os eventos mais marcantes da vida de
+          Jesus Cristo e da Virgem Maria. Esses mistérios estão organizados em
+          quatro conjuntos temáticos: os gozosos, os luminosos, os dolorosos e
+          os gloriosos. Cada um composto por cinco episódios específicos da vida
+          de Nosso Senhor.
+        </S.SmallText>
+        <S.SmallText>
+          Assim, ao recitar cada conjunto de mistérios, os fiéis têm a
+          oportunidade de <b>se aprofundar em toda a narrativa da redenção</b>.
+          E, assim, reconhecer que tudo o que Jesus viveu e todas as coisas que
+          ele realizou foi tendo em vista a nossa salvação. Desde o seu
+          nascimento até a morte na Cruz; durante a sua vida oculta, ou já em
+          sua vida pública. Desse modo, ao dirigir a nossa atenção para a
+          meditação de cada acontecimento da vida de Cristo, a contemplação
+          desses mistérios desperta em nós a chama da fé.
+        </S.SmallText>
+        <S.SmallText
+          style={{
+            paddingBottom: "30px",
+            borderBottom: "1px solid #D4D4D4",
+            width: "100%",
+          }}
+        >
+          Ao conhecer a vida de Cristo e crer nele, somos impelidos a refletir
+          também sobre a nossa própria vida, as nossas ações e o cumprimento de
+          nossa vocação — que é, em primeiro lugar, a santidade. A contemplação
+          dos mistérios do terço, portanto, além de ser um pedido incessante de
+          Nossa Senhora, “ajuda a fazer brotar da nossa fé uma abundante e
+          alegre messe de frutos, porque incita maravilhosamente a alma a
+          propósitos de virtude.”
+        </S.SmallText>
+        <S.ImageContainer>
+          <img
+            style={{
+              borderRadius: "20px",
+              width: "1100px",
+              height: "400px",
+            }}
+            src="assets/anunciacao_gozozos.jpg"
+            alt="Anunciação do anjo"
+          />
+        </S.ImageContainer>
+        <S.BigText>Mistérios Gozosos: nascimento e infância de Jesus</S.BigText>
+        <S.DefaultText
+          style={{
+            borderBottom: "1px solid #D4D4D4",
+            paddingBottom: "30px",
+            width: "100%",
+          }}
+        >
+          <span>
+            Conheça os Mistérios Gozosos do terço, os episódios que meditamos do
+            <br />
+            nascimento e da infância de Jesus enquanto rezamos as Ave-Marias.
+          </span>
+        </S.DefaultText>
+        <S.SmallText style={{ paddingTop: "30px" }}>
+          Conheça os Mistérios Gozosos do terço, os episódios que meditamos do
+          nascimento e da infância de Jesus enquanto rezamos as Ave-Marias.
+        </S.SmallText>
+        <S.SmallText>
+          A prática da oração do terço nos conduz à contemplação dos principais
+          episódios da vida de Cristo. Os Mistérios Gozosos, que constituem o
+          primeiro ciclo do Rosário, são marcados, sobretudo, pela alegria que
+          emana da Encarnação. O anúncio do anjo, em particular, inaugura de
+          forma concreta a história de nossa redenção, envolvendo toda a criação
+          em regozijo diante da Encarnação do Verbo Divino.
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, exploraremos cada episódio dos Mistérios Gozosos,
+          buscando compreender a riqueza daquilo que devemos meditar em cada um
+          deles durante as Ave-Marias.
+        </S.SmallText>
+        <S.BigText>Os Mistérios Gozosos</S.BigText>
+        <S.DefaultText style={{ paddingBottom: "30px", fontWeight: "bold" }}>
+          1º mistério gozoso: a Anunciação do anjo a Virgem Maria
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/anunciacao_misterios_gozozos.jpg"
+          alt="Anunciação do anjo"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «No sexto mês, o anjo Gabriel foi enviado por Deus a uma cidade da
+              Galiléia, chamada Nazaré, a uma virgem desposada com um homem que
+              se chamava José, da casa de Davi e o nome da virgem era Maria» (Lc
+              1, 26-27).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No primeiro mistério gozoso, somos transportados para o humilde lar de
+          Nazaré, onde o Arcanjo Gabriel é enviado por Deus para anunciar a
+          boa-nova a Maria. O episódio é narrado no Evangelho de Lucas, o anjo
+          Gabriel saúda Maria como “cheia de graça” e revela o plano divino:
+          <br />
+          <cite>
+            <span>
+              — “Ave, cheia de graça, o Senhor é contigo”. […] “Não temas,
+              Maria, pois encontraste graça diante de Deus. Eis que conceberás e
+              darás à luz um filho, e lhe porás o nome de Jesus.” […] Então
+              disse Maria: “Eis aqui a serva do Senhor. Faça-se em mim segundo a
+              tua palavra.”
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Neste momento, meditamos não só sobre o grande amor de Deus, que
+          enviou Seu filho único para nascer, viver e morrer por nós, mas também
+          sobre o alegre “sim” de Maria que a fez participante da nossa
+          redenção. Ela é o grande modelo de humildade, disponibilidade e
+          submissão à vontade de Deus, encorajando-nos a buscar também em nossa
+          vida dar a mesma resposta, confiante e desprendida, diante dos
+          desígnios de Deus.
+        </S.SmallText>
+        <S.SmallText>
+          Familiarizada com a Sagrada Escritura, para ela, o Anjo Gabriel era um
+          “enviado de Deus” e descobre, pela sua mensagem, que era objeto de uma
+          extraordinário favor de Deus: ela é cheia de graça, sem pecado,
+          imaculada. E Maria, com plena compreensão e conhecimento do sentido da
+          grandeza de Deus, perturbou-se ao se sentir alvo desta graça divina
+          que habitava nela. em plenitude. O Anjo lhe anuncia que ela conceberá
+          o Filho do Altíssimo. No entanto, Maria precisava ser esclarecida a
+          respeito do que se passaria com ela. Então, o Anjo lhe diz: “O
+          Espírito Santo descerá sobre ti e o Poder do Altíssimo te cobrirá com
+          a sua sombra”. Desvendava, assim, o sentido oculto da profecia de
+          Isaías sobre a gravidez de uma virgem. “Para Deus, nada é impossível”.
+          E o consentimento de Maria é imediato.
+        </S.SmallText>
+      </div>
     </div>
   );
 };
