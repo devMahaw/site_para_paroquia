@@ -116,7 +116,14 @@ const Navbar = () => {
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
-                    <S.NavbarSubItemsText href="">Dulias</S.NavbarSubItemsText>
+                    <S.NavbarSubItemsText href="">
+                      Graus de adoração
+                    </S.NavbarSubItemsText>
+                  </li>
+                  <li>
+                    <S.NavbarSubItemsText href="">
+                      Pós morte
+                    </S.NavbarSubItemsText>
                   </li>
                 </S.NavbarSubSubMenu>
               </S.CatequeseList>

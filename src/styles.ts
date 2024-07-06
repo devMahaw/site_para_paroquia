@@ -23,7 +23,6 @@ export const GlobalCss = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     list-style: none;
     scrollbar-color: ${colors.yellow} transparent;
-    scrollbar-width: thin;
     text-decoration: none;
   }
 
