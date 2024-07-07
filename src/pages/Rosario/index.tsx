@@ -9,13 +9,17 @@ const Rosario = () => {
             borderRadius: "20px",
             objectFit: "cover",
             height: "600px",
-            marginTop: "120px",
+            margin: "120px 0px",
           }}
           src="assets/ns_banner.png"
           alt="Nossa Senhora com Rosário"
         />
       </div>
       <div>
+        <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+          <source src="assets/rosario.mp3" type="audio/mp3" />
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
         <S.BigText>Um guia para rezar o rosário</S.BigText>
         <S.DefaultText
           style={{
@@ -394,7 +398,7 @@ const Rosario = () => {
           devotos, sendo fortemente encorajada pela Igreja. Contudo, mais do que
           uma mera expressão de piedade popular, o Rosário se revela como uma
           jornada espiritual extraordinariamente rica. Ele se baseia na
-          <b>contemplação dos principais episódios da vida de Cristo</b>,
+          <b> contemplação dos principais episódios da vida de Cristo</b>,
           enquanto se recita as Ave-Marias. Por isso, é capaz de guiar os fiéis
           pelas mãos amorosas da Santíssima Virgem Maria em direção a uma união
           íntima com Deus.
@@ -490,15 +494,10 @@ const Rosario = () => {
         >
           <span>
             Conheça os Mistérios Gozosos do terço, os episódios que meditamos do
-            <br />
             nascimento e da infância de Jesus enquanto rezamos as Ave-Marias.
           </span>
         </S.DefaultText>
         <S.SmallText style={{ paddingTop: "30px" }}>
-          Conheça os Mistérios Gozosos do terço, os episódios que meditamos do
-          nascimento e da infância de Jesus enquanto rezamos as Ave-Marias.
-        </S.SmallText>
-        <S.SmallText>
           A prática da oração do terço nos conduz à contemplação dos principais
           episódios da vida de Cristo. Os Mistérios Gozosos, que constituem o
           primeiro ciclo do Rosário, são marcados, sobretudo, pela alegria que
@@ -993,58 +992,6 @@ const Rosario = () => {
           sua maternidade divina. Mas, o drama terminou em alegria e ação de
           graças: Jesus, se perdera e fora reencontrado.
         </S.SmallText>
-        <S.BigText>
-          Em que dias devemos contemplar os
-          <br /> mistérios gozosos?
-        </S.BigText>
-        <S.SmallText>
-          Cada dia da semana é dedicado a uma categoria específica de mistérios
-          — o que não impede que você reze o Rosário todos os dias. Para a
-          contemplação dos Mistérios Gozosos são reservadas as segundas e os
-          sábados. Ao seguir essa programação, os fiéis têm a oportunidade de
-          percorrer, ao longo da semana, a riqueza dos Mistérios do Rosário,
-          mergulhando nas diversas etapas da vida de Nosso Senhor.
-        </S.SmallText>
-        <S.BigText>
-          A importância dos mistérios gozosos na
-          <br /> nossa vida espiritual
-        </S.BigText>
-        <S.SmallText>
-          A contemplação dos Mistérios Gozosos do Rosário guia-nos através dos
-          momentos alegres da vida de Nosso Senhor e da Virgem Maria. Esse
-          conjunto de mistérios não apenas narra eventos históricos, mas oferece
-          lições valiosas. Na Anunciação, aprendemos a acolher a vontade divina
-          com humildade; na Visitação, a importância da caridade e do serviço ao
-          próximo. O Nascimento de Jesus lembra-nos da luz divina presente em
-          nossas vidas. E, por fim, a Apresentação e o Encontro no Templo
-          destacam a dedicação a Deus e a busca pela sabedoria.
-        </S.SmallText>
-        <S.SmallText>
-          Esses acontecimentos, ao serem meditados, convidam-nos a incorporar em
-          nossas vidas as virtudes de Maria e a vivência da Sagrada Família. A
-          nossa vida espiritual se beneficia da meditação dos Mistérios Gozosos,
-          especialmente porque eles dirigem o nosso olhar para a realidade
-          concreta do mistério da Encarnação, quando Deus se torna humano para
-          compartilhar nossa condição:
-          <br />
-          <cite>
-            <span>
-              — “meditar os mistérios gozosos significa entrar nas motivações
-              últimas e no significado profundo da alegria cristã. Significa
-              fixar o olhar sobre a realidade concreta do mistério da Encarnação
-              e sobre o obscuro prenúncio do mistério do sofrimento
-              salvífico.”&nbsp;
-              <sup>
-                <a
-                  href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
-                  target="blank"
-                >
-                  17
-                </a>
-              </sup>
-            </span>
-          </cite>
-        </S.SmallText>
         <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
           Referências
         </S.DefaultText>
@@ -1078,10 +1025,468 @@ const Rosario = () => {
           <br /> <span>14. Lc 2, 34-35</span>
           <br /> <span>15. Lucas 2, 41-52</span>
           <br /> <span>16. Lc 2, 19</span>
-          <br />
+        </S.SmallText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "820px",
+            marginTop: "30px",
+          }}
+          src="assets/eucaristia_anjos.jpg"
+          alt="Eucaristia e anjos"
+        />
+        <S.BigText>Mistérios Luminosos: a vida pública de Jesus</S.BigText>
+        <S.DefaultText
+          style={{
+            borderBottom: "1px solid #D4D4D4",
+            paddingBottom: "30px",
+            width: "50%",
+          }}
+        >
           <span>
-            17. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
+            Os mistérios luminosos se voltam para os principais acontecimentos
+            da vida pública de Jesus. Confira aqui quais são e o que meditamos
+            neles.
           </span>
+        </S.DefaultText>
+        <S.SmallText style={{ paddingTop: "30px" }}>
+          Os mistérios do terço nos conduzem a meditar sobre os principais
+          acontecimentos da vida de Jesus, constituindo um verdadeiro memorial
+          da Encarnação do Verbo. Ao contemplarmos os mistérios luminosos,
+          dedicamos especial atenção à vida pública de Jesus, inaugurada pelo
+          seu Batismo no Jordão. Um momento marcado pela presença do Espírito
+          Santo — assim como o nosso Batismo.
+        </S.SmallText>
+        <S.SmallText>
+          O início dos sinais em Caná também é um mistério de luz, ali Jesus
+          abre o coração dos discípulos para a fé, por meio da intercessão da
+          Virgem Maria. Cada mistério é rico em detalhes que proporcionam uma
+          profunda reflexão. Neste artigo, passaremos por cada um dos mistérios
+          da luz, entendendo qual o episódio da vida de Cristo é contemplado e o
+          que se medita nele.
+        </S.SmallText>
+        <S.BigText>Os Mistérios Luminosos</S.BigText>
+        <S.DefaultText style={{ paddingBottom: "30px", fontWeight: "bold" }}>
+          1º mistério luminoso: o batismo de Jesus no Rio Jordão
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/batismo_jesus.jpg"
+          alt="Batismo de Jesus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Depois que Jesus foi batizado, saiu logo da água. Eis que os céus
+              se abriram e viu descer sobre ele, em forma de pomba, o Espírito
+              de Deus. E do céu baixou uma voz: "Eis meu Filho muito amado em
+              quem ponho minha afeição"» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/3/16,17"
+                target="blank"
+              >
+                Mt 3,16-17
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No primeiro mistério luminoso, somos conduzidos às águas do Rio
+          Jordão, onde Cristo é batizado. 2 Neste episódio, Jesus, mesmo não
+          tendo pecado, aceita o batismo ministrado por João Batista. Este ato
+          de humildade e obediência simboliza a consagração de Jesus ao
+          cumprimento da vontade divina. É o momento que do Céu ouve-se a voz do
+          pai dizendo “Eis meu Filho muito amado em quem ponho minha afeição”.
+          <br />
+          <cite>
+            <span>
+              — “Eis meu Filho muito amado em quem ponho minha afeição”.&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaonline.com.br/acf/mt/3/17"
+                  target="blank"
+                >
+                  1
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério meditamos a humildade, a pureza e a obediência de
+          Jesus. O mesmo Espírito Santo que desceu para investi-lo na missão vem
+          também sobre nós, para nos ajudar a cumprir a vontade do Pai. Por
+          isso, recordamos também o nosso Batismo: somos filhos de Deus e
+          membros do seu corpo, a Igreja.
+        </S.SmallText>
+        <S.SmallText>
+          Na meditação deste mistério podemos refletir como o Espírito Santo
+          conduziu toda a vida de Cristo e deseja também conduzir a nossa. A
+          contemplação do Batismo de Jesus deve levar-nos a renovar as promessas
+          do nosso Batismo e, assim, buscar o Senhor todos os dias. Isso se dá
+          na aceitação humilde de Sua vontade e no esforço por levar uma vida
+          reta, que encontre seu verdadeiro sentido no Reino dos Céus.
+        </S.SmallText>
+        <S.SmallText>
+          Depois de trinta anos de vida oculta, Jesus realiza um desconcertante
+          ato de humildade. Ele que é o Filho de Deus, o Verbo Encarnado,
+          dirige-se ao rio Jordão, misturando-se à multidão dos atraídos pela
+          pregação de João Batista. E como eles, pede o batismo, como se tivesse
+          algum pecado em si. Em continuação aos ensinamentos dos antigos
+          profetas, João Batista anuncia a vinda do Messias esperado por Israel.
+          Sua palavra é de fogo e sua reputação se propagara pelos arredores do
+          país. João acrescenta à sua pregação um batismo de arrependimento.
+          Essa instituição original, mesmo que os judeus, pelas suas leis,
+          estivessem acostumados a múltiplas purificações, tinha por finalidade
+          não a pureza exterior e legal e sim a pureza do coração. Por outro
+          lado, o batismo de Jesus não tinha a eficácia do sacramento tal como
+          Jesus iria instituí-lo, sacramento que possui uma virtude intrínseca
+          ao próprio rito. Justamente no momento em que Jesus se mostra ao povo,
+          misturado aos pecadores, seu Pai se preocupa em glorificá-lo. Que
+          testemunho esplendoroso prestado à divindade de Jesus Cristo pelas
+          duas outras Pessoas da Trindade! O céu se abre; o Espírito Santo desce
+          visivelmente e paira sobre a cabeça do Salvador; o Pai fala e declara
+          solenemente que aquele homem que acaba de se rebaixar à condição de
+          pecador é seu Filho “Bem-Amado”! Assim, o primeiro ato da vida pública
+          de Jesus mostra que Jesus, tinha como única preocupação assumir
+          imediatamente o seu papel de representante dos pecadores e de
+          substituí-los, pela sua Missão de Redentor. A intervenção pessoal de
+          Deus -o Pai- proporciona à missão de seu Filho uma espécie de
+          consagração oficial.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          2º mistério luminoso: a autorrevelação de Jesus nas Bodas de Caná
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+          }}
+          src="assets/bodas_cana.jpg"
+          alt="Milagre nas bodas de Caná"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Três dias depois, celebravam-se bodas em Caná da Galiléia, e
+              achava-se ali a mãe de Jesus. Também foram convidados Jesus e os
+              seus discípulos. Como viesse a faltar vinho, a mãe de Jesus
+              disse-lhe: "Eles já não têm vinho". Respondeu-lhe Jesus: "Mulher,
+              isso compete a nós? Minha hora ainda não chegou". Disse, então,
+              sua mãe aos serventes: "Fazei o que ele vos disser"» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/jo/2/1-5"
+                target="blank"
+              >
+                Jo 2, 1-5
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No segundo mistério luminoso, testemunhamos a autorrevelação de Jesus
+          nas Bodas de Caná&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/nvi/jo/2/1-11"
+              target="blank"
+            >
+              2
+            </a>
+          </sup>
+          &nbsp; Durante uma festa de casamento, Jesus realiza seu primeiro
+          milagre, por intercessão de sua mãe, transformando água em vinho.
+          Neste momento, ele não só revela sua divindade e poder sobre a
+          natureza, mas também abre os corações dos discípulos à fé.
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos sobre a presença atenta da Virgem Maria, que
+          conhece o poder salvífico de seu Filho: “Fazei o que ele vos disser”.
+          Desse modo, pensemos também na obediência a Deus e na confiança que
+          devemos ter em Sua Palavra. Refletimos ainda a respeito da
+          generosidade de Cristo, que não apenas atende às nossas necessidades
+          materiais, mas também espirituais — e deseja a nossa participação na
+          operação da graça: “Enchei as talhas de água”. Além disso, a presença
+          de Jesus nas bodas de Caná leva-nos a compreender o matrimônio como um
+          sinal eficaz da presença de Deus.&nbsp;{" "}
+          <sup>
+            <a
+              href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+              target="blank"
+            >
+              3
+            </a>
+          </sup>
+        </S.SmallText>
+        <S.SmallText>
+          Uma festa em Caná! Um banquete de casamento! A Mãe de Jesus está
+          presente. Jesus também tinha sido convidado para o casamento, bem como
+          seus amigos. De repente um incidente bastante banal veio chamar a
+          atenção de Maria: não.havia mais vinho. Compadecida do constrangimento
+          de seus anfitriões, Maria dirige-se ao seu Filho, dizendo-lhe: “Eles
+          não têm mais vinho”. Sua oração formula-se com tato e discrição.
+          Entretanto, quanta confiança em sua breve súplica! Até então, Jesus
+          ainda não havia demonstrado sua onipotência, mas a Virgem Maria
+          conhecia o segredo de seu poder. Jesus responde à sua Mãe com uma
+          aparente recusa, a fim de enfatizar que só Deus tem poder sobre a
+          temporalidade. Todavia, como quisesse demonstrar também que Deus ouve
+          nossas preces, suas palavras foram ditas num certo tom, e seu olhar
+          assumiu tal expressão, que pareciam encorajadores. Assim sendo, Maria
+          dirigiu-se aos empregados e disse-lhes: “Fazei tudo que ele vos
+          disser”.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          3º mistério luminoso: o anúncio do Reino de Deus
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/anuncio_reino.jpg"
+          alt="Anúncio do Reino de Deus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Completou-se o tempo e o Reino de Deus está próximo; fazei
+              penitência e crede no Evangelho» (
+              <a
+                href="https://www.bibliaonline.com.br/nvi/mc/1/15"
+                target="blank"
+              >
+                Mc 1, 15
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No terceiro mistério luminoso, deparamo-nos com o anúncio do Reino de
+          Deus por Jesus durante seu ministério terreno&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mc/1/14,15"
+              target="blank"
+            >
+              4
+            </a>
+          </sup>
+          , onde Jesus proclama:
+          <br />
+          <cite>
+            <span>
+              — “Completou-se o tempo e o Reino de Deus está próximo; fazei
+              penitência e crede no Evangelho”.&nbsp;
+              <sup>
+                <a
+                  href="https://www.bibliaonline.com.br/nvi/mc/1/15"
+                  target="blank"
+                >
+                  5
+                </a>
+              </sup>
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério meditamos a vida pública de Jesus; todos os milagres,
+          curas e sermões foram realizados pensando em nossa salvação. Por isso,
+          é importante refletir sobre a nossa disposição para acolher a mensagem
+          do Evangelho e examinar a nossa vida considerando como podemos
+          contribuir para a edificação do Reino de Deus em nosso meio. Isto é,
+          como podemos testemunhar o Cristo nas pequenas coisas do dia a dia e
+          transmitir os valores do Evangelho, sendo cristãos — ou seja, “outro
+          Cristo” — para os outros, começando pelos que estão mais próximos de
+          nós.
+        </S.SmallText>
+        <S.SmallText>
+          Nas duas frases curtas e cortantes do Evangelho de São Marcos, acima
+          citadas, há como que um tom de eternidade. Deus havia preparado os
+          espíritos, em Israel, com mensagens cada vez mais esclarecedoras.
+          Terminara o tempo de expectativa, de espera, era o que anunciava um
+          homem chamado Jesus, cujas pregações eram causa de grandes esperanças.
+          Para a humanidade, a boa nova seria a vinda do reino da justiça e da
+          misericórdia, da vitória do bem sobre o mal, da vida sobre a morte. E
+          Jesus anunciava também duas disposições do coração, para acolher o
+          Reino de Deus que seu povo aguardava: conversão e fé.
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          4º mistério luminoso: a transfiguração de Jesus no Monte Tabor
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+            height: "650px",
+            objectFit: "cover",
+          }}
+          src="assets/transfiguracao.jpg"
+          alt="Anúncio do Reino de Deus"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Seis dias depois, Jesus tomou consigo Pedro, Tiago e João, seu
+              irmão, e conduziu-os à parte a uma alta montanha.Lá se
+              transfigurou na presença deles: seu rosto brilhou como o sol, suas
+              vestes tornaram-se resplandecentes de brancura» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/17/1,2"
+                target="blank"
+              >
+                Mt 17, 1-2
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          No quarto mistério luminoso, somos conduzidos ao Monte Tabor, onde
+          Jesus, diante dos apóstolos Pedro, Tiago e João, é transfigurado e
+          resplandece em glória divina.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mt/17/1-8"
+              target="blank"
+            >
+              6
+            </a>
+          </sup>
+          &nbsp; Ao contemplarmos a Transfiguração, elevamos os nossos olhos e
+          nossos corações para as realidades celestiais, reconhecendo a
+          verdadeira identidade de Jesus como o Filho de Deus.
+        </S.SmallText>
+        <S.SmallText>
+          Neste mistério, meditamos a grandeza de Deus, que, por amor a nós,
+          escolhe humilhar-se ao ocultar Sua divindade e assumir a natureza
+          humana, compartilhando nossa condição — exceto o pecado. No momento da
+          transfiguração, Cristo revela Sua divindade aos discípulos mais
+          íntimos, de modo que este mistério lança luz sobre toda a vida de
+          Jesus, recordando — aos discípulos e a nós — que, mesmo nos momentos
+          de aparente desfiguração, como na crucificação, a divindade de Cristo
+          permanece.
+        </S.SmallText>
+        <S.SmallText>
+          Além disso, ao contemplar a transfiguração de Jesus, devemos meditar
+          sobre a vinda gloriosa de Cristo e a transformação do nosso corpo
+          miserável em corpo glorioso. O que nos lembra também que é necessário
+          “passar por muitas tribulações para entrar no Reino de Deus”.&nbsp;
+          <sup>
+            <a
+              href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html"
+              target="blank"
+            >
+              7
+            </a>
+          </sup>
+        </S.SmallText>
+        <S.SmallText>
+          Jesus chama à parte Pedro, Tiago e João, os três discípulos
+          privilegiados, que já havia escolhido para assistirem à ressurreição
+          da filha de Jairo e que levará consigo para lhe fazer companhia no
+          Getsêmani, conduzindo-os ao alto do Monte Tabor. E lá, Jesus se
+          transfigurou. E não somente seu rosto, como também suas vestes
+          tornaram-se resplandecentes. E de cada lado de Jesus, apareceram
+          Moisés e Elias, simbolizando a perfeita harmonia e continuidade entre
+          o Antigo e o Novo Testamento. A nuvem luminosa que envolvia o Pai, o
+          Filho e o Espírito Santo vai pairar sobre os discípulos. E como de
+          outras vezes, no Monte Sinai, Deus fala através da nuvem. Sua voz não
+          se dirigia a Jesus, como em seu batismo e, sim, aos discípulos.
+          Confirmava-os na fé e na divindade de Cristo. “Este é meu Filho bem
+          amado…” E a voz de Deus continua, fortificando-os também na doutrina e
+          nos ensinamentos de Jesus: “Escutai-o…”
+        </S.SmallText>
+        <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
+          5º mistério gozoso: a instituição da Eucaristia
+        </S.DefaultText>
+        <img
+          style={{
+            borderRadius: "20px",
+            width: "800px",
+          }}
+          src="assets/ultima_ceia.jpg"
+          alt="A Última Ceia"
+        />
+        <S.SmallText>
+          <cite>
+            <span>
+              «Durante a refeição, Jesus tomou o pão, benzeu-o, partiu-o e o deu
+              aos discípulos, dizendo: "Tomai e comei, isto é meu corpo"» (
+              <a
+                href="https://www.bibliaonline.com.br/acf/mt/26/26"
+                target="blank"
+              >
+                Mt 26, 26
+              </a>
+              ).
+            </span>
+          </cite>
+        </S.SmallText>
+        <S.SmallText>
+          O quinto mistério nos conduz à Última Ceia, quando Jesus institui a
+          Eucaristia, antecipando sua entrega na Cruz.&nbsp;
+          <sup>
+            <a
+              href="https://www.bibliaonline.com.br/acf/mt/26/26-30"
+              target="blank"
+            >
+              8
+            </a>
+          </sup>
+          &nbsp; Neste mistério, mergulhamos na profundidade do amor sacrificial
+          de Cristo.
+        </S.SmallText>
+        <S.SmallText>
+          Na contemplação deste mistério, somos chamados a reconhecer a presença
+          real de Jesus na Eucaristia, refletindo sobre o dom incomparável de
+          sua essência em forma de pão e vinho. A meditação deve nos conduzir a
+          participar deste sacramento com reverência, pureza de coração e plena
+          compreensão da sua dimensão espiritual. É o verdadeiro banquete
+          celestial que se apresenta diante de nós. Assim, refletimos sobre como
+          a Eucaristia nutre nossa alma e fortalece nossa comunhão com Cristo,
+          sendo um memorial contínuo de Seu sacrifício redentor.
+        </S.SmallText>
+        <S.SmallText>
+          A Eucaristia, instituída pelo Cristo na véspera de sua Paixão, é o
+          grande mistério da fé. Através de um alimento dos mais simples e
+          elementares, com palavras também simples, mas ao mesmo tempo muito
+          fortes, num ritual discreto e familiar a todos nós, Jesus realiza a
+          doação total de si mesmo à humanidade. O pão não muda de aparência e
+          nem tão pouco o vinho, porém, pela palavra toda poderosa do Filho de
+          Deus, sua substância é mudada no corpo e no sangue de Cristo. A
+          fórmula da consagração do cálice, mais desenvolvida do que a do pão,
+          exprime com maior clareza o sentido da nova instituição. Esta não
+          apenas com o objetivo de realizar a presença do Cristo sob as
+          aparências do pão e do vinho, mas, para assim tornar-se alimento dos
+          fiéis, O sacrifício da Cruz se reproduz a cada instante: é o memorial
+          do mistério pascal.
+        </S.SmallText>
+        <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+          Referências
+        </S.DefaultText>
+        <S.SmallText
+          style={{
+            paddingBottom: "30px",
+            borderBottom: "1px solid #D4D4D4",
+            width: "50%",
+          }}
+        >
+          <span>1. Mt 3, 17</span>
+          <br />
+          <span>2. Jo 2, 1-11</span>
+          <br />
+          <span>3. CIC, 1613</span>
+          <br /> <span>4. Marcos 1, 14-15</span>
+          <br /> <span>5. Mc 1, 15 </span>
+          <br /> <span>6. Mt 17, 1-8</span>
+          <br />
+          <span>7. CIC, 556</span>
+          <br /> <span>8. Mt 26, 26-30</span>
         </S.SmallText>
       </div>
     </div>
