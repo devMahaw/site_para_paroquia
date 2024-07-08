@@ -1,4 +1,5 @@
-import * as S from "./styles";
+import { LinksContainer, MisteriosList } from "./styles";
+import * as S from "../../styles";
 
 const Rosario = () => {
   return (
@@ -277,26 +278,26 @@ const Rosario = () => {
               e 10 Ave-Marias. No terço, eles são separados da seguinte forma:
             </S.SmallText>
             <ul>
-              <S.MisteriosList>
+              <MisteriosList>
                 <S.SmallText>
                   Segunda e sábado: quando oramos os mistérios gozosos;
                 </S.SmallText>
-              </S.MisteriosList>
-              <S.MisteriosList>
+              </MisteriosList>
+              <MisteriosList>
                 <S.SmallText>
                   Terças e sextas: quando oramos os mistérios dolorosos;
                 </S.SmallText>
-              </S.MisteriosList>
-              <S.MisteriosList>
+              </MisteriosList>
+              <MisteriosList>
                 <S.SmallText>
                   Quartas e domingos: quando oramos os mistérios gloriosos;{" "}
                 </S.SmallText>
-              </S.MisteriosList>
-              <S.MisteriosList>
+              </MisteriosList>
+              <MisteriosList>
                 <S.SmallText>
                   Quinta: quando oramos os mistérios luminosos.
                 </S.SmallText>
-              </S.MisteriosList>
+              </MisteriosList>
             </ul>
             <S.SmallText style={{ fontWeight: "bold" }}>Passo 5:</S.SmallText>
             <S.SmallText>
@@ -2605,7 +2606,7 @@ const Rosario = () => {
               <br /> <span>11. 1Rs 2, 19</span>
             </S.SmallText>
           </div>
-          <S.LinksContainer>
+          <LinksContainer>
             <h4>O que você vai encontrar neste artigo?</h4>
             <a href="#oque-rosario      ">O que é o rosário?</a>
             <a href="#origem-oracao">Qual a origem desta oração?</a>
@@ -2620,7 +2621,7 @@ const Rosario = () => {
             <a href="#luminosos">Mistérios Luminosos</a>
             <a href="#dolorosos">Mistérios Dolorosos</a>
             <a href="#gloriosos">Mistérios Gloriosos</a>
-          </S.LinksContainer>
+          </LinksContainer>
         </div>
       </div>
     </div>

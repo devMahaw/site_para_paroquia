@@ -32,7 +32,9 @@ const Footer = () => {
           <NavbarSubItemsText href="">Horários das missas</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText href="">Catequese</NavbarSubItemsText>
+          <NavbarSubItemsText onClick={() => goTo("/trindade")}>
+            Catequese
+          </NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Pastorais</NavbarSubItemsText>

@@ -89,7 +89,7 @@ const Navbar = () => {
                 <S.NavbarText>Catequese</S.NavbarText>
                 <S.NavbarSubSubMenu>
                   <li>
-                    <S.NavbarSubItemsText href="">
+                    <S.NavbarSubItemsText onClick={() => goTo("/trindade")}>
                       Santíssima Trindade
                     </S.NavbarSubItemsText>
                   </li>

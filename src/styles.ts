@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 export const colors = {
   brown: "#B77409",
@@ -38,5 +39,35 @@ export const GlobalCss = createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+`;
+
+export const BigText = styled.h2`
+  font-weight: bold;
+  font-size: 40px;
+  margin: 40px 0px;
+`;
+
+export const DefaultText = styled.p`
+  font-size: 24px;
+  line-height: 30px;
+
+  span {
+    color: ${colors.darkGray};
+  }
+`;
+
+export const SmallText = styled.p`
+  line-height: 30px;
+  font-size: 18px;
+  padding: 10px 0px;
+
+  a {
+    color: ${colors.darkBlue};
+    font-weight: bold;
+  }
+
+  span {
+    color: ${colors.darkGray};
   }
 `;
