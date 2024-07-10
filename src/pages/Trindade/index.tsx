@@ -14,10 +14,12 @@ const Trindade = () => {
           alt="Santíssima Trindade"
         />
       </div>
+      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+        <source src="assets/trindade/trindade.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
       <div>
-        <S.BigText style={{ marginTop: "0px" }}>
-          Santíssima Trindade: um mistério para se celebrar
-        </S.BigText>
+        <S.BigText>Santíssima Trindade: um mistério para se celebrar</S.BigText>
         <S.DefaultText
           style={{
             borderBottom: "1px solid #D4D4D4",
@@ -304,7 +306,7 @@ const Trindade = () => {
         </S.SmallText>
         <S.SmallText>
           <b>
-            1) A Trindade foi alvo de boa parte das primeiras grandes heresias
+            2) A Trindade foi alvo de boa parte das primeiras grandes heresias
             da Igreja
           </b>
           . Ora, pensem! Se não fosse algo muito dentro da vivência cotidiana

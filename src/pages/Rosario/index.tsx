@@ -18,7 +18,7 @@ const Rosario = () => {
           />
         </div>
         <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
-          <source src="assets/rosario.mp3" type="audio/mp3" />
+          <source src="assets/rosario/rosario.mp3" type="audio/mp3" />
           Seu navegador não suporta o elemento de áudio.
         </audio>
         <div style={{ display: "flex" }}>
@@ -96,7 +96,7 @@ const Rosario = () => {
               No entanto, houve uma dificuldade: nem todos tinham a oportunidade
               de rezar constantemente os 150 salmos juntamente com o coro de
               monges, pelo simples fato de terem de se alimentar e cultivar a
-              terra.{" "}
+              terra.
             </S.SmallText>
             <S.SmallText>
               Assim, tiveram a brilhante ideia de fazer outras práticas piedosas
@@ -107,12 +107,19 @@ const Rosario = () => {
             <S.SmallText>
               Uma das récitas mais conhecidas foi a saudação do Anjo Gabriel à
               Virgem Maria: “Ave, cheia de graça, o Senhor é contigo: bendita és
-              tu entre as mulheres” (Lucas 1,28). Estas práticas piedosas,
-              especialmente a Saudação à Virgem Maria, foram transmitidas aos
-              fiéis da época que não tinham acesso aos 150 Salmos por escrito,
-              mas em vez disso rezavam 150 Ave-Marias. E assim, ao longo do
-              tempo, as outras partes foram acrescentadas até chegarmos ao que
-              hoje conhecemos como o Santo Rosário.
+              tu entre as mulheres” (
+              <a
+                href="https://www.bibliaonline.com.br/acf/lc/1/28"
+                target="blank"
+              >
+                Lc 1, 28
+              </a>
+              ).. Estas práticas piedosas, especialmente a Saudação à Virgem
+              Maria, foram transmitidas aos fiéis da época que não tinham acesso
+              aos 150 Salmos por escrito, mas em vez disso rezavam 150
+              Ave-Marias. E assim, ao longo do tempo, as outras partes foram
+              acrescentadas até chegarmos ao que hoje conhecemos como o Santo
+              Rosário.
             </S.SmallText>
             <S.SmallText>
               De fato, o Rosário foi mencionado pela primeira vez num documento
