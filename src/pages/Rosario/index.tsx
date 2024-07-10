@@ -1,4 +1,4 @@
-import { LinksContainer, MisteriosList } from "./styles";
+import { MisteriosList } from "./styles";
 import * as S from "../../styles";
 
 const Rosario = () => {
@@ -440,6 +440,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               Nas palavras do Papa Bento XVI
+              <br />
               <cite>
                 <span>
                   — “Podemos dizer que a recitação do Rosário tem o seu modelo
@@ -598,6 +599,7 @@ const Rosario = () => {
               </sup>
               , o anjo Gabriel saúda Maria como “cheia de graça” e revela o
               plano divino:
+              <br />
               <cite>
                 <span>
                   — “Ave, cheia de graça, o Senhor é contigo”. […] “Não temas,
@@ -702,6 +704,7 @@ const Rosario = () => {
               por graça divina, também está grávida. Este encontro é marcado
               pela alegria e pelo reconhecimento sobrenatural, culminando na
               exclamação inspirada de Isabel:
+              <br />
               <cite>
                 <span>
                   — “Donde me vem esta honra de vir a mim a mãe de meu
@@ -897,6 +900,7 @@ const Rosario = () => {
               &nbsp; A sua contemplação nos leva a refletir sobre a entrega de
               Maria e José ao apresentarem o Filho de Deus, aceitando as
               palavras proféticas de Simeão.
+              <br />
               <cite>
                 <span>
                   — “Eis que este menino está destinado a ser uma causa de queda
@@ -991,6 +995,7 @@ const Rosario = () => {
               &nbsp;Jesus estava entre os doutores da lei, que se admiravam com
               as Suas respostas tão cheias de sabedoria. Sobre este
               acontecimento, Lucas narra que
+              <br />
               <cite>
                 <span>
                   — “Maria conservava todas essas palavras, meditando-as no seu
@@ -1147,6 +1152,7 @@ const Rosario = () => {
               cumprimento da vontade divina. É o momento que do Céu ouve-se a
               voz do pai dizendo “Eis meu Filho muito amado em quem ponho minha
               afeição”.
+              <br />
               <cite>
                 <span>
                   — “Eis meu Filho muito amado em quem ponho minha
@@ -1329,6 +1335,7 @@ const Rosario = () => {
                 </a>
               </sup>
               , onde Jesus proclama:
+              <br />
               <cite>
                 <span>
                   — “Completou-se o tempo e o Reino de Deus está próximo; fazei
@@ -1813,6 +1820,7 @@ const Rosario = () => {
             <S.SmallText>
               Aqui meditamos o tormento mais prolongado da paixão, pois Jesus o
               suportou até a morte.
+              <br />
               <cite>
                 <span>
                   — “E o manso Cordeiro deixava atormentar-se ao gosto deles,
@@ -1910,6 +1918,7 @@ const Rosario = () => {
                 </a>
               </sup>
               &nbsp; Pensemos na cruz que
+              <br />
               <cite>
                 <span>
                   — “foi o nobre instrumento com que Jesus Cristo adquiriu
@@ -1939,6 +1948,7 @@ const Rosario = () => {
               Desse modo, ele nos ensina que a nossa “cruz” pode se tornar um
               meio de transformação e, até mesmo, de redenção em nossa vida — se
               a abraçarmos como Ele fez.
+              <br />
               <cite>
                 <span>
                   — “Se alguém quiser vir após mim, abnegue-se a si mesmo e tome
@@ -2025,6 +2035,7 @@ const Rosario = () => {
               através da fé na ressurreição. Diante da meditação da morte de
               Jesus na cruz, podemos identificar-nos com a figura do bom ladrão
               e pedir
+              <br />
               <cite>
                 <span>
                   — “recordai-vos, Senhor, que eu sou uma daquelas ovelhas pelas
@@ -2216,6 +2227,7 @@ const Rosario = () => {
               </sup>
               &nbsp; Ela simboliza a vitória de Cristo sobre o pecado e a morte,
               oferecendo, assim, a esperança e a vida eterna aos fiéis.
+              <br />
               <cite>
                 <span>
                   — “O cristão, que une a sua própria morte à de Jesus, encara a
@@ -2241,6 +2253,7 @@ const Rosario = () => {
               pecado. Meditar a ressurreição, portanto, deve inspirar-nos a uma
               vida reta, por meio da qual buscamos alcançar o céu, uma vez que —
               como rezamos no Credo — cremos na ressurreição dos mortos:
+              <br />
               <cite>
                 <span>
                   — “Os que tiverem praticado o bem, para uma ressurreição de
@@ -2317,6 +2330,7 @@ const Rosario = () => {
                   5
                 </a>
               </sup>
+              <br />
               <cite>
                 <span>
                   — “A ascensão de Cristo marca a entrada definitiva da
@@ -2613,9 +2627,9 @@ const Rosario = () => {
               <br /> <span>11. 1Rs 2, 19</span>
             </S.SmallText>
           </div>
-          <LinksContainer>
+          <S.LinksContainer>
             <h4>O que você vai encontrar neste artigo?</h4>
-            <a href="#oque-rosario      ">O que é o rosário?</a>
+            <a href="#oque-rosario">O que é o rosário?</a>
             <a href="#origem-oracao">Qual a origem desta oração?</a>
             <a href="#como-reza">Como rezá-lo?</a>
             <a href="#terco-rosario">Terço ou Rosário?</a>
@@ -2628,7 +2642,7 @@ const Rosario = () => {
             <a href="#luminosos">Mistérios Luminosos</a>
             <a href="#dolorosos">Mistérios Dolorosos</a>
             <a href="#gloriosos">Mistérios Gloriosos</a>
-          </LinksContainer>
+          </S.LinksContainer>
         </div>
       </div>
     </div>
