@@ -107,7 +107,7 @@ const Navbar = () => {
                     <S.NavbarText>Os 7 sacramentos</S.NavbarText>
                     <S.NavbarSubSubMenu style={{ left: "-63.8%" }}>
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
                           Batismo
                         </S.NavbarSubItemsText>
                       </li>
