@@ -94,7 +94,9 @@ const Navbar = () => {
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
-                    <S.NavbarSubItemsText href="">
+                    <S.NavbarSubItemsText
+                      onClick={() => goTo("/dogmascatolicos")}
+                    >
                       Dogmas da Igreja Católica
                     </S.NavbarSubItemsText>
                   </li>
@@ -150,14 +152,24 @@ const Navbar = () => {
                   </li>
                   <li>
                     <S.NavbarSubItemsText href="">
-                      Os frutos do Espírito Santo
+                      Liturgia
                     </S.NavbarSubItemsText>
                   </li>
-                  <li>
-                    <S.NavbarSubItemsText href="">
-                      Virtudes
-                    </S.NavbarSubItemsText>
-                  </li>
+                  <S.CatequeseList>
+                    <S.NavbarText>Virtudes</S.NavbarText>
+                    <S.NavbarSubSubMenu style={{ left: "-37%" }}>
+                      <li>
+                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
+                          Cardeais
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Teologais
+                        </S.NavbarSubItemsText>
+                      </li>
+                    </S.NavbarSubSubMenu>
+                  </S.CatequeseList>
                   <li>
                     <S.NavbarSubItemsText href="">
                       As obras de misericórdia
@@ -166,11 +178,31 @@ const Navbar = () => {
                   <li>
                     <S.NavbarSubItemsText href="">Orações</S.NavbarSubItemsText>
                   </li>
-                  <li>
-                    <S.NavbarSubItemsText href="">
-                      Dogmas marianos
-                    </S.NavbarSubItemsText>
-                  </li>
+                  <S.CatequeseList>
+                    <S.NavbarText>Os 4 dogmas marianos</S.NavbarText>
+                    <S.NavbarSubSubMenu style={{ left: "-64.6%" }}>
+                      <li>
+                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
+                          Maternidade Divina
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Virgindade perpétua
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Imaculada conceição
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Assunção
+                        </S.NavbarSubItemsText>
+                      </li>
+                    </S.NavbarSubSubMenu>
+                  </S.CatequeseList>
                   <li>
                     <S.NavbarSubItemsText href="">
                       Graus de adoração
