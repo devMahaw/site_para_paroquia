@@ -50,18 +50,14 @@ const DogmasCatolicos = () => {
             portanto infalível, do Magistério da Igreja. Para que tal aconteça,
             são necessárias duas condições:
           </S.SmallText>
-          <S.SmallText>
-            <b>
-              a) O sentido deve ser suficientemente manifestado como sendo uma
-              autêntica verdade revelada por Deus;
-            </b>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            a) O sentido deve ser suficientemente manifestado como sendo uma
+            autêntica verdade revelada por Deus;
           </S.SmallText>
-          <S.SmallText>
-            <b>
-              b) Essa verdade ou doutrina deve ser proposta e definida
-              solenemente pela Igreja, Corpo de Cristo como um todo, como sendo
-              verdade revelada e parte integrante da fé católica.
-            </b>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            b) Essa verdade ou doutrina deve ser proposta e definida solenemente
+            pela Igreja, Corpo de Cristo como um todo, como sendo verdade
+            revelada e parte integrante da fé católica.
           </S.SmallText>
           <S.SmallText>
             A palavra dogma vem do verbo grego dokein, que significa parecer,
@@ -193,6 +189,99 @@ const DogmasCatolicos = () => {
             possui a imutável Essência Divina.
           </S.SmallText>
           <S.BigText>Dogmas sobre Jesus Cristo:</S.BigText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            6 – Jesus Cristo é verdadeiro Deus e Filho de Deus por Essência
+          </S.SmallText>
+          <S.SmallText>
+            O Cristo possui a infinita Natureza Divina com todas as suas
+            infinitas Perfeições, por haver sido gerado eternamente por Deus.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            7 – Jesus possui duas naturezas que não se transformam nem se
+            misturam ou confundem
+          </S.SmallText>
+          <S.SmallText>
+            Declara o Concílio de Calcedônia (451, IV): "Nosso Senhor Jesus
+            Cristo, Ele mesmo perfeito em Divindade e Ele mesmo perfeito em
+            humanidade (...) que se há de reconhecer nas duas naturezas: sem
+            confusão, sem mudanças, sem divisão, sem separação e de modo algum
+            apagada a diferença de natureza por causa da união, conservando cada
+            natureza sua propriedade e concorrendo em uma só Pessoa".
+          </S.SmallText>
+          <S.SmallText>
+            Conforme as Sagradas Escrituras, "o Verbo se fez carne..." (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/1/14"
+              target="blank"
+            >
+              Jo 1,14
+            </a>
+            ). / "...o qual, sendo de condição divina, não reteve avidamente o
+            fato de ser igual a Deus, mas se despojou de Si mesmo, tomando a
+            condição de servo, fazendo-se semelhante aos homens e aparecendo em
+            seu porte como homem" (
+            <a
+              href="https://www.bibliaonline.com.br/nvi/fp/2/6,7"
+              target="blank"
+            >
+              Fl 2,6-7
+            </a>
+            ). Vemos então que Cristo é possuidor de uma íntegra Natureza Divina
+            e de uma íntegra natureza humana: a prova está, entre outros, nos
+            seus milagres, em sua Ressurreição, em suas dores e no seu
+            padecimento.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            8 – Cada uma das Naturezas em Cristo possui uma própria vontade
+            física e uma própria operação física
+          </S.SmallText>
+          <S.SmallText>
+            Declara o III Concílio de Constantinopla (680-681): "Proclamamos,
+            conforme os ensinamentos dos Santos Padres, que não existem duas
+            vontades físicas e duas operações físicas, de modo indivisível, de
+            modo que não seja conversível, de modo inseparável e de modo não
+            confuso. E estas duas vontades físicas não se opõem uma à outra como
+            afirmam os ímpios hereges..."
+          </S.SmallText>
+          <S.SmallText>
+            Deus Filho diz a Deus Pai nas Sagradas Escrituras: "Não seja como Eu
+            quero, mas sim como Tu queres" (
+            <a
+              href="https://www.bibliaonline.com.br/nvi/mt/26/39"
+              target="blank"
+            >
+              Mt 26,39
+            </a>
+            ). / "Não seja feita a minha vontade, mas sim a Tua." (
+            <a
+              href="https://www.bibliaonline.com.br/acf/lc/22/42"
+              target="blank"
+            >
+              Lc 22,42
+            </a>
+            ). – Diz ainda aos discípulos: "Desci do Céu não para fazer a minha
+            vontade, mas sim a vontade de Quem me enviou" (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/6/38"
+              target="blank"
+            >
+              Jo 6,38
+            </a>
+            ). / "Ninguém me tira a vida, Eu a doei voluntariamente: tenho o
+            poder para concedê-la e o poder de recobrá-la novamente" (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/10/18"
+              target="blank"
+            >
+              Jo 10,18
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            Apesar da dualidade física das duas vontades, existiu e existe a
+            unidade moral, porque a vontade humana de Cristo se conforma em
+            livre subordinação, de maneira perfeitíssima à Vontade Divina.
+          </S.SmallText>
         </div>
         <S.LinksContainer>
           <h4>O que você vai encontrar neste artigo?</h4>
