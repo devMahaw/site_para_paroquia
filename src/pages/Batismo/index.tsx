@@ -92,6 +92,143 @@ const Batismo = () => {
             fundamentais para a nossa salvação, uma vez que nos unem a Cristo e
             à Sua obra redentora.
           </S.SmallText>
+          <S.BigText>O que é o sacramento do Batismo?</S.BigText>
+          <S.SmallText>
+            O batismo é o primeiro Sacramento, onde você é iniciado na vida
+            cristã, você só pode receber os outros Sacramentos caso tenha o
+            batismo. No batismo, a graça divina é derramada na sua alma, você é
+            completamente regenerado, é retirado o pecado original, de santo
+            Adão e santa Eva, é retirado todo pecado venial e mortal já cometido
+            e até as penas desses pecados são completamente retirados, como
+            podemos ver em (
+            <a
+              href="https://www.bibliaonline.com.br/nvi/atos/22/16"
+              target="blank"
+            >
+              Atos 22, 16
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            O sacramento do Batismo é, em primeiro lugar,{" "}
+            <b>o fundamento de toda a vida cristã</b> e a porta que dá acesso
+            aos outros sacramentos.&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html#:~:text=1213.,dá%20acesso%20aos%20outros%20sacramentos."
+                target="blank"
+              >
+                4
+              </a>
+            </sup>
+            &nbsp;“Pelo Baptismo somos libertos do pecado e regenerados como
+            filhos de Deus: tornamo-nos membros de Cristo e somos incorporados
+            na Igreja e tornados participantes na sua missão.”&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html#:~:text=1213.,dá%20acesso%20aos%20outros%20sacramentos."
+                target="blank"
+              >
+                5
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            O nome “Batismo” vem do rito central, que envolve a imersão na água.
+            Isso simboliza a jornada de morte e ressurreição de Cristo. A
+            imersão é como uma espécie de sepultura, na qual a nossa antiga vida
+            marcada pelo pecado “morre” e emergimos como uma “nova
+            criatura.”&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html#:~:text=1213.,dá%20acesso%20aos%20outros%20sacramentos."
+                target="blank"
+              >
+                6
+              </a>
+            </sup>
+            &nbsp; Além disso, o Batismo é chamado de “banho da regeneração e
+            renovação no Espírito Santo”, pois representa{" "}
+            <b>o novo nascimento pela água e pelo Espírito</b> — que é
+            necessário para entrar no Reino de Deus.&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html#:~:text=1213.,dá%20acesso%20aos%20outros%20sacramentos."
+                target="blank"
+              >
+                7
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            Sendo assim, os batizados — que se tornam filhos de Deus e membros
+            da Igreja — têm a responsabilidade de declarar e viver a fé que
+            receberam de Deus através da Igreja. Além disso, são chamados a se
+            envolver na missão apostólica do povo de Deus e contribuir
+            ativamente na difusão dos valores cristãos.&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html"
+                target="blank"
+              >
+                8
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            O efeito do batismo, segundo Santo Tomás de Aquino, é a remissão do
+            pecado original e atual. Por isso, não se impõem aos batizados,
+            mesmo adultos, qualquer reparação pelos seus pecados passados. De
+            tal modo que “se morressem logo após o Batismo, seriam introduzidos
+            imediatamente na glória de Deus. Por isso o efeito do Batismo é a
+            abertura das portas do Paraíso.”
+          </S.SmallText>
+          <S.DefaultText
+            style={{
+              padding: "30px 0px",
+              fontWeight: "bold",
+              fontSize: "30px",
+            }}
+          >
+            Quem pode ser batizado?
+          </S.DefaultText>
+          <S.SmallText>
+            Todo o ser humano ainda não batizado pode receber o Batismo&nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html"
+                target="blank"
+              >
+                9
+              </a>
+            </sup>
+            , independentemente da idade. Seja um adulto que abraça o
+            cristianismo, seja um recém-nascido, o Batismo oferece a graça
+            salvífica de Deus necessária para a nossa salvação. No caso das
+            crianças, os pais têm o dever de educá-las na fé católica, e os
+            padrinhos também assumem a responsabilidade de orientá-las na
+            compreensão dos princípios cristãos e da vida espiritual.
+          </S.SmallText>
+          <S.SmallText>
+            Além disso, o Batismo — assim como a Confirmação — imprime na alma
+            do Cristão um sinal espiritual indelével de pertença a Cristo &nbsp;
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html"
+                target="blank"
+              >
+                10
+              </a>
+            </sup>
+            , por isso só se pode receber o sacramento do Batismo uma vez na
+            vida. Aliás, Santo Tomás em sua catequese sobre os sacramentos
+            afirma que o erro dos donatistas era rebatizar aqueles já batizados
+            pelos católicos “contra os quais se diz: Uma só fé, um só batismo (
+            <a href="https://www.bibliaonline.com.br/acf/ef/4/5" target="blank">
+              Ef 4,5
+            </a>
+            ).”
+          </S.SmallText>
         </div>
       </div>
     </div>
