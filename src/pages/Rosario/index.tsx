@@ -1,4 +1,3 @@
-import { MisteriosList } from "./styles";
 import * as S from "../../styles";
 
 const Rosario = () => {
@@ -285,26 +284,26 @@ const Rosario = () => {
               e 10 Ave-Marias. No terço, eles são separados da seguinte forma:
             </S.SmallText>
             <ul>
-              <MisteriosList>
+              <S.DotList>
                 <S.SmallText>
                   Segunda e sábado: quando oramos os mistérios gozosos;
                 </S.SmallText>
-              </MisteriosList>
-              <MisteriosList>
+              </S.DotList>
+              <S.DotList>
                 <S.SmallText>
                   Terças e sextas: quando oramos os mistérios dolorosos;
                 </S.SmallText>
-              </MisteriosList>
-              <MisteriosList>
+              </S.DotList>
+              <S.DotList>
                 <S.SmallText>
                   Quartas e domingos: quando oramos os mistérios gloriosos;{" "}
                 </S.SmallText>
-              </MisteriosList>
-              <MisteriosList>
+              </S.DotList>
+              <S.DotList>
                 <S.SmallText>
                   Quinta: quando oramos os mistérios luminosos.
                 </S.SmallText>
-              </MisteriosList>
+              </S.DotList>
             </ul>
             <S.SmallText style={{ fontWeight: "bold" }}>Passo 5:</S.SmallText>
             <S.SmallText>

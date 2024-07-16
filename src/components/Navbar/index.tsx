@@ -89,12 +89,18 @@ const Navbar = () => {
                 <S.NavbarText>Catequese</S.NavbarText>
                 <S.NavbarSubSubMenu>
                   <li>
-                    <S.NavbarSubItemsText onClick={() => goTo("/trindade")}>
+                    <S.NavbarSubItemsText
+                      href="#"
+                      target="_blank"
+                      onClick={() => goTo("/trindade")}
+                    >
                       Santíssima Trindade
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
                     <S.NavbarSubItemsText
+                      href="#"
+                      target="_blank"
                       onClick={() => goTo("/dogmascatolicos")}
                     >
                       Dogmas da Igreja Católica
@@ -109,7 +115,11 @@ const Navbar = () => {
                     <S.NavbarText>Os 7 sacramentos</S.NavbarText>
                     <S.NavbarSubSubMenu style={{ left: "-63.8%" }}>
                       <li>
-                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
+                        <S.NavbarSubItemsText
+                          href="#"
+                          target="_blank"
+                          onClick={() => goTo("/batismo")}
+                        >
                           Batismo
                         </S.NavbarSubItemsText>
                       </li>
@@ -159,7 +169,7 @@ const Navbar = () => {
                     <S.NavbarText>Virtudes</S.NavbarText>
                     <S.NavbarSubSubMenu style={{ left: "-37%" }}>
                       <li>
-                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
+                        <S.NavbarSubItemsText href="">
                           Cardeais
                         </S.NavbarSubItemsText>
                       </li>
@@ -182,7 +192,7 @@ const Navbar = () => {
                     <S.NavbarText>Os 4 dogmas marianos</S.NavbarText>
                     <S.NavbarSubSubMenu style={{ left: "-64.6%" }}>
                       <li>
-                        <S.NavbarSubItemsText onClick={() => goTo("/batismo")}>
+                        <S.NavbarSubItemsText>
                           Maternidade Divina
                         </S.NavbarSubItemsText>
                       </li>
@@ -227,7 +237,11 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText onClick={() => goTo("/rosario")}>
+                <S.NavbarSubItemsText
+                  href="#"
+                  target="_blank"
+                  onClick={() => goTo("/rosario")}
+                >
                   Rosário
                 </S.NavbarSubItemsText>
               </li>

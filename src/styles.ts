@@ -102,3 +102,8 @@ export const LinksContainer = styled.div`
     }
   }
 `;
+
+export const DotList = styled.li`
+  list-style: disc;
+  margin-left: 40px;
+`;

@@ -16,6 +16,10 @@ const Batismo = () => {
           alt="Batismo"
         />
       </div>
+      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+        <source src="assets/batismo/batismo.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
       <div style={{ display: "flex" }}>
         <div style={{ width: "80%" }}>
           <S.BigText>O que é o Sacramento do Batismo?</S.BigText>
