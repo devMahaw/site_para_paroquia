@@ -1470,7 +1470,7 @@ const Rosario = () => {
               “Escutai-o…”
             </S.SmallText>
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
-              5º mistério gozoso: a instituição da Eucaristia
+              5º mistério luminoso: a instituição da Eucaristia
             </S.DefaultText>
             <img
               style={{
