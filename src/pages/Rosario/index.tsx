@@ -2641,6 +2641,18 @@ const Rosario = () => {
               <br />
               <span>2. Mt 28, 1-10</span>
               <br />
+              <span>3. CIC, 1020</span>
+              <br /> <span>4. Lc 24, 50-53</span>
+              <br />
+              <span>5. Atos 1, 9-11</span>
+              <br /> <span>6. CIC, 665</span>
+              <br />
+              <span>7. João 14, 2</span>
+              <br /> <span>8. Atos 2, 1-13</span>
+              <br /> <span>9. Ap 12, 1</span>
+              <br />
+              <span>10. Ap 12,1-6</span>
+              <br /> <span>11. 1Rs 2, 19</span>
             </S.SmallText>
           </div>
           <S.LinksContainer>
