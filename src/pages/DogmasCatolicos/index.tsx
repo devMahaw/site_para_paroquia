@@ -29,7 +29,7 @@ const DogmasCatolicos = () => {
               perguntas. Para enfrentar os tempos difíceis que vêm por aí.
             </span>
           </S.DefaultText>
-          <S.BigText>O que é um dogma?</S.BigText>
+          <S.BigText id="oque-dogma">O que é um dogma?</S.BigText>
           <S.SmallText>
             PARA A IGREJA Católica, dogma é uma verdade de fé revelada por Deus.
             Logo, um dogma é imutável e definitivo; não pode ser mudado nem
@@ -117,7 +117,7 @@ const DogmasCatolicos = () => {
             os dogmata constituem os pontos fundamentais da fé e da prática
             religiosa e tudo o que é objeto de preceito.
           </S.SmallText>
-          <S.BigText>
+          <S.BigText id="43-dogmas">
             São 43 dogmas proclamados pela Igreja, divididos em 8 categorias:
           </S.BigText>
           <S.SmallText>
@@ -151,7 +151,7 @@ const DogmasCatolicos = () => {
               categorias:
             </b>
           </S.SmallText>
-          <S.BigText>Dogmas sobre Deus:</S.BigText>
+          <S.BigText id="dogmas-deus">Dogmas sobre Deus:</S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>
             1 – A Existência de Deus
           </S.SmallText>
@@ -188,7 +188,7 @@ const DogmasCatolicos = () => {
             No Deus Uno há três Pessoas: Pai, Filho e Espírito Santo. Cada uma
             possui a imutável Essência Divina.
           </S.SmallText>
-          <S.BigText>Dogmas sobre Jesus Cristo:</S.BigText>
+          <S.BigText id="dogmas-jesus">Dogmas sobre Jesus Cristo:</S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>
             6 – Jesus Cristo é verdadeiro Deus e Filho de Deus por Essência
           </S.SmallText>
@@ -331,7 +331,9 @@ const DogmasCatolicos = () => {
           <S.SmallText>
             Ressuscitou dentre os mortos e subiu ao Céu em Corpo e Alma.
           </S.SmallText>
-          <S.BigText>Dogmas sobre a criação do mundo:</S.BigText>
+          <S.BigText id="dogmas-criacao">
+            Dogmas sobre a criação do mundo:
+          </S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>
             14 – Tudo o que existe foi criado por Deus a partir do Nada
           </S.SmallText>
@@ -356,7 +358,7 @@ const DogmasCatolicos = () => {
             Além de Criador, Deus é Conservador, pois conserva na Existência a
             todas as coisas criadas.
           </S.SmallText>
-          <S.BigText>Dogmas sobre o ser humano:</S.BigText>
+          <S.BigText id="dogmas-humano">Dogmas sobre o ser humano:</S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>
             17 – O homem é formado de corpo material e alma espiritual
           </S.SmallText>
@@ -419,9 +421,104 @@ const DogmasCatolicos = () => {
             Só poderia então ser resgatado mediante um Sacrifício infinitamente
             meritório e reparador, do qual nós não seríamos capazes.
           </S.SmallText>
-          <S.BigText>Dogmas sobre o Papa e a Igreja:</S.BigText>
+          <S.BigText id="dogmas-marianos">Dogmas marianos:</S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>
-            20 – A Igreja foi fundada pelo Deus-Homem, Jesus Cristo
+            20 – Imaculada Conceição e Virgindade Perpétua de Maria
+          </S.SmallText>
+          <S.SmallText>
+            A Santíssima Virgem Maria, no primeiro instante de sua conceição
+            foi, por singular Graça e Privilégio de Deus Onipotente, em previsão
+            dos Méritos de Cristo Jesus, Salvador do gênero humano, preservada
+            imune de toda mancha de culpa original. Assim era preciso que a Mãe
+            do Senhor, o Tabernáculo da Nova e Eterna Aliança, fosse imaculada,
+            assim como era intocável e feita do ouro mais puro a Arca da Antiga
+            Aliança.
+          </S.SmallText>
+          <S.SmallText>
+            A doutrina da Virgindade Perpétua de Maria expressa a "real e
+            perpétua virgindade de Maria mesmo no ato de dar à luz a Jesus, o
+            Filho de Deus feito homem". Maria permaneceu sempre virgem (em
+            grego: ἀειπαρθένος – aeiparthenos), fazendo de Jesus seu único
+            Filho, cuja Concepção e Nascimento são milagrosos. Já nos anos 300,
+            esta doutrina era amplamente apoiada pelos Padres da Igreja e, no
+            século sétimo, foi afirmada num conjunto de concílios ecumênicos.
+            Este é um ensinamento tanto católico quanto anglocatólico, ortodoxo
+            e ortodoxo oriental, como se comprova em suas Liturgias, nas quais
+            repetidamente se faz referência à Maria como "sempre virgem".
+          </S.SmallText>
+          <S.SmallText>
+            Embora seja um fato pouco difundido atualmente, até mesmo alguns dos
+            primeiros reformadores protestantes apoiavam esta doutrina, e
+            figuras importantes do anglicanismo, como Hugo Latimer e Thomas
+            Cranmer, "seguiam a Tradição que herdaram, aceitando Maria como
+            'sempre virgem'". A Virgindade Perpétua é ainda hoje defendida por
+            teólogos anglicanos e luteranos.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            21 – Maria, Mãe de Deus
+          </S.SmallText>
+          <S.SmallText>
+            Maria gerou a Cristo segundo a natureza humana, mas quem dela nasce
+            transcende esta natureza humana – O Filho de Maria é propriamente o
+            Verbo Divino, encarnado em natureza humana – Maria, então, é
+            necessariamente mãe de Deus, posto que Jesus, o Verbo, é Deus:
+            Cristo, sendo inseparavelmente verdadeiro Deus e verdadeiro Homem,
+            faz de Maria verdadeira mãe de Deus, por não haver separação entre
+            as Naturezas humana e divina em Nosso Senhor e Salvador.
+          </S.SmallText>
+          <S.SmallText>
+            Evidentemente, Maria não é anterior ao próprio Deus Onipotente e
+            Criador de todas as coisas, nem é "deusa". Este dogma, pois, não
+            deve ser confundido: Maria não é e nem poderia ser mãe de Deus
+            segundo a Natureza Divina; entretanto, como as duas Naturezas no
+            Cristo são inseparáveis, ela foi feita, por um inescrutável Mistério
+            do próprio Deus, a um só tempo criatura, serva, filha e mãe do
+            Senhor. O título Mãe de Deus a Igreja lhe atribui como ato e reflexo
+            de sua veneração por ela e adoração exclusiva a Deus.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            22 – A Assunção de Maria
+          </S.SmallText>
+          <S.SmallText>
+            A Virgem Maria foi assunta ao Céu imediatamente após o fim de sua
+            vida terrena; seu corpo não sofreu corrupção como sucederá com os
+            homens e mulheres que ressuscitarão até o final dos tempos, passando
+            pela decomposição. A Assunção de Nossa Senhora foi transmitida pela
+            Tradição escrita e oral da Igreja. Não se encontra explicitamente na
+            Sagrada Escritura, mas está ali implícita. O fato histórico, segundo
+            relatos dos primeiros cristãos e transmitido pelos séculos de forma
+            inconteste, dá conta de que, na ocasião de Pentecostes, Maria
+            Santíssima tinha mais ou menos 47 anos de idade. Depois desse fato,
+            permaneceu ela ainda 25 anos na Terra, a educar e formar, por assim
+            dizer, a Igreja nascente, como outrora educara e protegera Deus
+            Filho em sua infância. Terminou sua missão neste mundo com a idade
+            de 72 anos, conforme a opinião mais comum.
+          </S.SmallText>
+          <S.SmallText>
+            Diversos Santos Padres da Igreja atestam que os Apóstolos foram
+            milagrosamente levados para Jerusalém na noite que precederia o
+            desenlace da Bem-aventurada Virgem Maria. S. João Damasceno, um dos
+            mais ilustres doutores da Igreja Oriental, refere que os fiéis de
+            Jerusalém, ao terem notícia do falecimento de sua Mãe querida (como
+            a chamavam), vieram em multidão prestar-lhe as últimas homenagens, e
+            que logo se multiplicaram os milagres em redor de seu corpo. Três
+            dias depois chegou o Apóstolo S. Tomé, que pediu para ver o corpo de
+            Nossa Senhora. Ao retirar-se a pedra, o corpo já não mais se
+            encontrava. Pela Virtude de seu Filho, a Virgem Santa ressuscitara.
+            Anjos retiraram seu corpo imaculado e o transportaram ao Céu, onde
+            ela vive na Glória inefável.
+          </S.SmallText>
+          <S.SmallText>
+            Estas antigas tradições da Igreja sobre o Mistério da Assunção da
+            Mãe de Deus podem ser encontradas nos escritos dos Santos Padres e
+            Doutores da Igreja dos primeiros séculos, e relatadas no Concílio
+            geral de Calcedônia, em 451.
+          </S.SmallText>
+          <S.BigText id="dogmas-papa">
+            Dogmas sobre o Papa e a Igreja:
+          </S.BigText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            23 – A Igreja foi fundada pelo Deus-Homem, Jesus Cristo
           </S.SmallText>
           <S.SmallText>
             Cristo fundou a Igreja; Ele estabeleceu os fundamentos substanciais
@@ -445,7 +542,7 @@ const DogmasCatolicos = () => {
             ).
           </S.SmallText>
           <S.SmallText style={{ fontWeight: "bold" }}>
-            21 – Cristo constituiu o Apóstolo São Pedro como primeiro entre os
+            24 – Cristo constituiu o Apóstolo São Pedro como primeiro entre os
             Apóstolos e como cabeça visível de toda a Igreja, conferindo-lhe
             imediata e pessoalmente o primado da jurisdição
           </S.SmallText>
@@ -499,7 +596,7 @@ const DogmasCatolicos = () => {
             ).
           </S.SmallText>
           <S.SmallText style={{ fontWeight: "bold" }}>
-            22 – O Papa possui o pleno e supremo poder de jurisdição sobre toda
+            25 – O Papa possui o pleno e supremo poder de jurisdição sobre toda
             Igreja, não somente nas questões de fé e costumes, mas também na
             disciplina e governo da Igreja
           </S.SmallText>
@@ -508,7 +605,7 @@ const DogmasCatolicos = () => {
             universal; supremo; pleno; ordinário; episcopal; imediato.
           </S.SmallText>
           <S.SmallText style={{ fontWeight: "bold" }}>
-            23 – O Papa é infalível quando se pronuncia ex catedra
+            26 – O Papa é infalível quando se pronuncia ex catedra
           </S.SmallText>
           <S.SmallText>
             Para compreender este dogma, convém ter na lembrança: sujeito da
@@ -544,7 +641,7 @@ const DogmasCatolicos = () => {
             Papa.
           </S.SmallText>
           <S.SmallText style={{ fontWeight: "bold" }}>
-            24 – A Igreja é infalível quando faz definição em matéria de fé e
+            27 – A Igreja é infalível quando faz definição em matéria de fé e
             costumes
           </S.SmallText>
           <S.SmallText>Estão sujeitos à infalibilidade:</S.SmallText>
@@ -561,18 +658,300 @@ const DogmasCatolicos = () => {
               </S.SmallText>
             </S.DotList>
           </ul>
+          <S.BigText id="dogmas-sacramentos">
+            Dogmas sobre os Sacramentos:
+          </S.BigText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            28 – O Batismo é verdadeiro Sacramento instituído por Jesus Cristo
+          </S.SmallText>
+          <S.SmallText>
+            Atestam as Sagradas Escrituras: "Jesus lhes disse: 'Toda autoridade
+            me foi dada no Céu e na Terra. Ide, pois, e ensinai a todas as
+            nações; batizai-as em nome do Pai, do Filho e do Espírito Santo'.”
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            29 – A Confirmação é verdadeiro e próprio Sacramento
+          </S.SmallText>
+          <S.SmallText>
+            Este Sacramento concede aos batizados a Fortaleza do Espírito Santo
+            para que se consolidem interiormente em sua vida sobrenatural e
+            confessem exteriormente com valentia sua fé em Jesus Cristo.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            30 – A Igreja recebeu de Cristo o poder de perdoar os pecados
+            cometidos após o Batismo
+          </S.SmallText>
+          <S.SmallText>
+            Foi comunicada aos Apóstolos e a seus legítimos sucessores o poder
+            de perdoar e de reter os pecados para reconciliar aos fiéis caídos
+            depois do Batismo. Cristo, que pode perdoar os pecados, deu à sua
+            Igreja o poder de perdoá-los em seu Nome: “Recebei o Espírito Santo.
+            Aqueles a quem perdoardes os pecados, serão perdoados; aqueles aos
+            quais os retiverdes (não perdoardes), serão retidos” (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/20/22,23"
+              target="blank"
+            >
+              Jo 20, 22-23
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            31 – A Confissão Sacramental dos pecados está prescrita por Direito
+            Divino e é necessária para a salvação
+          </S.SmallText>
+          <S.SmallText>
+            Basta indicar a culpa da consciência a sacerdote devidamente
+            ordenado, mediante confissão secreta.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            32 – A Eucaristia é verdadeiro Sacramento instituído por Cristo
+          </S.SmallText>
+          <S.SmallText>Atestam as Sagradas Escrituras:</S.SmallText>
+          <S.SmallText>
+            "Eu sou o Pão Vivo que desceu do Céu. Quem comer deste Pão viverá
+            eternamente. E o Pão que eu hei de dar é a minha Carne, para a
+            salvação do mundo." (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/6/51"
+              target="blank"
+            >
+              Jo 6,51
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            "Quem se alimenta da minha Carne e bebe do meu Sangue permanece em
+            Mim, e Eu nele." (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/6/56,57"
+              target="blank"
+            >
+              Jo 6, 56-57
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            "Pois a minha Carne é verdadeiramente comida e o meu Sangue é
+            verdadeiramente bebida." (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/6/55"
+              target="blank"
+            >
+              Jo 6,55
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            "O Cálice que tomamos não é a Comunhão com o Sangue de Cristo? O Pão
+            (...) não é a Comunhão com o Corpo de Cristo?" (
+            <a
+              href="https://www.bibliaonline.com.br/acf/1co/10/16"
+              target="blank"
+            >
+              I Cor 10,16
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText>
+            "Cada um se examine antes de comer desse Pão e beber desse Cálice,
+            pois aquele que come e bebe sem discernir o Corpo do Senhor, come e
+            bebe a própria condenação." (
+            <a
+              href="https://www.bibliaonline.com.br/nvi/1co/11/28-30"
+              target="blank"
+            >
+              I Cor 11, 28-30
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            33 – Cristo está Presente no Sacramento do Altar pela
+            Transubstanciação de toda a substância do pão em seu Corpo e toda
+            substância do vinho em seu Sangue
+          </S.SmallText>
+          <S.SmallText>
+            Transubstanciação é uma conversão no sentido passivo; é o trânsito
+            de uma coisa a outra. Cessam as substâncias de Pão e Vinho, pois
+            sucedem em seus lugares o Corpo e o Sangue de Cristo. A
+            Transubstanciação é uma conversão milagrosa e singular diferente das
+            conversões naturais, porque não apenas a matéria como também a forma
+            do pão e do vinho são convertidas; apenas os acidentes permanecem
+            sem mudar: continuamos vendo e experimentando fisicamente pão e
+            vinho, mas substancialmente já não o são, porque neles está
+            realmente o Corpo, o Sangue, a Alma e a Divindade de Nosso Senhor
+            Jesus Cristo.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            34 – A Unção dos enfermos é verdadeiro e próprio Sacramento
+            instituído por Cristo
+          </S.SmallText>
+          <S.SmallText>Atestam as Sagradas Escrituras:</S.SmallText>
+          <S.SmallText>
+            “Está alguém enfermo entre vós? Chame os sacerdotes da Igreja, e
+            estes façam oração sobre ele, ungindo-o com óleo em nome do Senhor.”
+            (
+            <a
+              href="https://www.bibliaonline.com.br/acf/tg/5/14"
+              target="blank"
+            >
+              Tg 5,14
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            35 – A Ordem é verdadeiro e próprio Sacramento instituído por Cristo
+          </S.SmallText>
+          <S.SmallText>
+            Existe uma hierarquia instituída por ordenação Divina, que consta de
+            Bispos, Presbíteros e Diáconos. As Sagradas Escrituras o atestam em
+            (
+            <a href="https://www.bibliaonline.com.br/nvi/fp/1/1" target="blank">
+              Fl 1,1
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            36 – O Matrimônio é verdadeiro e próprio Sacramento
+          </S.SmallText>
+          <S.SmallText>
+            Cristo restaurou o Matrimônio instituído e bendito por Deus, fazendo
+            que recobrasse seu primitivo ideal da unidade e indissolubilidade e
+            elevando-o a dignidade de Sacramento.
+          </S.SmallText>
+          <S.BigText id="dogmas-ultimas">
+            Dogmas sobre as últimas coisas:
+          </S.BigText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            37 – A Morte e sua origem
+          </S.SmallText>
+          <S.SmallText>
+            A morte é consequência do pecado primitivo. O relato bíblico da
+            Queda (
+            <a href="https://www.bibliaonline.com.br/nvi/gn/3" target="blank">
+              Gn 3
+            </a>
+            ) utiliza uma linguagem feita de imagens, mas afirma um
+            acontecimento primordial, um fato que ocorreu no início da história
+            do homem. A Revelação dá-nos a certeza de fé de que toda a história
+            humana está marcada pelo pecado original cometido livremente por
+            nossos primeiros pais, trazendo como consequência a morte. "Porque o
+            salário do pecado é a morte, mas o Dom gratuito de Deus é a vida
+            eterna, por Cristo Jesus nosso Senhor" (
+            <a
+              href="https://www.bibliaonline.com.br/acf/rm/6/23"
+              target="blank"
+            >
+              Rm 6,23
+            </a>
+            ).
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            38 – O Céu (Paraíso)
+          </S.SmallText>
+          <S.SmallText>
+            As almas dos justos, que no instante da morte se acham livres de
+            toda culpa e pena de pecado, entram no Céu.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            39 – O Inferno
+          </S.SmallText>
+          <S.SmallText>
+            As almas dos que morrem em estado de pecado mortal vão ao inferno.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            40 – O Purgatório
+          </S.SmallText>
+          <S.SmallText>
+            As almas dos justos que no instante da morte estão agravadas por
+            pecados veniais ou por penas temporais devidas pelo pecado vão ao
+            Purgatório. O Purgatório é estado de purificação.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            41 – O Fim do mundo e a Segunda vinda de Cristo
+          </S.SmallText>
+          <S.SmallText>
+            No fim do mundo, Cristo, rodeado de Majestade, virá de novo para
+            julgar os homens.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            42 – A Ressurreição dos Mortos no Último Dia
+          </S.SmallText>
+          <S.SmallText>
+            Aos que creem em Jesus e se alimentam de seu Corpo e bebem de seu
+            Sangue, Ele lhes promete a ressurreição para vida eterna de Paz e
+            Plenitude.
+          </S.SmallText>
+          <S.SmallText style={{ fontWeight: "bold" }}>
+            43 – O Juízo Universal
+          </S.SmallText>
+          <S.SmallText>
+            O Cristo, Senhor e Salvador, depois de seu Retorno, julgará a todos
+            os homens.
+          </S.SmallText>
+          <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+            Referências
+          </S.DefaultText>
+          <S.SmallText
+            style={{
+              paddingBottom: "30px",
+              borderBottom: "1px solid #D4D4D4",
+            }}
+          >
+            <span>
+              BOURGEOIS, Henry. História dos Dogmas 3 - Os sinais da salvação,
+              Vol.s 1,2,3. São Paulo: Loyola, 2005.
+            </span>
+            <br />
+            <br />
+            <span>
+              THEOBALD, Christoph; SESBOUE, Bernard. História dos dogmas tomo 4,
+              a Palavra da Salvação. São Paulo: Loyola, 2006, pp. 60 ss.
+            </span>
+            <br />
+            <br />
+            <span>
+              VIDIGAL, Pe. José Raimundo. Catecismo do Católico de Hoje.
+              Aparecida: Santuário.
+            </span>
+            <br /> <br />
+            <span>
+              Catecismo da Igreja Católica (CIC),§88 a §93 e §889 a §891.
+              MIRAVALLE, Mark. Introduction to Mary, Goleta: Queenship
+              Publishing, 1993, pp. 56-64
+            </span>
+            <br />
+            <br />
+            <span>
+              BROWN, Raymond Edward. Mary in the New Testament, Philadelphia:
+              Fortress Press, 1978, p. 273.
+            </span>
+            <br />
+            <br />
+            <span>
+              Verbete "Definição dogmática", da Enciclopédia Católica Popular,
+              em{" "}
+              <a href="http://ecclesia.pt/catolicopedia/" target="_blank">
+                http://ecclesia.pt/catolicopedia/
+              </a>{" "}
+              Acesso 27/8/013.
+            </span>
+          </S.SmallText>
         </div>
         <S.LinksContainer>
           <h4>O que você vai encontrar neste artigo?</h4>
-          <a href="#oque-sacramento">O que é um sacramento?</a>
-          <a href="#oque-batismo">O que é o sacramento do Batismo?</a>
-          <a href="#batismo-biblia">Sacramento do Batismo na Bíblia</a>
-          <a href="#batismo-celebrado">
-            Como é celebrado o sacramento do Batismo?
+          <a href="#oque-dogma">O que é um dogma?</a>
+          <a href="#43-dogmas">
+            São 43 dogmas proclamados pela Igreja, divididos em 8 categorias
           </a>
-          <a href="#batismo-diaria">
-            Sacramento do Batismo na nossa vida diária
-          </a>
+          <a href="#dogmas-deus">Dogmas sobre Deus</a>
+          <a href="#dogmas-jesus">Dogmas sobre Jesus Cristo</a>
+          <a href="#dogmas-criacao">Dogmas sobre a criação do mundo</a>
+          <a href="#dogmas-humano">Dogmas sobre o ser humano</a>
+          <a href="#dogmas-marianos">Dogmas marianos</a>
+          <a href="#dogmas-papa">Dogmas sobre o Papa e a Igreja</a>
+          <a href="#dogmas-sacramentos">Dogmas sobre os Sacramentos</a>
+          <a href="#dogmas-ultimas">Dogmas sobre as últimas coisas</a>
         </S.LinksContainer>
       </div>
     </div>
