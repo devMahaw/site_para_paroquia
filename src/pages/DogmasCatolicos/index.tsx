@@ -14,6 +14,13 @@ const DogmasCatolicos = () => {
           alt="Doutores da Igreja"
         />
       </div>
+      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+        <source
+          src="assets/dogmas_catolicos/dogmasCatolicos.mp3"
+          type="audio/mp3"
+        />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
       <div style={{ display: "flex" }}>
         <div style={{ width: "80%" }}>
           <S.BigText>Os dogmas da Igreja Católica</S.BigText>
@@ -376,9 +383,12 @@ const DogmasCatolicos = () => {
           </S.SmallText>
           <S.SmallText>
             Declaram as Sagradas Escrituras: "O Senhor Deus formou o homem do pó
-            da terra e soprou em seu rosto o alento da vida" (Gn 2,7). / "Antes
-            que o pó volte à terra, de onde saiu, e o espírito retorne a
-            Deus..." (
+            da terra e soprou em seu rosto o alento da vida" (
+            <a href="https://www.bibliaonline.com.br/acf/gn/2/7" target="blank">
+              Gn 2,7
+            </a>
+            ). / "Antes que o pó volte à terra, de onde saiu, e o espírito
+            retorne a Deus..." (
             <a
               href="https://www.bibliaonline.com.br/acf/ec/12/7"
               target="blank"
