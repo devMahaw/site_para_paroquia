@@ -12,7 +12,9 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <RoutesVar />
+        <section>
+          <RoutesVar />
+        </section>
       </main>
       <footer>
         <Footer />
