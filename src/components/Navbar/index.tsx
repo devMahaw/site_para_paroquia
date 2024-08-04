@@ -106,14 +106,69 @@ const Navbar = () => {
                       Dogmas da Igreja Católica
                     </S.NavbarSubItemsText>
                   </li>
-                  <li>
-                    <S.NavbarSubItemsText href="">
-                      Decálogo e mandamentos da igreja
-                    </S.NavbarSubItemsText>
-                  </li>
+                  <S.CatequeseList>
+                    <S.NavbarText>Os 10 mandamentos</S.NavbarText>
+                    <S.NavbarSubSubMenu style={{ left: "-127%" }}>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Amar a Deus sobre todas as coisas
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não tomar seu santo nome em vão
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Guardar domingos e festas
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Honrar pai e mãe
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não matarás
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não pecar contra a castidade
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não furtar
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não levantar falso testemunho
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não desejar a mulher do próximo
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Não cobiçar as coisas alheias
+                        </S.NavbarSubItemsText>
+                      </li>
+                      <li>
+                        <S.NavbarSubItemsText href="">
+                          Os 5 mandamentos da igreja
+                        </S.NavbarSubItemsText>
+                      </li>
+                    </S.NavbarSubSubMenu>
+                  </S.CatequeseList>
                   <S.CatequeseList>
                     <S.NavbarText>Os 7 sacramentos</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-63.8%" }}>
+                    <S.NavbarSubSubMenu style={{ left: "-78%" }}>
                       <li>
                         <S.NavbarSubItemsText
                           href="#"
@@ -157,7 +212,7 @@ const Navbar = () => {
                   </S.CatequeseList>
                   <li>
                     <S.NavbarSubItemsText href="">
-                      Os 7 dons do Espírito Santo
+                      Os dons do Espírito Santo
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
@@ -167,7 +222,7 @@ const Navbar = () => {
                   </li>
                   <S.CatequeseList>
                     <S.NavbarText>Virtudes</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-37%" }}>
+                    <S.NavbarSubSubMenu style={{ left: "-45%" }}>
                       <li>
                         <S.NavbarSubItemsText href="">
                           Cardeais
@@ -190,7 +245,7 @@ const Navbar = () => {
                   </li>
                   <S.CatequeseList>
                     <S.NavbarText>Os 4 dogmas marianos</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-64.6%" }}>
+                    <S.NavbarSubSubMenu style={{ left: "-80%" }}>
                       <li>
                         <S.NavbarSubItemsText>
                           Maternidade Divina

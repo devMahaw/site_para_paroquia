@@ -634,7 +634,7 @@ const Batismo = () => {
           </S.SmallText>
         </div>
         <S.LinksContainer>
-          <h4>O que você vai encontrar neste artigo?</h4>
+          <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-sacramento">O que é um sacramento?</a>
           <a href="#oque-batismo">O que é o sacramento do Batismo?</a>
           <a href="#batismo-biblia">Sacramento do Batismo na Bíblia</a>

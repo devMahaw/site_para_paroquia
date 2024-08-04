@@ -2656,7 +2656,7 @@ const Rosario = () => {
             </S.SmallText>
           </div>
           <S.LinksContainer>
-            <h4>O que você vai encontrar neste artigo?</h4>
+            <h3>O que você vai encontrar neste artigo?</h3>
             <a href="#oque-rosario">O que é o rosário?</a>
             <a href="#origem-oracao">Qual a origem desta oração?</a>
             <a href="#como-reza">Como rezá-lo?</a>

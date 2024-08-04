@@ -949,7 +949,7 @@ const DogmasCatolicos = () => {
           </S.SmallText>
         </div>
         <S.LinksContainer>
-          <h4>O que você vai encontrar neste artigo?</h4>
+          <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-dogma">O que é um dogma?</a>
           <a href="#43-dogmas">
             São 43 dogmas proclamados pela Igreja, divididos em 8 categorias

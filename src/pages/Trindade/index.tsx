@@ -442,7 +442,7 @@ const Trindade = () => {
           </S.SmallText>
         </div>
         <S.LinksContainer>
-          <h4>O que você vai encontrar neste artigo?</h4>
+          <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-trindade">O que é a Santíssima Trindade?</a>
           <a href="#trindade-escrituras">
             A Santíssima Trindade nas Escrituras

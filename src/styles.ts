@@ -84,7 +84,7 @@ export const LinksContainer = styled.div`
   position: sticky;
   top: 120px;
 
-  h4 {
+  h3 {
     font-weight: bold;
     font-size: 20px;
     line-height: 120%;
