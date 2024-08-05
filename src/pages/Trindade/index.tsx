@@ -264,7 +264,7 @@ const Trindade = () => {
           <S.SmallText>
             “No princípio, Deus criou o céu e a terra. A terra era sem forma e
             vazia, e sobre o abismo havia trevas, e o espírito de Deus pairava
-            sobre as águas”.&nbsp;
+            sobre as águas”.
             <sup>
               <a
                 href="https://www.bibliaonline.com.br/acf/gn/1/1,2"
@@ -276,7 +276,7 @@ const Trindade = () => {
           </S.SmallText>
           <S.SmallText>
             “No princípio era a Palavra, e a Palavra estava com Deus, e a
-            Palavra era Deus. Ela estava no princípio com Deus”.&nbsp;
+            Palavra era Deus. Ela estava no princípio com Deus”.
             <sup>
               <a
                 href="https://www.bibliaonline.com.br/acf/jo/1/1-3"
@@ -289,7 +289,7 @@ const Trindade = () => {
           <S.SmallText>
             “Jesus disse: Eu ainda não subi para junto do Pai, mas vai dizer aos
             meus irmãos que eu subo para junto do meu Pai e vosso Pai, meu Deus
-            e vosso Deus”.&nbsp;
+            e vosso Deus”.
             <sup>
               <a
                 href="https://www.bibliaonline.com.br/nvi/jo/20/17"
@@ -303,7 +303,7 @@ const Trindade = () => {
             “Depois de batizado, Jesus saiu logo da água. Então o céu se abriu
             para ele, e viu o Espírito de Deus descer como pomba e vir sobre
             ele. Uma voz do céu disse: ‘Este é o meu Filho amado, no qual eu
-            ponho o meu agrado’”.&nbsp;
+            ponho o meu agrado’”.
             <sup>
               <a
                 href="https://www.bibliaonline.com.br/acf/mt/3/16,17"
@@ -373,7 +373,7 @@ const Trindade = () => {
             compreender por completo, na eterna glória, essa verdade de fé.
           </S.SmallText>
           <S.DefaultText style={{ fontWeight: "bold", marginTop: "20px" }}>
-            Elevação à Santíssima Trindade:{" "}
+            Elevação à Santíssima Trindade:
           </S.DefaultText>
           <S.SmallText>
             <i>
@@ -431,14 +431,14 @@ const Trindade = () => {
             style={{
               paddingBottom: "30px",
               borderBottom: "1px solid #D4D4D4",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <span>1. Gn, 1,1-2</span>
-            <br />
             <span>2. Jo 1, 1-3</span>
-            <br />
             <span>3. Jo 20, 17</span>
-            <br /> <span>4. Mt 3,16-17</span>
+            <span>4. Mt 3,16-17</span>
           </S.SmallText>
         </div>
         <S.LinksContainer>

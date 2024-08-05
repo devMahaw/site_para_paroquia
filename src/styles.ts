@@ -65,6 +65,7 @@ export const SmallText = styled.p`
   a {
     color: ${colors.darkBlue};
     font-weight: bold;
+    margin: 5px;
   }
 
   span {

@@ -81,7 +81,7 @@ const Rosario = () => {
               com os nossos tempos. Por exemplo, rezavam os 150 salmos por dia,
               em coro na igreja, como uma oração diária. Enquanto outros
               lavravam o solo sob o sol duro, outros rezavam ao sol que nasce do
-              alto.&nbsp;
+              alto.
               <sup>
                 <a
                   href="https://www.bible.com/pt/bible/211/LUK.1.78-79.NTLH"
@@ -155,7 +155,7 @@ const Rosario = () => {
               dezenas de contas menores e maiores. Dessa forma, a cristandade
               quis organizar a vida de Cristo em 5 mistérios, referindo-se
               talvez teologicamente ao Pentateuco, uma vez que a nova lei “faço
-              novas todas as coisas”&nbsp;
+              novas todas as coisas”
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/ap/21/5"
@@ -164,7 +164,7 @@ const Rosario = () => {
                   2
                 </a>
               </sup>
-              , e a verdadeira lei “Eu sou a verdade, o caminho e a vida”&nbsp;
+              , e a verdadeira lei “Eu sou a verdade, o caminho e a vida”
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/jo/14/6"
@@ -181,7 +181,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No entanto, o que nunca deve ser esquecido é que cada Santo
-              Rosário é como aquela passagem do Evangelho&nbsp;
+              Rosário é como aquela passagem do Evangelho
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/9"
@@ -208,8 +208,8 @@ const Rosario = () => {
                   6
                 </a>
               </sup>
-              &nbsp;onde Jesus subiu a uma montanha para rezar, levando consigo
-              os seus três discípulos favoritos, Pedro, Tiago e João. E enquanto
+              onde Jesus subiu a uma montanha para rezar, levando consigo os
+              seus três discípulos favoritos, Pedro, Tiago e João. E enquanto
               rezava, o seu corpo foi transfigurado. A sua roupa tornou-se mais
               branca do que a neve, e o seu rosto mais brilhante do que o sol. E
               Moisés e Elias apareceram e falaram-lhe do que lhe estava prestes
@@ -296,7 +296,7 @@ const Rosario = () => {
               </S.DotList>
               <S.DotList>
                 <S.SmallText>
-                  Quartas e domingos: quando oramos os mistérios gloriosos;{" "}
+                  Quartas e domingos: quando oramos os mistérios gloriosos;
                 </S.SmallText>
               </S.DotList>
               <S.DotList>
@@ -357,7 +357,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               “Rezem o terço, todos os dias, para alcançarem a paz para o mundo
-              e o fim da guerra.”&nbsp;
+              e o fim da guerra.”
               <sup>
                 <a
                   href="https://www.fatima.pt/files/upload/fontes/F002_Memorias1.pdf"
@@ -385,7 +385,7 @@ const Rosario = () => {
               fazer, levantava o braço e mostrava-me o terço. Se Ihe dizia que
               viesse brincar, que depois rezava conosco, respondia: - Depois
               também rezo. Não te lembras que Nossa Senhora disse que tinha de
-              rezar muitos terços?”&nbsp;
+              rezar muitos terços?”
               <sup>
                 <a
                   href="https://www.fatima.pt/files/upload/fontes/F002_Memorias1.pdf"
@@ -411,18 +411,19 @@ const Rosario = () => {
               style={{
                 paddingBottom: "30px",
                 borderBottom: "1px solid #D4D4D4",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <span>1. Lc 1,78-79</span>
-              <br /> <span>2. Apocalipse 21,5</span>
-              <br /> <span>3. Jo 14, 6</span>
-              <br /> <span>4. Lc. 9</span>
-              <br /> <span>5. Mc. 6 </span>
-              <br /> <span>6. Mt. 10</span>
-              <br />
+              <span>2. Apocalipse 21,5</span>
+              <span>3. Jo 14, 6</span>
+              <span>4. Lc. 9</span>
+              <span>5. Mc. 6 </span>
+              <span>6. Mt. 10</span>
+
               <span>7. Memórias da Ir. Lúcia, p.176</span>
-              <br /> <span>8. Memórias da Ir. Lúcia, p.143</span>
-              <br />
+              <span>8. Memórias da Ir. Lúcia, p.143</span>
             </S.SmallText>
             <S.BigText id="oque-terco">O que é a oração do terço?</S.BigText>
             <S.SmallText>
@@ -444,8 +445,7 @@ const Rosario = () => {
                 <span>
                   — “Podemos dizer que a recitação do Rosário tem o seu modelo
                   precisamente em Maria, porque consiste em contemplar os
-                  mistérios de Cristo em união espiritual com a Mãe do
-                  Senhor.”&nbsp;
+                  mistérios de Cristo em união espiritual com a Mãe do Senhor.”
                   <sup>
                     <a
                       href="https://www.vatican.va/content/benedict-xvi/pt/audiences/2011/documents/hf_ben-xvi_aud_20111228.html#:~:text=Audiência%20Geral%20de%2028%20de,Família%20de%20Nazaré%20%7C%20Bento%20XVI&text=Queridos%20irmãos%20e%20irmãs%2C,liturgia%20de%20todos%20estes%20dias."
@@ -473,7 +473,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               Assim, ao recitar cada conjunto de mistérios, os fiéis têm a
-              oportunidade de{" "}
+              oportunidade de
               <b>se aprofundar em toda a narrativa da redenção</b>. E, assim,
               reconhecer que tudo o que Jesus viveu e todas as coisas que ele
               realizou foi tendo em vista a nossa salvação. Desde o seu
@@ -494,7 +494,7 @@ const Rosario = () => {
               santidade. A contemplação dos mistérios do terço, portanto, além
               de ser um pedido incessante de Nossa Senhora, “ajuda a fazer
               brotar da nossa fé uma abundante e alegre messe de frutos, porque
-              incita maravilhosamente a alma a propósitos de virtude.”&nbsp;
+              incita maravilhosamente a alma a propósitos de virtude.”
               <sup>
                 <a
                   href="https://www.vatican.va/content/leo-xiii/pt/encyclicals/documents/hf_l-xiii_enc_08091892_magnae-dei-matris.html"
@@ -534,7 +534,7 @@ const Rosario = () => {
               A prática da oração do terço nos conduz à contemplação dos
               principais episódios da vida de Cristo. Os Mistérios Gozosos, que
               constituem o primeiro ciclo do Rosário, são marcados, sobretudo,
-              pela alegria que emana da Encarnação.&nbsp;
+              pela alegria que emana da Encarnação.
               <sup>
                 <a
                   href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
@@ -543,9 +543,9 @@ const Rosario = () => {
                   3
                 </a>
               </sup>
-              &nbsp;O anúncio do anjo, em particular, inaugura de forma concreta
-              a história de nossa redenção, envolvendo toda a criação em
-              regozijo diante da Encarnação do Verbo Divino.
+              O anúncio do anjo, em particular, inaugura de forma concreta a
+              história de nossa redenção, envolvendo toda a criação em regozijo
+              diante da Encarnação do Verbo Divino.
             </S.SmallText>
             <S.SmallText>
               Neste mistério, exploraremos cada episódio dos Mistérios Gozosos,
@@ -587,7 +587,7 @@ const Rosario = () => {
               No primeiro mistério gozoso, somos transportados para o humilde
               lar de Nazaré, onde o Arcanjo Gabriel é enviado por Deus para
               anunciar a boa-nova a Maria. O episódio é narrado no Evangelho de
-              Lucas&nbsp;
+              Lucas
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/1/26-38"
@@ -605,7 +605,7 @@ const Rosario = () => {
                   Maria, pois encontraste graça diante de Deus. Eis que
                   conceberás e darás à luz um filho, e lhe porás o nome de
                   Jesus.” […] Então disse Maria: “Eis aqui a serva do Senhor.
-                  Faça-se em mim segundo a tua palavra.”&nbsp;
+                  Faça-se em mim segundo a tua palavra.”
                   <sup>
                     <a
                       href="https://www.bibliaonline.com.br/acf/lc/1/28"
@@ -689,7 +689,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               O segundo mistério gozoso leva-nos à emocionante visita da Virgem
-              Maria à sua prima Isabel.&nbsp;
+              Maria à sua prima Isabel.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/1/39-56"
@@ -698,16 +698,15 @@ const Rosario = () => {
                   8
                 </a>
               </sup>
-              &nbsp;Maria, logo após saber que seria mãe do Salvador, por obra
-              do Espírito Santo, parte apressadamente para visitar Isabel, que,
-              por graça divina, também está grávida. Este encontro é marcado
-              pela alegria e pelo reconhecimento sobrenatural, culminando na
+              Maria, logo após saber que seria mãe do Salvador, por obra do
+              Espírito Santo, parte apressadamente para visitar Isabel, que, por
+              graça divina, também está grávida. Este encontro é marcado pela
+              alegria e pelo reconhecimento sobrenatural, culminando na
               exclamação inspirada de Isabel:
               <br />
               <cite>
                 <span>
-                  — “Donde me vem esta honra de vir a mim a mãe de meu
-                  Senhor?”&nbsp;
+                  — “Donde me vem esta honra de vir a mim a mãe de meu Senhor?”
                   <sup>
                     <a
                       href="https://www.bibliaon.com/versiculo/lucas_1_43/"
@@ -794,7 +793,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No terceiro mistério gozoso, mergulhamos na adoração silenciosa do
-              Natal.&nbsp;
+              Natal.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/lc/2/1-20"
@@ -803,9 +802,9 @@ const Rosario = () => {
                   10
                 </a>
               </sup>
-              &nbsp;Em meio a simplicidade, a pobreza e ao frio de uma gruta em
-              Belém, Maria dá à luz Jesus Cristo — e “os céus e a terra se
-              regozijaram pelo nascimento do Salvador.”&nbsp;
+              Em meio a simplicidade, a pobreza e ao frio de uma gruta em Belém,
+              Maria dá à luz Jesus Cristo — e “os céus e a terra se regozijaram
+              pelo nascimento do Salvador.”
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/lc/2/11"
@@ -814,8 +813,8 @@ const Rosario = () => {
                   11
                 </a>
               </sup>
-              &nbsp; A meditação nos conduz, desse modo, à humildade da
-              manjedoura, à alegria dos pastores e à reverência dos Reis Magos.
+              A meditação nos conduz, desse modo, à humildade da manjedoura, à
+              alegria dos pastores e à reverência dos Reis Magos.
             </S.SmallText>
             <S.SmallText>
               Contemplamos aqui o extraordinário acontecimento do Filho de Deus
@@ -825,7 +824,7 @@ const Rosario = () => {
               simplicidade e no dom da vida. Além disso, o mistério do Natal
               faz-nos meditar sobre a importância de estar sempre vigilantes,
               esperando pela segunda vinda de Cristo no fim dos tempos, pois não
-              sabemos o dia ou a hora em que Ele voltará.&nbsp;
+              sabemos o dia ou a hora em que Ele voltará.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/25/13"
@@ -887,7 +886,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               Maria e José foram apresentar o Menino Jesus no Templo, este é o
-              quarto mistério gozoso.&nbsp;
+              quarto mistério gozoso.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/2/22-38"
@@ -896,9 +895,9 @@ const Rosario = () => {
                   13
                 </a>
               </sup>
-              &nbsp; A sua contemplação nos leva a refletir sobre a entrega de
-              Maria e José ao apresentarem o Filho de Deus, aceitando as
-              palavras proféticas de Simeão.
+              A sua contemplação nos leva a refletir sobre a entrega de Maria e
+              José ao apresentarem o Filho de Deus, aceitando as palavras
+              proféticas de Simeão.
               <br />
               <cite>
                 <span>
@@ -906,7 +905,7 @@ const Rosario = () => {
                   e de soerguimento para muitos homens em Israel, e a ser um
                   sinal que provocará contradições, a fim de serem revelados os
                   pensamentos de muitos corações. E uma espada transpassará a
-                  tua alma.”&nbsp;
+                  tua alma.”
                   <sup>
                     <a
                       href="https://www.bible.com/pt/bible/211/LUK.2.34-35.NTLH"
@@ -982,7 +981,7 @@ const Rosario = () => {
             <S.SmallText>
               No quinto mistério gozoso, vivenciamos a aflição de Maria e José
               ao perderem o jovem Jesus durante a peregrinação anual a
-              Jerusalém.&nbsp;
+              Jerusalém.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/2/41-52"
@@ -991,14 +990,14 @@ const Rosario = () => {
                   15
                 </a>
               </sup>
-              &nbsp;Jesus estava entre os doutores da lei, que se admiravam com
-              as Suas respostas tão cheias de sabedoria. Sobre este
-              acontecimento, Lucas narra que
+              Jesus estava entre os doutores da lei, que se admiravam com as
+              Suas respostas tão cheias de sabedoria. Sobre este acontecimento,
+              Lucas narra que
               <br />
               <cite>
                 <span>
                   — “Maria conservava todas essas palavras, meditando-as no seu
-                  coração.”&nbsp;
+                  coração.”
                   <sup>
                     <a
                       href="https://www.bibliaonline.com.br/nvi/lc/2/19"
@@ -1046,31 +1045,33 @@ const Rosario = () => {
               style={{
                 paddingBottom: "30px",
                 borderBottom: "1px solid #D4D4D4",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <span>
                 1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
               </span>
-              <br />
+
               <span>
                 2. Papa Bento XVI, Audiência Geral, 28 de dezembro de 2011
               </span>
-              <br />
+
               <span>3. Papa Leão XIII, Carta Encíclica Magnae Dei Matris</span>
-              <br /> <span>4. Lc1, 26-38</span>
-              <br /> <span>5. Lc 1, 28 </span>
-              <br /> <span>6. Lc 1, 30</span>
-              <br />
+              <span>4. Lc1, 26-38</span>
+              <span>5. Lc 1, 28 </span>
+              <span>6. Lc 1, 30</span>
+
               <span>7. Lc 1, 38</span>
-              <br /> <span>8. Lc 1, 39-56</span>
-              <br /> <span>9. Lc 1, 43</span>
-              <br /> <span>10. Lc 2, 1-20</span>
-              <br /> <span>11. Lc 2, 11</span>
-              <br /> <span>12. Mt 25, 13</span>
-              <br /> <span>13. Lc 2, 22-38</span>
-              <br /> <span>14. Lc 2, 34-35</span>
-              <br /> <span>15. Lucas 2, 41-52</span>
-              <br /> <span>16. Lc 2, 19</span>
+              <span>8. Lc 1, 39-56</span>
+              <span>9. Lc 1, 43</span>
+              <span>10. Lc 2, 1-20</span>
+              <span>11. Lc 2, 11</span>
+              <span>12. Mt 25, 13</span>
+              <span>13. Lc 2, 22-38</span>
+              <span>14. Lc 2, 34-35</span>
+              <span>15. Lucas 2, 41-52</span>
+              <span>16. Lc 2, 19</span>
             </S.SmallText>
             <img
               style={{
@@ -1145,7 +1146,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No primeiro mistério luminoso, somos conduzidos às águas do Rio
-              Jordão, onde Cristo é batizado.&nbsp;
+              Jordão, onde Cristo é batizado.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/3/13-17"
@@ -1154,16 +1155,14 @@ const Rosario = () => {
                   1
                 </a>
               </sup>
-              &nbsp; Neste episódio, Jesus, mesmo não tendo pecado, aceita o
-              batismo ministrado por João Batista. Este ato de humildade e
-              obediência simboliza a consagração de Jesus ao cumprimento da
-              vontade divina. É o momento que do Céu ouve-se a voz do pai
-              dizendo
+              Neste episódio, Jesus, mesmo não tendo pecado, aceita o batismo
+              ministrado por João Batista. Este ato de humildade e obediência
+              simboliza a consagração de Jesus ao cumprimento da vontade divina.
+              É o momento que do Céu ouve-se a voz do pai dizendo
               <br />
               <cite>
                 <span>
-                  — “Eis meu Filho muito amado em quem ponho minha
-                  afeição”.&nbsp;
+                  — “Eis meu Filho muito amado em quem ponho minha afeição”.
                   <sup>
                     <a
                       href="https://www.bibliaonline.com.br/acf/mt/3/17"
@@ -1252,7 +1251,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No segundo mistério luminoso, testemunhamos a autorrevelação de
-              Jesus nas Bodas de Caná&nbsp;
+              Jesus nas Bodas de Caná
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/jo/2/1-11"
@@ -1261,7 +1260,7 @@ const Rosario = () => {
                   3
                 </a>
               </sup>
-              &nbsp; Durante uma festa de casamento, Jesus realiza seu primeiro
+              Durante uma festa de casamento, Jesus realiza seu primeiro
               milagre, por intercessão de sua mãe, transformando água em vinho.
               Neste momento, ele não só revela sua divindade e poder sobre a
               natureza, mas também abre os corações dos discípulos à fé.
@@ -1276,7 +1275,7 @@ const Rosario = () => {
               nossa participação na operação da graça: “Enchei as talhas de
               água”. Além disso, a presença de Jesus nas bodas de Caná leva-nos
               a compreender o matrimônio como um sinal eficaz da presença de
-              Deus.&nbsp;
+              Deus.
               <sup>
                 <a
                   href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
@@ -1332,7 +1331,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No terceiro mistério luminoso, deparamo-nos com o anúncio do Reino
-              de Deus por Jesus durante seu ministério terreno&nbsp;
+              de Deus por Jesus durante seu ministério terreno
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mc/1/14,15"
@@ -1346,7 +1345,7 @@ const Rosario = () => {
               <cite>
                 <span>
                   — “Completou-se o tempo e o Reino de Deus está próximo; fazei
-                  penitência e crede no Evangelho”.&nbsp;
+                  penitência e crede no Evangelho”.
                   <sup>
                     <a
                       href="https://www.bibliaonline.com.br/nvi/mc/1/15"
@@ -1414,7 +1413,7 @@ const Rosario = () => {
             <S.SmallText>
               No quarto mistério luminoso, somos conduzidos ao Monte Tabor, onde
               Jesus, diante dos apóstolos Pedro, Tiago e João, é transfigurado e
-              resplandece em glória divina.&nbsp;
+              resplandece em glória divina.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/17/1-8"
@@ -1423,8 +1422,8 @@ const Rosario = () => {
                   7
                 </a>
               </sup>
-              &nbsp; Ao contemplarmos a Transfiguração, elevamos os nossos olhos
-              e nossos corações para as realidades celestiais, reconhecendo a
+              Ao contemplarmos a Transfiguração, elevamos os nossos olhos e
+              nossos corações para as realidades celestiais, reconhecendo a
               verdadeira identidade de Jesus como o Filho de Deus.
             </S.SmallText>
             <S.SmallText>
@@ -1442,7 +1441,7 @@ const Rosario = () => {
               meditar sobre a vinda gloriosa de Cristo e a transformação do
               nosso corpo miserável em corpo glorioso. O que nos lembra também
               que é necessário “passar por muitas tribulações para entrar no
-              Reino de Deus”.&nbsp;
+              Reino de Deus”.
               <sup>
                 <a
                   href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html"
@@ -1498,7 +1497,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               O quinto mistério nos conduz à Última Ceia, quando Jesus institui
-              a Eucaristia, antecipando sua entrega na Cruz.&nbsp;
+              a Eucaristia, antecipando sua entrega na Cruz.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/26/26-30"
@@ -1507,8 +1506,8 @@ const Rosario = () => {
                   9
                 </a>
               </sup>
-              &nbsp; Neste mistério, mergulhamos na profundidade do amor
-              sacrificial de Cristo.
+              Neste mistério, mergulhamos na profundidade do amor sacrificial de
+              Cristo.
             </S.SmallText>
             <S.SmallText>
               Na contemplação deste mistério, somos chamados a reconhecer a
@@ -1543,21 +1542,23 @@ const Rosario = () => {
               style={{
                 paddingBottom: "30px",
                 borderBottom: "1px solid #D4D4D4",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <span>1. Mt 3, 13-17</span>
-              <br />
+
               <span>2. Mt 3, 17</span>
-              <br />
+
               <span>3. Jo 2, 1-11</span>
-              <br />
+
               <span>4. CIC, 1613</span>
-              <br /> <span>5. Marcos 1, 14-15</span>
-              <br /> <span>6. Mc 1, 15 </span>
-              <br /> <span>7. Mt 17, 1-8</span>
-              <br />
+              <span>5. Marcos 1, 14-15</span>
+              <span>6. Mc 1, 15 </span>
+              <span>7. Mt 17, 1-8</span>
+
               <span>8. CIC, 556</span>
-              <br /> <span>9. Mt 26, 26-30</span>
+              <span>9. Mt 26, 26-30</span>
             </S.SmallText>
             <img
               style={{
@@ -1589,7 +1590,7 @@ const Rosario = () => {
               séculos, encontrou na Quaresma, sobretudo com o exercício da Via
               Sacra, uma maneira de mergulhar nos diferentes momentos da Paixão,
               reconhecendo nesses eventos o ápice da revelação do amor divino e
-              a fonte da nossa salvação.&nbsp;
+              a fonte da nossa salvação.
               <sup>
                 <a
                   href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
@@ -1647,7 +1648,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No primeiro mistério doloroso, deparamo-nos com a agonia de Jesus
-              no Horto das Oliveiras, onde Ele chega a transpirar sangue.&nbsp;
+              no Horto das Oliveiras, onde Ele chega a transpirar sangue.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/22/39-46"
@@ -1656,16 +1657,16 @@ const Rosario = () => {
                   2
                 </a>
               </sup>
-              &nbsp; Antecipando a sua crucificação, Jesus retira-se para rezar.
-              Em um estado de angústia profunda, Ele roga ao Pai para afastar
-              dele o cálice da Paixão, mas submete-se à vontade divina.
+              Antecipando a sua crucificação, Jesus retira-se para rezar. Em um
+              estado de angústia profunda, Ele roga ao Pai para afastar dele o
+              cálice da Paixão, mas submete-se à vontade divina.
             </S.SmallText>
             <S.SmallText>
               Neste momento, meditamos sobre a humanidade genuína de Jesus, que
               se manifesta ao implorar ao Pai para afastar dele o cálice da
               morte na Cruz. No entanto, de todos os tormentos que Jesus
               passaria, o que mais o afligia era saber que — apesar de todas as
-              suas penas — ainda se cometeriam tantos pecados no mundo.&nbsp;
+              suas penas — ainda se cometeriam tantos pecados no mundo.
               <sup>
                 <a
                   href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
@@ -1674,8 +1675,8 @@ const Rosario = () => {
                   3
                 </a>
               </sup>
-              &nbsp; Assim, contemplamos o grande amor de Deus por nós que,
-              mesmo sabendo disso, segue firme na sua decisão até a Cruz,
+              Assim, contemplamos o grande amor de Deus por nós que, mesmo
+              sabendo disso, segue firme na sua decisão até a Cruz,
               entregando-se ao plano redentor. Além disso, este mistério
               leva-nos a pensar sobre a nossa própria capacidade de aceitar a
               vontade de Deus em meio às adversidades, buscando a oração e
@@ -1726,7 +1727,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No segundo mistério doloroso, dirigimos nosso olhar à flagelação
-              de Jesus.&nbsp;
+              de Jesus.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/27/26"
@@ -1735,7 +1736,7 @@ const Rosario = () => {
                   4
                 </a>
               </sup>
-              &nbsp; Nesse ato de crueldade, Jesus é impiedosamente açoitado por
+              Nesse ato de crueldade, Jesus é impiedosamente açoitado por
               soldados romanos, suportando dores indescritíveis por amor à
               humanidade — cada um de nós, em particular. Meditar sobre essa
               flagelação nos mergulha na profundidade do sacrifício de Cristo
@@ -1748,7 +1749,7 @@ const Rosario = () => {
               meditação. Eles revelam que nesse tormento Jesus deveria
               naturalmente ter morrido — uma vez que foram muitos algozes.
               Contudo, por virtude divina, quis conservar a sua vida para sofrer
-              tormentos ainda maiores por amor a nós.&nbsp;
+              tormentos ainda maiores por amor a nós.
               <sup>
                 <a
                   href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
@@ -1757,7 +1758,7 @@ const Rosario = () => {
                   5
                 </a>
               </sup>
-              &nbsp; Ao contemplar este cenário podemos examinar nossas próprias
+              Ao contemplar este cenário podemos examinar nossas próprias
               fraquezas e pecados, reconhecendo a necessidade de redenção e
               renovando nosso compromisso com uma vida alinhada aos ensinamentos
               de Cristo, que suportou a flagelação — e outros tormentos — para
@@ -1813,7 +1814,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No terceiro mistério doloroso, voltamos nossa atenção à coroação
-              de espinhos em Nosso Senhor.&nbsp;
+              de espinhos em Nosso Senhor.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/mt/27/29"
@@ -1822,9 +1823,8 @@ const Rosario = () => {
                   6
                 </a>
               </sup>
-              &nbsp; Jesus é cruelmente zombado e torturado por soldados
-              romanos, que o coroam com espinhos, escarnecendo de Sua realeza
-              divina.
+              Jesus é cruelmente zombado e torturado por soldados romanos, que o
+              coroam com espinhos, escarnecendo de Sua realeza divina.
             </S.SmallText>
             <S.SmallText>
               Aqui meditamos o tormento mais prolongado da paixão, pois Jesus o
@@ -1833,7 +1833,7 @@ const Rosario = () => {
               <cite>
                 <span>
                   — “E o manso Cordeiro deixava atormentar-se ao gosto deles,
-                  sem dizer palavras, sem se lamentar.”&nbsp;
+                  sem dizer palavras, sem se lamentar.”
                   <sup>
                     <a
                       href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
@@ -1900,7 +1900,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No quarto mistério doloroso acompanhamos a penosa subida de Jesus
-              ao Calvário.&nbsp;
+              ao Calvário.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/jo/19/16,17"
@@ -1909,15 +1909,15 @@ const Rosario = () => {
                   8
                 </a>
               </sup>
-              &nbsp; Jesus, exausto e carregando a cruz, caminha em direção ao
-              local da crucificação. Jesus carrega em seus ombros o instrumento
-              de sua própria morte. O mesmo por meio do qual nos viria a
-              salvação: a cruz tão pesada.
+              Jesus, exausto e carregando a cruz, caminha em direção ao local da
+              crucificação. Jesus carrega em seus ombros o instrumento de sua
+              própria morte. O mesmo por meio do qual nos viria a salvação: a
+              cruz tão pesada.
             </S.SmallText>
             <S.SmallText>
               Neste mistério, meditamos o efeito do peso dos nossos pecados
               sobre os ombros de um inocente, o próprio Deus Encarnado. A
-              iniquidade de todos nós pesou sobre Ele.&nbsp;
+              iniquidade de todos nós pesou sobre Ele.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/is/53/6"
@@ -1926,14 +1926,13 @@ const Rosario = () => {
                   9
                 </a>
               </sup>
-              &nbsp; Pensemos na cruz que
+              Pensemos na cruz que
               <br />
               <cite>
                 <span>
                   — “foi o nobre instrumento com que Jesus Cristo adquiriu
                   tantas almas, porque, morrendo nela, pagou a pena de nossos
-                  pecados e assim as resgatou do inferno, fazendo-as
-                  suas.”&nbsp;
+                  pecados e assim as resgatou do inferno, fazendo-as suas.”
                   <sup>
                     <a
                       href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
@@ -2021,7 +2020,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No quinto mistério doloroso, direcionamos nossa atenção para a
-              crucificação e morte de Nosso Senhor.&nbsp;
+              crucificação e morte de Nosso Senhor.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/jo/19/17-37"
@@ -2030,13 +2029,13 @@ const Rosario = () => {
                   11
                 </a>
               </sup>
-              &nbsp; Jesus é pregado na cruz, oferecendo Sua vida como
-              sacrifício redentor por cada um de nós individualmente. Neste
-              mistério, contemplamos o imenso amor de Deus, pois a morte de
-              Cristo é reconhecida como a mais dolorosa, revelando-se um
-              testemunho supremo desse amor divino. Ele suportou inúmeros
-              tormentos em seu corpo e, de maneira ainda mais profunda,
-              experimentou na alma a dor pelos nossos pecados.
+              Jesus é pregado na cruz, oferecendo Sua vida como sacrifício
+              redentor por cada um de nós individualmente. Neste mistério,
+              contemplamos o imenso amor de Deus, pois a morte de Cristo é
+              reconhecida como a mais dolorosa, revelando-se um testemunho
+              supremo desse amor divino. Ele suportou inúmeros tormentos em seu
+              corpo e, de maneira ainda mais profunda, experimentou na alma a
+              dor pelos nossos pecados.
             </S.SmallText>
             <S.SmallText>
               Ao contemplar este mistério, meditamos sobre imenso amor de Deus
@@ -2058,7 +2057,7 @@ const Rosario = () => {
                   suplico, o vosso sangue divino: ele me lave de todos os meus
                   pecados; ele me abrase em vosso santo amor e me faça todo
                   vosso. Eu vos amo, ó meu Jesus, e desejo morrer crucificado
-                  por vós que morrestes crucificado por mim.”&nbsp;
+                  por vós que morrestes crucificado por mim.”
                   <sup>
                     <a
                       href="https://catholicatraditio.wordpress.com/wp-content/uploads/2010/10/a_paixo_de_nosso_senhor_jesus_.pdf"
@@ -2094,39 +2093,39 @@ const Rosario = () => {
               style={{
                 paddingBottom: "30px",
                 borderBottom: "1px solid #D4D4D4",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <span>
                 1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
               </span>
-              <br />
               <span>2. Lc 22, 39-46</span>
-              <br />
               <span>
                 3. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus
                 Cristo. p.18
               </span>
-              <br /> <span>4. Mt 27, 26</span>
-              <br />
+              <span>4. Mt 27, 26</span>
+
               <span>
                 5. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus
                 Cristo. p.24
               </span>
-              <br /> <span>6. Mt 27, 29</span>
-              <br />
+              <span>6. Mt 27, 29</span>
+
               <span>
                 7. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus
                 Cristo. p.26
               </span>
-              <br /> <span>8. Jo 19,16-17</span>
-              <br /> <span>9. Is 53, 6</span>
-              <br />
+              <span>8. Jo 19,16-17</span>
+              <span>9. Is 53, 6</span>
+
               <span>
                 10. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus
                 Cristo. p.31
               </span>
-              <br /> <span>11. Jo 19,17-37</span>
-              <br />
+              <span>11. Jo 19,17-37</span>
+
               <span>
                 12. Ligório, Afonso Maria de. A Paixão de Nosso Senhor Jesus
                 Cristo. p.34
@@ -2163,8 +2162,7 @@ const Rosario = () => {
               dos Mistérios Gloriosos torna-se uma jornada enriquecedora, por
               meio da qual o cristão não apenas recorda as alegrias manifestadas
               aos Apóstolos, a Madalena e aos discípulos de Emaús, mas também
-              mergulha na intensidade da nova existência do Cristo
-              glorificado.&nbsp;
+              mergulha na intensidade da nova existência do Cristo glorificado.
               <sup>
                 <a
                   href="https://www.vatican.va/content/john-paul-ii/pt/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
@@ -2225,7 +2223,7 @@ const Rosario = () => {
             <S.SmallText>
               No primeiro mistério glorioso, contemplamos a Ressurreição de
               Jesus Cristo. O mistério pascal é o ápice da nossa fé, a Paixão de
-              Cristo que culmina em sua ressurreição.&nbsp;
+              Cristo que culmina em sua ressurreição.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/mt/28/1-10"
@@ -2234,14 +2232,14 @@ const Rosario = () => {
                   2
                 </a>
               </sup>
-              &nbsp; Ela simboliza a vitória de Cristo sobre o pecado e a morte,
+              Ela simboliza a vitória de Cristo sobre o pecado e a morte,
               oferecendo, assim, a esperança e a vida eterna aos fiéis.
               <br />
               <cite>
                 <span>
                   — “O cristão, que une a sua própria morte à de Jesus, encara a
                   morte como chegada até junto d’Ele, como entrada na vida
-                  eterna.”&nbsp;
+                  eterna.”
                   <sup>
                     <a
                       href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html"
@@ -2323,7 +2321,7 @@ const Rosario = () => {
             <S.SmallText>
               No segundo mistério glorioso, voltamos nossa atenção para a
               Ascensão de Jesus ao Céu, ou seja, Jesus sobe aos céus, diante de
-              seus discípulos, após ter cumprido plenamente sua missão.&nbsp;
+              seus discípulos, após ter cumprido plenamente sua missão.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/lc/24/50-53"
@@ -2344,8 +2342,7 @@ const Rosario = () => {
                 <span>
                   — “A ascensão de Cristo marca a entrada definitiva da
                   humanidade de Jesus no domínio celeste de Deus, de onde há-de
-                  voltar mas que, entretanto, O oculta aos olhos dos
-                  homens.”&nbsp;
+                  voltar mas que, entretanto, O oculta aos olhos dos homens.”
                   <sup>
                     <a
                       href="https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html"
@@ -2360,8 +2357,7 @@ const Rosario = () => {
             <S.SmallText>
               A Ascensão ressalta a natureza divina de Cristo e sua soberania
               sobre o universo. Ao meditar sobre este mistério, recordamos a
-              promessa de Cristo de nos preparar um lugar na morada
-              celeste&nbsp;
+              promessa de Cristo de nos preparar um lugar na morada celeste
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/jo/14/2"
@@ -2370,15 +2366,14 @@ const Rosario = () => {
                   7
                 </a>
               </sup>
-              &nbsp;, apontando para o céu como nosso destino final. Ao mesmo
-              tempo, essa reflexão nos conduz a considerar a missão
-              evangelizadora que Jesus confiou a seus seguidores após sua
-              partida. Como cristãos, assumimos essa mesma responsabilidade,
-              reconhecendo-a como nossa antes de alcançarmos o Reino Celeste.
-              Cada Ave-Maria é, portanto, uma oportunidade para renovar o
-              compromisso pessoal com a missão cristã, buscando o auxílio divino
-              para viver o Evangelho e proclamá-lo — começando sempre pelos que
-              estão mais próximos.
+              , apontando para o céu como nosso destino final. Ao mesmo tempo,
+              essa reflexão nos conduz a considerar a missão evangelizadora que
+              Jesus confiou a seus seguidores após sua partida. Como cristãos,
+              assumimos essa mesma responsabilidade, reconhecendo-a como nossa
+              antes de alcançarmos o Reino Celeste. Cada Ave-Maria é, portanto,
+              uma oportunidade para renovar o compromisso pessoal com a missão
+              cristã, buscando o auxílio divino para viver o Evangelho e
+              proclamá-lo — começando sempre pelos que estão mais próximos.
             </S.SmallText>
             <S.SmallText>
               No 40º dia depois da Ressurreição, Jesus apareceu pela última vez
@@ -2431,7 +2426,7 @@ const Rosario = () => {
             <S.SmallText>
               No terceiro mistério glorioso, contemplamos a Descida do Espírito
               Santo sobre Maria e os Apóstolos — episódio conhecido como
-              Pentecostes.&nbsp;
+              Pentecostes.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/atos/2/1-13"
@@ -2440,13 +2435,13 @@ const Rosario = () => {
                   8
                 </a>
               </sup>
-              &nbsp; Neste evento, o Espírito Santo desce sobre os discípulos
-              reunidos manifestando-se como línguas de fogo. Esta efusão
-              capacita os apóstolos a proclamarem o Evangelho em diversas
-              línguas, simbolizando a universalidade da mensagem cristã.
+              Neste evento, o Espírito Santo desce sobre os discípulos reunidos
+              manifestando-se como línguas de fogo. Esta efusão capacita os
+              apóstolos a proclamarem o Evangelho em diversas línguas,
+              simbolizando a universalidade da mensagem cristã.
             </S.SmallText>
             <S.SmallText>
-              Ao meditar sobre este mistério, recordamos a{" "}
+              Ao meditar sobre este mistério, recordamos a
               <b>presença ativa do Espírito Santo na vida da Igreja</b> e na
               nossa própria vida; refletimos sobre a importância do Espírito
               Santo como nosso guia e consolador. Enquanto rezamos as
@@ -2496,7 +2491,7 @@ const Rosario = () => {
             <S.SmallText>
               No quarto mistério glorioso, dirigimos nossa atenção à Assunção de
               Maria ao Céu. A Assunção refere-se à subida de Maria, em corpo e
-              alma, ao céu.&nbsp;
+              alma, ao céu.
               <sup>
                 <a
                   href="https://www.bibliaon.com/versiculo/apocalipse_12_1/"
@@ -2505,11 +2500,10 @@ const Rosario = () => {
                   9
                 </a>
               </sup>
-              &nbsp; Ao meditar sobre este mistério, recordamos a pureza de
-              Nossa Senhora e seu papel único na história da redenção. A
-              Assunção da Santíssima Virgem é uma singular participação na
-              ressurreição do seu Filho e uma antecipação da ressurreição dos
-              outros cristãos.
+              Ao meditar sobre este mistério, recordamos a pureza de Nossa
+              Senhora e seu papel único na história da redenção. A Assunção da
+              Santíssima Virgem é uma singular participação na ressurreição do
+              seu Filho e uma antecipação da ressurreição dos outros cristãos.
             </S.SmallText>
             <S.SmallText>
               Desse modo, ao contemplar este mistério, meditamos sobre a
@@ -2573,7 +2567,7 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               No quinto mistério glorioso, contemplamos a Coroação de Maria como
-              Rainha do Céu e da Terra.&nbsp;
+              Rainha do Céu e da Terra.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/acf/ap/12/1-6"
@@ -2582,17 +2576,17 @@ const Rosario = () => {
                   10
                 </a>
               </sup>
-              &nbsp; De acordo com a tradição cristã, Maria é reverenciada como
-              Rainha devido à sua singular maternidade divina; sua participação
-              na redenção do gênero humano, trazendo-nos o Salvador; seu papel
-              como Mãe de Cristo e, por fim, sua elevação acima de todos os
-              anjos e santos.
+              De acordo com a tradição cristã, Maria é reverenciada como Rainha
+              devido à sua singular maternidade divina; sua participação na
+              redenção do gênero humano, trazendo-nos o Salvador; seu papel como
+              Mãe de Cristo e, por fim, sua elevação acima de todos os anjos e
+              santos.
             </S.SmallText>
             <S.SmallText>
               Ao contemplar este mistério, meditamos, à luz das Escrituras, que
               Maria recebe o título de Rainha, cumprindo a promessa feita a
               Davi. A tradição da “Rainha Mãe”, iniciada com Salomão e sua mãe
-              Betsabé, é um eco dessa promessa.&nbsp;
+              Betsabé, é um eco dessa promessa.
               <sup>
                 <a
                   href="https://www.bibliaonline.com.br/nvi/1rs/2/19"
@@ -2601,7 +2595,7 @@ const Rosario = () => {
                   11
                 </a>
               </sup>
-              &nbsp; Maria, ao transmitir a Cristo seu sangue, torna-se com todo
+              Maria, ao transmitir a Cristo seu sangue, torna-se com todo
               direito Rainha dos céus e da terra, sendo seu Filho Senhor de toda
               a criação. Além disso, cabe nesta meditação lembrar que essa
               majestade de Maria foi sempre acompanhada por uma profunda
@@ -2633,26 +2627,28 @@ const Rosario = () => {
             <S.SmallText
               style={{
                 paddingBottom: "30px",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <span>
                 1. Papa João Paulo II, Carta Apostólica Rosarium Virginis Mariae
               </span>
-              <br />
+
               <span>2. Mt 28, 1-10</span>
-              <br />
+
               <span>3. CIC, 1020</span>
-              <br /> <span>4. Lc 24, 50-53</span>
-              <br />
+              <span>4. Lc 24, 50-53</span>
+
               <span>5. Atos 1, 9-11</span>
-              <br /> <span>6. CIC, 665</span>
-              <br />
+              <span>6. CIC, 665</span>
+
               <span>7. João 14, 2</span>
-              <br /> <span>8. Atos 2, 1-13</span>
-              <br /> <span>9. Ap 12, 1</span>
-              <br />
+              <span>8. Atos 2, 1-13</span>
+              <span>9. Ap 12, 1</span>
+
               <span>10. Ap 12,1-6</span>
-              <br /> <span>11. 1Rs 2, 19</span>
+              <span>11. 1Rs 2, 19</span>
             </S.SmallText>
           </div>
           <S.LinksContainer>

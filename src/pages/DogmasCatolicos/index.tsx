@@ -87,7 +87,7 @@ const DogmasCatolicos = () => {
             >
               Col 2,14
             </a>
-            ,{" "}
+            ,
             <a
               href="https://www.bibliaonline.com.br/acf/ef/2/15"
               target="blank"
@@ -638,7 +638,7 @@ const DogmasCatolicos = () => {
             A razão da infalibilidade é a assistência sobrenatural do Espírito
             Santo, que preserva o supremo mestre da Igreja de todo erro,
             conforme a Promessa de Cristo ('Eis que estou convosco até o fim do
-            mundo' –{" "}
+            mundo' –
             <a
               href="https://www.bibliaonline.com.br/nvi/mt/28/20"
               target="blank"
@@ -906,44 +906,42 @@ const DogmasCatolicos = () => {
             style={{
               paddingBottom: "30px",
               borderBottom: "1px solid #D4D4D4",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <span>
               BOURGEOIS, Henry. História dos Dogmas 3 - Os sinais da salvação,
               Vol.s 1,2,3. São Paulo: Loyola, 2005.
             </span>
-            <br />
-            <br />
+
             <span>
               THEOBALD, Christoph; SESBOUE, Bernard. História dos dogmas tomo 4,
               a Palavra da Salvação. São Paulo: Loyola, 2006, pp. 60 ss.
             </span>
-            <br />
-            <br />
+
             <span>
               VIDIGAL, Pe. José Raimundo. Catecismo do Católico de Hoje.
               Aparecida: Santuário.
             </span>
-            <br /> <br />
+
             <span>
               Catecismo da Igreja Católica (CIC),§88 a §93 e §889 a §891.
               MIRAVALLE, Mark. Introduction to Mary, Goleta: Queenship
               Publishing, 1993, pp. 56-64
             </span>
-            <br />
-            <br />
+
             <span>
               BROWN, Raymond Edward. Mary in the New Testament, Philadelphia:
               Fortress Press, 1978, p. 273.
             </span>
-            <br />
-            <br />
+
             <span>
               Verbete "Definição dogmática", da Enciclopédia Católica Popular,
-              em{" "}
+              em
               <a href="http://ecclesia.pt/catolicopedia/" target="_blank">
                 http://ecclesia.pt/catolicopedia/
-              </a>{" "}
+              </a>
               Acesso 27/8/013.
             </span>
           </S.SmallText>
