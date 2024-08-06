@@ -116,8 +116,8 @@ const Batismo = () => {
           </S.SmallText>
           <S.SmallText>
             O sacramento do Batismo é, em primeiro lugar,
-            <b>o fundamento de toda a vida cristã</b> e a porta que dá acesso
-            aos outros sacramentos.
+            <strong>o fundamento de toda a vida cristã</strong> e a porta que dá
+            acesso aos outros sacramentos.
             <sup>
               <a
                 href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html#:~:text=1213.,dá%20acesso%20aos%20outros%20sacramentos."
@@ -153,7 +153,7 @@ const Batismo = () => {
             </sup>
             Além disso, o Batismo é chamado de “banho da regeneração e renovação
             no Espírito Santo”, pois representa
-            <b>o novo nascimento pela água e pelo Espírito</b> — que é
+            <strong>o novo nascimento pela água e pelo Espírito</strong> — que é
             necessário para entrar no Reino de Deus.
             <sup>
               <a
@@ -225,9 +225,11 @@ const Batismo = () => {
               </a>
             </sup>
             , por isso
-            <b>só se pode receber o sacramento do Batismo uma vez na vida</b>.
-            Aliás, Santo Tomás em sua catequese sobre os sacramentos afirma que
-            o erro dos donatistas era rebatizar aqueles já batizados pelos
+            <strong>
+              só se pode receber o sacramento do Batismo uma vez na vida
+            </strong>
+            . Aliás, Santo Tomás em sua catequese sobre os sacramentos afirma
+            que o erro dos donatistas era rebatizar aqueles já batizados pelos
             católicos “contra os quais se diz: Uma só fé, um só batismo (
             <a href="https://www.bibliaonline.com.br/acf/ef/4/5" target="blank">
               Ef 4,5
@@ -323,10 +325,10 @@ const Batismo = () => {
             </sup>
           </S.SmallText>
           <S.SmallText>
-            Tais prefigurações encontram a sua <b>realização em Jesus Cristo</b>
-            , que dá início à sua vida pública ao ser batizado por São João
-            Batista no rio Jordão, deixando um exemplo e uma base para o
-            sacramento
+            Tais prefigurações encontram a sua
+            <strong>realização em Jesus Cristo</strong>, que dá início à sua
+            vida pública ao ser batizado por São João Batista no rio Jordão,
+            deixando um exemplo e uma base para o sacramento
             <sup>
               <a
                 href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html"
@@ -377,7 +379,7 @@ const Batismo = () => {
             </sup>
             O Batismo, então, tornou-se uma cerimônia de entrada na comunidade
             cristã e um
-            <b>sinal visível de pertencimento à família de Deus</b>.
+            <strong>sinal visível de pertencimento à família de Deus</strong>.
           </S.SmallText>
           <S.SmallText>
             O Apóstolo Paulo também enfatizou o significado profundo deste

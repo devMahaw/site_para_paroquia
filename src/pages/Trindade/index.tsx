@@ -329,18 +329,18 @@ const Trindade = () => {
             simples:
           </S.SmallText>
           <S.SmallText>
-            <b>
+            <strong>
               1) É uma realidade que vemos ser pregada e vivida desde o início
               da Igreja
-            </b>
+            </strong>
             . Desde sempre os Apóstolos, seguindo a palavra do próprio Cristo,
             batizavam em nome do Pai, do Filho e do Espírito Santo.
           </S.SmallText>
           <S.SmallText>
-            <b>
+            <strong>
               2) A Trindade foi alvo de boa parte das primeiras grandes heresias
               da Igreja
-            </b>
+            </strong>
             . Ora, pensem! Se não fosse algo muito dentro da vivência cotidiana
             dos cristãos dos primeiros séculos, não haveria o nascimento de
             tantas heresias, como o Monofisismo e o Arianismo. Aliás, os

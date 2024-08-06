@@ -433,8 +433,10 @@ const Rosario = () => {
               que uma mera expressão de piedade popular, o Rosário se revela
               como uma jornada espiritual extraordinariamente rica. Ele se
               baseia na
-              <b> contemplação dos principais episódios da vida de Cristo</b>,
-              enquanto se recita as Ave-Marias. Por isso, é capaz de guiar os
+              <strong>
+                contemplação dos principais episódios da vida de Cristo
+              </strong>
+              , enquanto se recita as Ave-Marias. Por isso, é capaz de guiar os
               fiéis pelas mãos amorosas da Santíssima Virgem Maria em direção a
               uma união íntima com Deus.
             </S.SmallText>
@@ -474,9 +476,9 @@ const Rosario = () => {
             <S.SmallText>
               Assim, ao recitar cada conjunto de mistérios, os fiéis têm a
               oportunidade de
-              <b>se aprofundar em toda a narrativa da redenção</b>. E, assim,
-              reconhecer que tudo o que Jesus viveu e todas as coisas que ele
-              realizou foi tendo em vista a nossa salvação. Desde o seu
+              <strong>se aprofundar em toda a narrativa da redenção</strong>. E,
+              assim, reconhecer que tudo o que Jesus viveu e todas as coisas que
+              ele realizou foi tendo em vista a nossa salvação. Desde o seu
               nascimento até a morte na Cruz; durante a sua vida oculta, ou já
               em sua vida pública. Desse modo, ao dirigir a nossa atenção para a
               meditação de cada acontecimento da vida de Cristo, a contemplação
@@ -2442,9 +2444,11 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               Ao meditar sobre este mistério, recordamos a
-              <b>presença ativa do Espírito Santo na vida da Igreja</b> e na
-              nossa própria vida; refletimos sobre a importância do Espírito
-              Santo como nosso guia e consolador. Enquanto rezamos as
+              <strong>
+                presença ativa do Espírito Santo na vida da Igreja
+              </strong>
+              e na nossa própria vida; refletimos sobre a importância do
+              Espírito Santo como nosso guia e consolador. Enquanto rezamos as
               Ave-Marias, podemos invocar também a presença do Espírito Santo,
               pedindo discernimento e coragem para testemunhar a fé de maneira
               corajosa, assim como fizeram os apóstolos depois de Pentecostes.

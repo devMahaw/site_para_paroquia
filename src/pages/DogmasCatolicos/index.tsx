@@ -128,35 +128,35 @@ const DogmasCatolicos = () => {
             São 43 dogmas proclamados pela Igreja, divididos em 8 categorias:
           </S.BigText>
           <S.SmallText>
-            <b>1</b>. Dogmas sobre Deus;
+            <strong>1</strong>. Dogmas sobre Deus;
           </S.SmallText>
           <S.SmallText>
-            <b>2</b>. Dogmas sobre Jesus Cristo;
+            <strong>2</strong>. Dogmas sobre Jesus Cristo;
           </S.SmallText>
           <S.SmallText>
-            <b>3</b>. Dogmas sobre a criação do mundo;
+            <strong>3</strong>. Dogmas sobre a criação do mundo;
           </S.SmallText>
           <S.SmallText>
-            <b>4</b>. Dogmas sobre o ser humano;
+            <strong>4</strong>. Dogmas sobre o ser humano;
           </S.SmallText>
           <S.SmallText>
-            <b>5</b>. Dogmas marianos;
+            <strong>5</strong>. Dogmas marianos;
           </S.SmallText>
           <S.SmallText>
-            <b>6</b>. Dogmas sobre o Papa e a Igreja;
+            <strong>6</strong>. Dogmas sobre o Papa e a Igreja;
           </S.SmallText>
           <S.SmallText>
-            <b>7</b>. Dogmas sobre os Sacramentos;
+            <strong>7</strong>. Dogmas sobre os Sacramentos;
           </S.SmallText>
           <S.SmallText>
-            <b>8</b>. Dogmas sobre as últimas coisas (Escatologia).
+            <strong>8</strong>. Dogmas sobre as últimas coisas (Escatologia).
           </S.SmallText>
           <S.SmallText>
-            <b>
+            <strong>
               Apresentamos abaixo a lista de todos os dogmas da Igreja Católica,
               com sua respectiva breve descrição, organizados em suas
               categorias:
-            </b>
+            </strong>
           </S.SmallText>
           <S.BigText id="dogmas-deus">Dogmas sobre Deus:</S.BigText>
           <S.SmallText style={{ fontWeight: "bold" }}>

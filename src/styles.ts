@@ -62,6 +62,10 @@ export const SmallText = styled.p`
   font-size: 18px;
   padding: 10px 0px;
 
+  strong {
+    margin: 5px;
+  }
+
   a {
     color: ${colors.darkBlue};
     font-weight: bold;
