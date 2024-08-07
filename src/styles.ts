@@ -112,3 +112,8 @@ export const DotList = styled.li`
   list-style: disc;
   margin-left: 40px;
 `;
+
+export const StartImage = styled.img`
+  border-radius: 20px;
+  margin: 120px 0px;
+`;

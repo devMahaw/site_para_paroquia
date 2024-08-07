@@ -2,8 +2,6 @@ import useNavigation from "../../utils/navigation";
 import * as S from "./styles";
 
 const Navbar = () => {
-  const { goTo } = useNavigation();
-
   return (
     <S.NavbarContainer>
       <a href="">
@@ -89,19 +87,14 @@ const Navbar = () => {
                 <S.NavbarText>Catequese</S.NavbarText>
                 <S.NavbarSubSubMenu>
                   <li>
-                    <S.NavbarSubItemsText
-                      href="#"
-                      target="_blank"
-                      onClick={() => goTo("/trindade")}
-                    >
+                    <S.NavbarSubItemsText href="/trindade" target="_blank">
                       Santíssima Trindade
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
                     <S.NavbarSubItemsText
-                      href="#"
+                      href="/dogmascatolicos"
                       target="_blank"
-                      onClick={() => goTo("/dogmascatolicos")}
                     >
                       Dogmas da Igreja Católica
                     </S.NavbarSubItemsText>
@@ -170,16 +163,15 @@ const Navbar = () => {
                     <S.NavbarText>Os 7 sacramentos</S.NavbarText>
                     <S.NavbarSubSubMenu style={{ left: "-78%" }}>
                       <li>
-                        <S.NavbarSubItemsText
-                          href="#"
-                          target="_blank"
-                          onClick={() => goTo("/batismo")}
-                        >
+                        <S.NavbarSubItemsText href="/batismo" target="_blank">
                           Batismo
                         </S.NavbarSubItemsText>
                       </li>
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText
+                          href="/eucaristia"
+                          target="_blank"
+                        >
                           Eucaristia
                         </S.NavbarSubItemsText>
                       </li>
@@ -292,11 +284,7 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText
-                  href="#"
-                  target="_blank"
-                  onClick={() => goTo("/rosario")}
-                >
+                <S.NavbarSubItemsText href="/rosario" target="_blank">
                   Rosário
                 </S.NavbarSubItemsText>
               </li>

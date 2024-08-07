@@ -5,12 +5,10 @@ const Rosario = () => {
     <div style={{ margin: "50px 100px" }}>
       <div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <img
+          <S.StartImage
             style={{
-              borderRadius: "20px",
               objectFit: "cover",
               height: "600px",
-              margin: "120px 0px",
             }}
             src="assets/rosario/ns_banner.png"
             alt="Nossa Senhora com Rosário"

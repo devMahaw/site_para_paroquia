@@ -4,11 +4,9 @@ const DogmasCatolicos = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img
+        <S.StartImage
           style={{
-            borderRadius: "20px",
             height: "600px",
-            margin: "120px 0px",
           }}
           src="assets/dogmas_catolicos/dogmas_catolicos.jpg"
           alt="Doutores da Igreja"

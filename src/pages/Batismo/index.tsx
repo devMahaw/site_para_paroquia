@@ -4,12 +4,10 @@ const Batismo = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img
+        <S.StartImage
           style={{
-            borderRadius: "20px",
             width: "1200px",
             height: "600px",
-            margin: "120px 0px",
             objectFit: "cover",
           }}
           src="assets/batismo/batismo_bb.jpg"

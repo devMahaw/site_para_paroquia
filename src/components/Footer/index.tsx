@@ -32,11 +32,7 @@ const Footer = () => {
           <NavbarSubItemsText href="">Horários das missas</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText
-            href="#"
-            target="_blank"
-            onClick={() => goTo("/trindade")}
-          >
+          <NavbarSubItemsText href="/trindade" target="_blank">
             Catequese
           </NavbarSubItemsText>
         </li>
@@ -49,11 +45,7 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <NavbarSubItemsText
-            href="#"
-            target="_blank"
-            onClick={() => goTo("/rosario")}
-          >
+          <NavbarSubItemsText href="/rosario" target="_blank">
             Rosário
           </NavbarSubItemsText>
         </li>

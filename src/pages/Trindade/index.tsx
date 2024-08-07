@@ -4,11 +4,9 @@ const Trindade = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img
+        <S.StartImage
           style={{
-            borderRadius: "20px",
             height: "700px",
-            margin: "120px 0px",
           }}
           src="assets/trindade/trindade.jpg"
           alt="Santíssima Trindade"
