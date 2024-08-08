@@ -228,7 +228,7 @@ const Navbar = () => {
                     </S.NavbarSubSubMenu>
                   </S.CatequeseList>
                   <li>
-                    <S.NavbarSubItemsText href="">
+                    <S.NavbarSubItemsText href="obrasmisericordia">
                       As obras de misericórdia
                     </S.NavbarSubItemsText>
                   </li>

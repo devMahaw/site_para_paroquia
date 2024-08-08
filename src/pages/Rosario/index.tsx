@@ -50,15 +50,15 @@ const Rosario = () => {
             <S.BigText id="oque-rosario">O que é o rosário?</S.BigText>
             <S.SmallText>
               O Papa S. João Paulo II, em 16 de Outubro de 2002, escreveu uma
-              bela carta apostólica intitulada <i>Rosarium Virginis Mariae</i>,
-              explicando o sentido e o profundo significado da oração do Rosário
-              para os católicos. Nesta carta, começa por explicar que “o Rosário
-              à Virgem Maria é, na sua simplicidade e profundidade, uma oração
-              de grande significado destinada a produzir frutos de santidade”.
-              Em outras palavras, o Santo Rosário nada mais é do que contemplar
-              os acontecimentos mais importantes da vida de Cristo para que
-              “imitando o que eles contêm e alcançando o que prometem” possamos
-              alcançar a santidade através dos olhos de Maria.
+              bela carta apostólica intitulada <em>Rosarium Virginis Mariae</em>
+              , explicando o sentido e o profundo significado da oração do
+              Rosário para os católicos. Nesta carta, começa por explicar que “o
+              Rosário à Virgem Maria é, na sua simplicidade e profundidade, uma
+              oração de grande significado destinada a produzir frutos de
+              santidade”. Em outras palavras, o Santo Rosário nada mais é do que
+              contemplar os acontecimentos mais importantes da vida de Cristo
+              para que “imitando o que eles contêm e alcançando o que prometem”
+              possamos alcançar a santidade através dos olhos de Maria.
             </S.SmallText>
             <S.BigText id="origem-oracao">
               Qual a origem desta oração?
@@ -440,7 +440,6 @@ const Rosario = () => {
             </S.SmallText>
             <S.SmallText>
               Nas palavras do Papa Bento XVI
-              <br />
               <cite>
                 <span>
                   — “Podemos dizer que a recitação do Rosário tem o seu modelo
@@ -598,7 +597,6 @@ const Rosario = () => {
               </sup>
               , o anjo Gabriel saúda Maria como “cheia de graça” e revela o
               plano divino:
-              <br />
               <cite>
                 <span>
                   — “Ave, cheia de graça, o Senhor é contigo”. […] “Não temas,
@@ -703,7 +701,6 @@ const Rosario = () => {
               graça divina, também está grávida. Este encontro é marcado pela
               alegria e pelo reconhecimento sobrenatural, culminando na
               exclamação inspirada de Isabel:
-              <br />
               <cite>
                 <span>
                   — “Donde me vem esta honra de vir a mim a mãe de meu Senhor?”
@@ -898,7 +895,6 @@ const Rosario = () => {
               A sua contemplação nos leva a refletir sobre a entrega de Maria e
               José ao apresentarem o Filho de Deus, aceitando as palavras
               proféticas de Simeão.
-              <br />
               <cite>
                 <span>
                   — “Eis que este menino está destinado a ser uma causa de queda
@@ -993,7 +989,6 @@ const Rosario = () => {
               Jesus estava entre os doutores da lei, que se admiravam com as
               Suas respostas tão cheias de sabedoria. Sobre este acontecimento,
               Lucas narra que
-              <br />
               <cite>
                 <span>
                   — “Maria conservava todas essas palavras, meditando-as no seu
@@ -1159,7 +1154,6 @@ const Rosario = () => {
               ministrado por João Batista. Este ato de humildade e obediência
               simboliza a consagração de Jesus ao cumprimento da vontade divina.
               É o momento que do Céu ouve-se a voz do pai dizendo
-              <br />
               <cite>
                 <span>
                   — “Eis meu Filho muito amado em quem ponho minha afeição”.
@@ -1341,7 +1335,6 @@ const Rosario = () => {
                 </a>
               </sup>
               , onde Jesus proclama:
-              <br />
               <cite>
                 <span>
                   — “Completou-se o tempo e o Reino de Deus está próximo; fazei
@@ -1829,7 +1822,6 @@ const Rosario = () => {
             <S.SmallText>
               Aqui meditamos o tormento mais prolongado da paixão, pois Jesus o
               suportou até a morte.
-              <br />
               <cite>
                 <span>
                   — “E o manso Cordeiro deixava atormentar-se ao gosto deles,
@@ -1927,7 +1919,6 @@ const Rosario = () => {
                 </a>
               </sup>
               Pensemos na cruz que
-              <br />
               <cite>
                 <span>
                   — “foi o nobre instrumento com que Jesus Cristo adquiriu
@@ -1956,7 +1947,6 @@ const Rosario = () => {
               Desse modo, ele nos ensina que a nossa “cruz” pode se tornar um
               meio de transformação e, até mesmo, de redenção em nossa vida — se
               a abraçarmos como Ele fez.
-              <br />
               <cite>
                 <span>
                   — “Se alguém quiser vir após mim, abnegue-se a si mesmo e tome
@@ -2043,7 +2033,6 @@ const Rosario = () => {
               através da fé na ressurreição. Diante da meditação da morte de
               Jesus na cruz, podemos identificar-nos com a figura do bom ladrão
               e pedir
-              <br />
               <cite>
                 <span>
                   — “recordai-vos, Senhor, que eu sou uma daquelas ovelhas pelas
@@ -2234,7 +2223,6 @@ const Rosario = () => {
               </sup>
               Ela simboliza a vitória de Cristo sobre o pecado e a morte,
               oferecendo, assim, a esperança e a vida eterna aos fiéis.
-              <br />
               <cite>
                 <span>
                   — “O cristão, que une a sua própria morte à de Jesus, encara a
@@ -2260,7 +2248,6 @@ const Rosario = () => {
               pecado. Meditar a ressurreição, portanto, deve inspirar-nos a uma
               vida reta, por meio da qual buscamos alcançar o céu, uma vez que —
               como rezamos no Credo — cremos na ressurreição dos mortos:
-              <br />
               <cite>
                 <span>
                   — “Os que tiverem praticado o bem, para uma ressurreição de
@@ -2337,7 +2324,6 @@ const Rosario = () => {
                   5
                 </a>
               </sup>
-              <br />
               <cite>
                 <span>
                   — “A ascensão de Cristo marca a entrada definitiva da

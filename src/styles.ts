@@ -66,6 +66,10 @@ export const SmallText = styled.p`
     margin: 5px;
   }
 
+  cite {
+    display: block;
+  }
+
   a {
     color: ${colors.darkBlue};
     font-weight: bold;

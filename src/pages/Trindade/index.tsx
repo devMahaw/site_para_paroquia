@@ -77,12 +77,12 @@ const Trindade = () => {
           </S.SmallText>
           <S.SmallText>
             Santo Tomás de Aquino exortava que “
-            <i>
+            <em>
               Ao discorrer sobre a Santíssima Trindade, importa proceder com
               prudência e reserva, porque, conforme diz Santo Agostinho, não
               existe estudo onde o erro seja mais perigoso, as investigações
               sejam mais penosas, as descobertas sejam mais frutíferas
-            </i>
+            </em>
             ”. Sabendo dessa limitação, para tornar mais palatável às nossas
             mentes, podemos pensar em três chamas de vela que, quando se juntam,
             mantém a mesma essência.
@@ -249,10 +249,10 @@ const Trindade = () => {
           </S.BigText>
           <S.SmallText>
             O Catecismo da Igreja, em seu ponto 237 afirma que: “
-            <i>
+            <em>
               Sem dúvida, Deus deixou vestígios de seu ser trinitário em sua
               obra de criação e em sua revelação ao longo do Antigo Testamento
-            </i>
+            </em>
             ”.
           </S.SmallText>
           <S.SmallText>
@@ -374,7 +374,7 @@ const Trindade = () => {
             Elevação à Santíssima Trindade:
           </S.DefaultText>
           <S.SmallText>
-            <i>
+            <em>
               Ó meu Deus, Trindade que adoro, ajudai-me a esquecer-me
               inteiramente de mim mesma para fixar-me em Vós, imóvel e pacífica,
               como se minha alma já estivesse na eternidade. Que nada possa
@@ -384,10 +384,10 @@ const Trindade = () => {
               morada preferida e o lugar de Vosso repouso. Que eu jamais Vos
               deixe só, mas aí esteja toda inteira, totalmente desperta em minha
               fé, toda em adoração, entregue inteiramente à Vossa ação criadora.
-            </i>
+            </em>
           </S.SmallText>
           <S.SmallText>
-            <i>
+            <em>
               Ó meu Cristo amado, crucificado por amor, quisera ser uma esposa
               para Vosso Coração, quisera cobrir-Vos de glória, amar-Vos… Até
               morrer de amor! Sinto, porém, minha impotência e peço-Vos
@@ -402,25 +402,25 @@ const Trindade = () => {
               em Vós e ficar sob Vossa grande luz; ó meu Astro amado,
               fascinai-me a fim de que não me seja mais possível sair de Vossa
               irradiação.
-            </i>
+            </em>
           </S.SmallText>
           <S.SmallText>
-            <i>
+            <em>
               Ó Fogo devorador, Espírito de Amor, “vinde a mim” para que uma
               encarnação do Verbo; que eu seja para Ele uma humanidade de
               acréscimo na qual Ele renove todo o Seu Mistério. E Vós, ó Pai,
               inclinai-Vos sobre Vossa pobre e pequena criatura, cobri-a com
               Vossa sombra vendo só o Bem-Amado, no qual pusestes todas as
               Vossas complacências.
-            </i>
+            </em>
           </S.SmallText>
           <S.SmallText>
-            <i>
+            <em>
               Ó meus Três, meu Tudo, minha Beatitude, Solidão infinita,
               Imensidade onde me perco, entrego-me a Vós qual uma presa.
               Sepultai-Vos em mim para que eu me sepulte em Vós, até que vá
               contemplar em Vossa luz o abismo de Vossas grandezas.
-            </i>
+            </em>
           </S.SmallText>
           <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
             Referências
