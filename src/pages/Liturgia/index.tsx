@@ -5,7 +5,7 @@ const Liturgia = () => {
     <div style={{ margin: "50px 100px" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <S.StartImage
-          style={{ height: "700px", width: "1200px", objectFit: "cover" }}
+          style={{ height: "600px" }}
           src="assets/liturgia/missa.jpg"
           alt="Missa"
         />
