@@ -3,9 +3,9 @@ import * as S from "../../styles";
 const Eucaristia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <S.ImageContainer>
         <S.StartImage src="assets/eucaristia/santaCeia.png" alt="Eucaristia" />
-      </div>
+      </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source src="assets/eucaristia/eucaristia.mp3" type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.

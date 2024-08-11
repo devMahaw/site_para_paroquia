@@ -7,6 +7,7 @@ import DogmasCatolicos from "./pages/DogmasCatolicos";
 import Eucaristia from "./pages/Eucaristia";
 import ObrasMisericordia from "./pages/ObrasMisericordia";
 import Liturgia from "./pages/Liturgia";
+import Paroco from "./pages/Paroco";
 
 const RoutesVar = () => (
   <Routes>
@@ -18,6 +19,7 @@ const RoutesVar = () => (
     <Route path="/eucaristia" element={<Eucaristia />} />
     <Route path="/obrasmisericordia" element={<ObrasMisericordia />} />
     <Route path="/liturgia" element={<Liturgia />} />
+    <Route path="/paroco" element={<Paroco />} />
   </Routes>
 );
 

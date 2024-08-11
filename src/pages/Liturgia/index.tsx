@@ -3,13 +3,13 @@ import * as S from "../../styles";
 const Liturgia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <S.ImageContainer>
         <S.StartImage
           style={{ height: "600px" }}
           src="assets/liturgia/missa.jpg"
           alt="Missa"
         />
-      </div>
+      </S.ImageContainer>
       <div style={{ display: "flex" }}>
         <div style={{ width: "80%" }}>
           <S.BigText>Estrutura e partes da Santa Missa</S.BigText>

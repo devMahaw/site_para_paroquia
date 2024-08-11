@@ -41,7 +41,9 @@ const Navbar = () => {
                 <S.NavbarSubItemsText href="">História</S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">Pároco</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/paroco" target="_blank">
+                  Pároco
+                </S.NavbarSubItemsText>
               </li>
               <li>
                 <S.NavbarSubItemsText href="">Secretaria</S.NavbarSubItemsText>
@@ -208,7 +210,7 @@ const Navbar = () => {
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
-                    <S.NavbarSubItemsText href="/liturgia">
+                    <S.NavbarSubItemsText href="/liturgia" target="_blank">
                       Liturgia
                     </S.NavbarSubItemsText>
                   </li>
@@ -228,7 +230,10 @@ const Navbar = () => {
                     </S.NavbarSubSubMenu>
                   </S.CatequeseList>
                   <li>
-                    <S.NavbarSubItemsText href="/obrasmisericordia">
+                    <S.NavbarSubItemsText
+                      href="/obrasmisericordia"
+                      target="_blank"
+                    >
                       As obras de misericórdia
                     </S.NavbarSubItemsText>
                   </li>

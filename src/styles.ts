@@ -10,6 +10,8 @@ export const colors = {
   yellow: "#FFC42E ",
   blue: "#3998C7",
   darkBlue: "#3a83f7",
+  lightBlue: "#e2edff",
+  purple: "#551a8b",
 };
 
 export const breakpoints = {
@@ -83,7 +85,7 @@ export const SmallText = styled.p`
 
 export const LinksContainer = styled.div`
   height: 100%;
-  background: #e2edff;
+  background: ${colors.lightBlue};
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -107,7 +109,7 @@ export const LinksContainer = styled.div`
     color: ${colors.darkBlue};
 
     &:hover {
-      color: #551a8b;
+      color: ${colors.purple};
     }
   }
 `;
@@ -120,4 +122,10 @@ export const DotList = styled.li`
 export const StartImage = styled.img`
   border-radius: 20px;
   margin: 120px 0px;
+`;
+
+export const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

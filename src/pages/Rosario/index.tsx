@@ -4,7 +4,7 @@ const Rosario = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <S.ImageContainer>
           <S.StartImage
             style={{
               objectFit: "cover",
@@ -13,7 +13,7 @@ const Rosario = () => {
             src="assets/rosario/ns_banner.png"
             alt="Nossa Senhora com Rosário"
           />
-        </div>
+        </S.ImageContainer>
         <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
           <source src="assets/rosario/rosario.mp3" type="audio/mp3" />
           Seu navegador não suporta o elemento de áudio.

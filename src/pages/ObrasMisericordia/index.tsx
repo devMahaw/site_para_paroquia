@@ -3,13 +3,13 @@ import * as S from "../../styles";
 const ObrasMisericordia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <S.ImageContainer>
         <S.StartImage
           style={{ height: "600px" }}
           src="assets/obras_misericordia/filantropia.jpg"
           alt="Filantropia"
         />
-      </div>
+      </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source
           src="assets/obras_misericordia/obrasMisericordia.mp3"

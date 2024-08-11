@@ -3,7 +3,7 @@ import * as S from "../../styles";
 const DogmasCatolicos = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <S.ImageContainer>
         <S.StartImage
           style={{
             height: "600px",
@@ -11,7 +11,7 @@ const DogmasCatolicos = () => {
           src="assets/dogmas_catolicos/dogmas_catolicos.jpg"
           alt="Doutores da Igreja"
         />
-      </div>
+      </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source
           src="assets/dogmas_catolicos/dogmasCatolicos.mp3"
