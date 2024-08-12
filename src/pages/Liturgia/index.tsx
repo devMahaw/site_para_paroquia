@@ -10,6 +10,10 @@ const Liturgia = () => {
           alt="Missa"
         />
       </S.ImageContainer>
+      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+        <source src="assets/liturgia/liturgia.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
       <div style={{ display: "flex" }}>
         <div style={{ width: "80%" }}>
           <S.BigText>Estrutura e partes da Santa Missa</S.BigText>
@@ -24,10 +28,6 @@ const Liturgia = () => {
               Saiba o que ela é e conheça cada uma das partes da Missa.
             </span>
           </S.DefaultText>
-          <S.SmallText>
-            Participar da Santa Missa é um dos mandamentos da Lei de Deus. Saiba
-            o que ela é e conheça cada uma das partes da Missa.
-          </S.SmallText>
           <S.SmallText>
             Adentrar o mistério da Santa Missa é mergulhar nas profundezas da fé
             católica, onde o divino se encontra com o humano de forma belíssima.
