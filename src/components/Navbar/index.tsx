@@ -178,7 +178,7 @@ const Navbar = () => {
                         </S.NavbarSubItemsText>
                       </li>
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText href="/crisma" target="_blank">
                           Crisma
                         </S.NavbarSubItemsText>
                       </li>
