@@ -238,7 +238,9 @@ const Navbar = () => {
                     </S.NavbarSubItemsText>
                   </li>
                   <li>
-                    <S.NavbarSubItemsText href="">Orações</S.NavbarSubItemsText>
+                    <S.NavbarSubItemsText href="/oracoes" target="_blank">
+                      Orações
+                    </S.NavbarSubItemsText>
                   </li>
                   <S.CatequeseList>
                     <S.NavbarText>Os 4 dogmas marianos</S.NavbarText>
