@@ -1,7 +1,28 @@
-import useNavigation from "../../utils/navigation";
+import { useState } from "react";
 import * as S from "./styles";
 
 const Navbar = () => {
+  const [activeItem, setActiveItem] = useState<string | null>(null);
+  const [activeSubItem, setActiveSubItem] = useState<string | null>(null);
+  const [activeSubSubItem, setActiveSubSubItem] = useState<string | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleToggle = (item: string) => {
+    setActiveItem((prev) => (prev === item ? null : item));
+  };
+
+  const handleSubToggle = (subItem: string) => {
+    setActiveSubItem((prev) => (prev === subItem ? null : subItem));
+  };
+
+  const handleSubSubToggle = (subSubItem: string) => {
+    setActiveSubSubItem((prev) => (prev === subSubItem ? null : subSubItem));
+  };
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <S.NavbarContainer>
       <a href="">
@@ -9,14 +30,16 @@ const Navbar = () => {
           <img
             src="/assets/nsps_logo.png"
             alt="Logo Nossa Senhora do Perpétuo Socorro"
-            style={{ width: "350px" }}
           />
         </h1>
       </a>
+      <S.HamburgerIcon onClick={toggleMenu}>
+        <img src="/assets/hamburger.png" alt="Menu" />
+      </S.HamburgerIcon>
       <div>
-        <S.NavbarItemsList>
+        <S.NavbarItemsList className={menuOpen ? "open" : ""}>
           <li>
-            <div>
+            <div onClick={() => handleToggle("institucional")}>
               <S.NavbarText>Institucional</S.NavbarText>
               <span>
                 <svg
@@ -33,7 +56,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu>
+            <S.NavbarSubMenu isActive={activeItem === "institucional"}>
               <li>
                 <S.NavbarSubItemsText href="">NSPS</S.NavbarSubItemsText>
               </li>
@@ -51,7 +74,7 @@ const Navbar = () => {
             </S.NavbarSubMenu>
           </li>
           <li>
-            <div>
+            <div onClick={() => handleToggle("atividades")}>
               <S.NavbarText>Nossas atividades</S.NavbarText>
 
               <span>
@@ -69,7 +92,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu>
+            <S.NavbarSubMenu isActive={activeItem === "atividades"}>
               <li>
                 <S.NavbarSubItemsText href="">
                   Evangelho diário
@@ -85,9 +108,14 @@ const Navbar = () => {
                   Horários das missas
                 </S.NavbarSubItemsText>
               </li>
-              <S.CatequeseList>
-                <S.NavbarText>Catequese</S.NavbarText>
-                <S.NavbarSubSubMenu>
+              <S.CatequeseList isActive={activeSubItem === "catequese"}>
+                <S.NavbarText onClick={() => handleSubToggle("catequese")}>
+                  Catequese
+                </S.NavbarText>
+                <S.NavbarSubSubMenu
+                  isActive={activeSubItem === "catequese"}
+                  style={{ left: "90%", top: "20%" }}
+                >
                   <li>
                     <S.NavbarSubItemsText href="/trindade" target="_blank">
                       Santíssima Trindade
@@ -101,9 +129,18 @@ const Navbar = () => {
                       Dogmas da Igreja Católica
                     </S.NavbarSubItemsText>
                   </li>
-                  <S.CatequeseList>
-                    <S.NavbarText>Os 10 mandamentos</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-127%" }}>
+                  <S.CatequeseList
+                    isActive={activeSubSubItem === "mandamentos"}
+                  >
+                    <S.NavbarText
+                      onClick={() => handleSubSubToggle("mandamentos")}
+                    >
+                      Os 10 mandamentos
+                    </S.NavbarText>
+                    <S.NavbarSubSubMenu
+                      isActive={activeSubSubItem === "mandamentos"}
+                      style={{ left: "-128%", top: "20%" }}
+                    >
                       <li>
                         <S.NavbarSubItemsText href="">
                           Amar a Deus sobre todas as coisas
@@ -161,9 +198,18 @@ const Navbar = () => {
                       </li>
                     </S.NavbarSubSubMenu>
                   </S.CatequeseList>
-                  <S.CatequeseList>
-                    <S.NavbarText>Os 7 sacramentos</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-78%" }}>
+                  <S.CatequeseList
+                    isActive={activeSubSubItem === "sacramentos"}
+                  >
+                    <S.NavbarText
+                      onClick={() => handleSubSubToggle("sacramentos")}
+                    >
+                      Os 7 sacramentos
+                    </S.NavbarText>
+                    <S.NavbarSubSubMenu
+                      isActive={activeSubSubItem === "sacramentos"}
+                      style={{ left: "-82%", top: "20%" }}
+                    >
                       <li>
                         <S.NavbarSubItemsText href="/batismo" target="_blank">
                           Batismo
@@ -214,9 +260,16 @@ const Navbar = () => {
                       Liturgia
                     </S.NavbarSubItemsText>
                   </li>
-                  <S.CatequeseList>
-                    <S.NavbarText>Virtudes</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-45%" }}>
+                  <S.CatequeseList isActive={activeSubSubItem === "virtudes"}>
+                    <S.NavbarText
+                      onClick={() => handleSubSubToggle("virtudes")}
+                    >
+                      Virtudes
+                    </S.NavbarText>
+                    <S.NavbarSubSubMenu
+                      isActive={activeSubSubItem === "virtudes"}
+                      style={{ left: "-47%", top: "20%" }}
+                    >
                       <li>
                         <S.NavbarSubItemsText href="">
                           Cardeais
@@ -242,9 +295,16 @@ const Navbar = () => {
                       Orações
                     </S.NavbarSubItemsText>
                   </li>
-                  <S.CatequeseList>
-                    <S.NavbarText>Os 4 dogmas marianos</S.NavbarText>
-                    <S.NavbarSubSubMenu style={{ left: "-80%" }}>
+                  <S.CatequeseList isActive={activeSubSubItem === "marianos"}>
+                    <S.NavbarText
+                      onClick={() => handleSubSubToggle("marianos")}
+                    >
+                      Os 4 dogmas marianos
+                    </S.NavbarText>
+                    <S.NavbarSubSubMenu
+                      isActive={activeSubSubItem === "marianos"}
+                      style={{ left: "-84%", top: "20%" }}
+                    >
                       <li>
                         <S.NavbarSubItemsText>
                           Maternidade Divina
@@ -298,7 +358,7 @@ const Navbar = () => {
             </S.NavbarSubMenu>
           </li>
           <li>
-            <div>
+            <div onClick={() => handleToggle("noticias")}>
               <S.NavbarText>Notícias</S.NavbarText>
 
               <span>
@@ -316,7 +376,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu>
+            <S.NavbarSubMenu isActive={activeItem === "noticias"}>
               <li>
                 <S.NavbarSubItemsText href="">Avisos</S.NavbarSubItemsText>
               </li>
@@ -333,7 +393,7 @@ const Navbar = () => {
             </S.NavbarSubMenu>
           </li>
           <li>
-            <div>
+            <div onClick={() => handleToggle("ajude")}>
               <S.NavbarText>Ajude-nos</S.NavbarText>
               <span>
                 <svg
@@ -350,7 +410,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu>
+            <S.NavbarSubMenu isActive={activeItem === "ajude"}>
               <li>
                 <S.NavbarSubItemsText href="">Dízimo</S.NavbarSubItemsText>
               </li>
