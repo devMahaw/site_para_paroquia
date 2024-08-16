@@ -12,7 +12,6 @@ export const NavbarContainer = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
 
   img {
@@ -29,101 +28,12 @@ export const NavbarContainer = styled.nav`
   }
 `;
 
-export const HamburgerIcon = styled.div`
-  display: none;
-  cursor: pointer;
-
-  @media (max-width: ${breakpoints.phone}) {
-    display: block;
-
-    img {
-      width: 20px;
-      height: auto;
-    }
-  }
-`;
-
-export const CatequeseList = styled.li<{ isActive: boolean }>`
-  position: relative;
-
-  ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    border: 1px solid ${colors.gray};
-    display: ${({ isActive }) => (isActive ? "block" : "none")};
-  }
-
-  &.active > ul {
-    display: block;
-  }
-
-  &:hover > ul {
-    display: block;
-  }
-`;
-
-export const NavbarSubSubMenu = styled.ul<{ isActive: boolean }>`
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background-color: ${colors.white};
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  padding: 0;
-  margin: 0;
-  z-index: 1;
-  display: ${({ isActive }) => (isActive ? "block" : "none")};
-
-  > li {
-    padding: 10px 20px;
-  }
-
-  @media (max-width: ${breakpoints.phone}) {
-    position: static;
-    box-shadow: none;
-    left: 0;
-  }
-`;
-
-export const NavbarSubItemsText = styled.a`
-  cursor: pointer;
-  font-size: 16px;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  padding: 2px;
-  color: ${colors.white};
-`;
-
-export const NavbarText = styled.span`
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-right: 6px;
-  cursor: default;
-
-  &:hover,
-  &:active {
-    color: ${colors.brown};
-  }
-`;
-
 export const NavbarItemsList = styled.ul`
   display: flex;
   gap: 40px;
 
   > li {
     position: relative;
-
-    &.active > ul {
-      display: block;
-    }
-
-    &:hover > ul {
-      display: block;
-    }
   }
 
   div {
@@ -151,6 +61,7 @@ export const NavbarItemsList = styled.ul`
     display: none;
     flex-direction: column;
     gap: 0;
+    position: static;
 
     &.open {
       display: flex;
@@ -159,42 +70,23 @@ export const NavbarItemsList = styled.ul`
       top: 100%;
       left: 0;
       width: 100%;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
       > li {
         padding: 10px 20px;
-
-        &.active > ul {
-          display: block;
-        }
-
-        &:hover > ul {
-          display: block;
-        }
       }
     }
   }
 `;
 
-export const NavbarSubMenu = styled.ul<{ isActive: boolean }>`
+export const NavbarSubMenu = styled.ul`
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: ${colors.white};
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   padding: 0;
   margin: 0;
   z-index: 1;
-  display: ${({ isActive }) => (isActive ? "block" : "none")};
-
-  &.active > ul {
-    display: block;
-  }
-
-  &:hover > ul {
-    display: block;
-  }
 
   > li {
     padding: 10px 20px;
@@ -202,6 +94,73 @@ export const NavbarSubMenu = styled.ul<{ isActive: boolean }>`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
-    box-shadow: none;
+  }
+`;
+
+export const CatequeseList = styled.li`
+  position: relative;
+
+  ul {
+    display: none;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+`;
+
+export const NavbarSubSubMenu = styled.ul`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: ${colors.white};
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  max-height: 300px;
+  overflow-y: auto;
+
+  > li {
+    padding: 10px 20px;
+  }
+
+  @media (max-width: ${breakpoints.phone}) {
+    position: static;
+  }
+`;
+
+export const HamburgerIcon = styled.div`
+  display: none;
+  cursor: pointer;
+
+  @media (max-width: ${breakpoints.phone}) {
+    display: block;
+
+    img {
+      width: 20px;
+      height: auto;
+    }
+  }
+`;
+
+export const NavbarSubItemsText = styled.a`
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  padding: 2px;
+  color: ${colors.white};
+`;
+
+export const NavbarText = styled.span`
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-right: 6px;
+  cursor: default;
+
+  &:hover,
+  &:active {
+    color: ${colors.brown};
   }
 `;

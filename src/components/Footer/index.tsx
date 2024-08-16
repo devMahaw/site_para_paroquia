@@ -1,10 +1,7 @@
 import { NavbarSubItemsText } from "../Navbar/styles";
 import { FooterContainer } from "./styles";
-import useNavigation from "../../utils/navigation";
 
 const Footer = () => {
-  const { goTo } = useNavigation();
-
   return (
     <FooterContainer>
       <ul>
