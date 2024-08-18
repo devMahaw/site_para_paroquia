@@ -37,6 +37,7 @@ export const GlobalCss = createGlobalStyle`
   body {
     background-color: ${colors.gray};
     color: ${colors.black};
+    height: 200vh;
   }
 
   button {
