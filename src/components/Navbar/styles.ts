@@ -34,6 +34,7 @@ export const NavbarItemsList = styled.ul`
 
   > li {
     position: relative;
+    cursor: pointer;
   }
 
   div {
@@ -81,12 +82,16 @@ export const NavbarItemsList = styled.ul`
 export const NavbarSubMenu = styled.ul`
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   background-color: ${colors.white};
   padding: 0;
   margin: 0;
   z-index: 1;
+
+  &.open {
+    display: block;
+  }
 
   > li {
     padding: 10px 20px;
@@ -94,18 +99,29 @@ export const NavbarSubMenu = styled.ul`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
+
+    &.open {
+      display: block;
+      background-color: ${colors.white};
+    }
   }
 `;
 
 export const CatequeseList = styled.li`
   position: relative;
 
-  ul {
-    display: none;
-    top: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0;
+  &:hover > ul,
+  &:active > ul {
+    display: block;
+  }
+
+  @media (max-width: ${breakpoints.phone}) {
+    &:hover > ul {
+      display: none;
+    }
+    &:active > ul {
+      display: block;
+    }
   }
 `;
 
@@ -113,13 +129,15 @@ export const NavbarSubSubMenu = styled.ul`
   display: none;
   position: absolute;
   top: 0;
-  left: 100%;
+  left: 60%;
   background-color: ${colors.white};
   padding: 0;
   margin: 0;
-  z-index: 1;
-  max-height: 300px;
-  overflow-y: auto;
+  z-index: 2;
+
+  &.open {
+    display: block;
+  }
 
   > li {
     padding: 10px 20px;
@@ -127,19 +145,11 @@ export const NavbarSubSubMenu = styled.ul`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
-  }
-`;
+    display: none;
 
-export const HamburgerIcon = styled.div`
-  display: none;
-  cursor: pointer;
-
-  @media (max-width: ${breakpoints.phone}) {
-    display: block;
-
-    img {
-      width: 20px;
-      height: auto;
+    &.open {
+      display: block;
+      background-color: ${colors.white};
     }
   }
 `;
@@ -162,5 +172,18 @@ export const NavbarText = styled.span`
   &:hover,
   &:active {
     color: ${colors.brown};
+  }
+`;
+
+export const HamburgerIcon = styled.div`
+  display: none;
+
+  @media (max-width: ${breakpoints.phone}) {
+    display: block;
+    cursor: pointer;
+
+    img {
+      width: 20px;
+    }
   }
 `;
