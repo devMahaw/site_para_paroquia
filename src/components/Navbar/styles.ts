@@ -88,6 +88,7 @@ export const NavbarSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 1;
+  height: 200vh;
 
   &.open {
     display: block;
@@ -134,6 +135,7 @@ export const NavbarSubSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 2;
+  height: 200vh;
 
   &.open {
     display: block;

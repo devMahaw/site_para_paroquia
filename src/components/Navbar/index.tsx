@@ -235,17 +235,20 @@ const Navbar = () => {
                       }
                     >
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText href="/batismo" target="_blank">
                           Batismo
                         </S.NavbarSubItemsText>
                       </li>
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText
+                          href="/eucaristia"
+                          target="_blank"
+                        >
                           Eucaristia
                         </S.NavbarSubItemsText>
                       </li>
                       <li>
-                        <S.NavbarSubItemsText href="">
+                        <S.NavbarSubItemsText href="/crisma" target="_blank">
                           Crisma
                         </S.NavbarSubItemsText>
                       </li>
