@@ -88,7 +88,6 @@ export const NavbarSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 1;
-  height: 200vh;
 
   &.open {
     display: block;
@@ -100,6 +99,8 @@ export const NavbarSubMenu = styled.ul`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
 
     &.open {
       display: block;
@@ -135,7 +136,6 @@ export const NavbarSubSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 2;
-  height: 200vh;
 
   &.open {
     display: block;
@@ -148,6 +148,8 @@ export const NavbarSubSubMenu = styled.ul`
   @media (max-width: ${breakpoints.phone}) {
     position: static;
     display: none;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
 
     &.open {
       display: block;
