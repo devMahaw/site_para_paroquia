@@ -82,7 +82,7 @@ export const NavbarItemsList = styled.ul`
 export const NavbarSubMenu = styled.ul`
   display: none;
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 0;
   background-color: ${colors.white};
   padding: 0;
