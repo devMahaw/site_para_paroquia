@@ -345,7 +345,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu className={activeSubSubMenu === 3 ? "open" : ""}>
+            <S.NavbarSubMenu className={activeSubMenu === 3 ? "open" : ""}>
               <li>
                 <S.NavbarSubItemsText href="">Avisos</S.NavbarSubItemsText>
               </li>
@@ -379,7 +379,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <S.NavbarSubMenu className={activeSubSubMenu === 4 ? "open" : ""}>
+            <S.NavbarSubMenu className={activeSubMenu === 4 ? "open" : ""}>
               <li>
                 <S.NavbarSubItemsText href="">Dízimo</S.NavbarSubItemsText>
               </li>
