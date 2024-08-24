@@ -3,19 +3,19 @@ import * as S from "./styles";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSubMenu, setActiveSubMenu] = useState(null);
-  const [activeSubSubMenu, setActiveSubSubMenu] = useState(null);
+  const [activeSubMenu, setActiveSubMenu] = useState<number | null>(null);
+  const [activeSubSubMenu, setActiveSubSubMenu] = useState<number | null>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const toggleSubMenu = (index) => {
+  const toggleSubMenu = (index: number) => {
     setActiveSubMenu(activeSubMenu === index ? null : index);
     setActiveSubSubMenu(null);
   };
 
-  const toggleSubSubMenu = (index) => {
+  const toggleSubSubMenu = (index: number) => {
     setActiveSubSubMenu(activeSubSubMenu === index ? null : index);
   };
 
