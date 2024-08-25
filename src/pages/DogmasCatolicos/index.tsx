@@ -4,10 +4,7 @@ const DogmasCatolicos = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{
-            height: "600px",
-          }}
+        <S.Image
           src="assets/dogmas_catolicos/dogmas_catolicos.jpg"
           alt="Doutores da Igreja"
         />

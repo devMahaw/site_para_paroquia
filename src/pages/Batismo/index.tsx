@@ -4,15 +4,7 @@ const Batismo = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{
-            width: "1200px",
-            height: "600px",
-            objectFit: "cover",
-          }}
-          src="assets/batismo/batismo_bb.jpg"
-          alt="Batismo"
-        />
+        <S.Image src="assets/batismo/batismo_bb.jpg" alt="Batismo" />
       </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source src="assets/batismo/batismo.mp3" type="audio/mp3" />

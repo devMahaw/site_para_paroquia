@@ -4,11 +4,7 @@ const Oracoes = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{ height: "500px" }}
-          src="assets/oracoes/oracao.jpg"
-          alt="Crisma"
-        />
+        <S.Image src="assets/oracoes/oracao.jpg" alt="Crisma" />
       </S.ImageContainer>
       <div>
         <S.BigText>Orações mais importantes de se aprender</S.BigText>

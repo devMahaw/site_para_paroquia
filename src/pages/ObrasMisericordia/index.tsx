@@ -4,8 +4,7 @@ const ObrasMisericordia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{ height: "600px" }}
+        <S.Image
           src="assets/obras_misericordia/filantropia.jpg"
           alt="Filantropia"
         />

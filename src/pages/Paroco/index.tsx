@@ -5,7 +5,7 @@ const Paroco = () => {
   return (
     <div>
       <S.ImageContainer>
-        <S.StartImage
+        <S.Image
           src="assets/paroco.jpg"
           alt="Pároco"
           style={{ borderRadius: "50%", border: "6px solid #FFC42E" }}

@@ -35,6 +35,10 @@ export const NavbarItemsList = styled.ul`
   > li {
     position: relative;
     cursor: pointer;
+
+    &:hover > ul {
+      display: block;
+    }
   }
 
   div {
@@ -88,11 +92,6 @@ export const NavbarSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 1;
-  max-height: 1000px;
-
-  &.open {
-    display: block;
-  }
 
   > li {
     padding: 10px 20px;
@@ -100,29 +99,8 @@ export const NavbarSubMenu = styled.ul`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
 
     &.open {
-      display: block;
-      background-color: ${colors.white};
-    }
-  }
-`;
-
-export const CatequeseList = styled.li`
-  position: relative;
-
-  &:hover > ul,
-  &:active > ul {
-    display: block;
-  }
-
-  @media (max-width: ${breakpoints.phone}) {
-    &:hover > ul {
-      display: none;
-    }
-    &:active > ul {
       display: block;
     }
   }
@@ -137,11 +115,6 @@ export const NavbarSubSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 2;
-  max-height: 1000px;
-
-  &.open {
-    display: block;
-  }
 
   > li {
     padding: 10px 20px;
@@ -149,13 +122,9 @@ export const NavbarSubSubMenu = styled.ul`
 
   @media (max-width: ${breakpoints.phone}) {
     position: static;
-    display: none;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
 
     &.open {
       display: block;
-      background-color: ${colors.white};
     }
   }
 `;

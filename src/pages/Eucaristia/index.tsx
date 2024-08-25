@@ -4,7 +4,7 @@ const Eucaristia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage src="assets/eucaristia/santaCeia.png" alt="Eucaristia" />
+        <S.Image src="assets/eucaristia/santaCeia.png" alt="Eucaristia" />
       </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source src="assets/eucaristia/eucaristia.mp3" type="audio/mp3" />

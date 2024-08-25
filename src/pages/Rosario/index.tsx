@@ -5,11 +5,7 @@ const Rosario = () => {
     <div style={{ margin: "50px 100px" }}>
       <div>
         <S.ImageContainer>
-          <S.StartImage
-            style={{
-              objectFit: "cover",
-              height: "600px",
-            }}
+          <S.Image
             src="assets/rosario/ns_banner.png"
             alt="Nossa Senhora com Rosário"
           />
@@ -503,14 +499,7 @@ const Rosario = () => {
                 </a>
               </sup>
             </S.SmallText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "820px",
-                height: "700px",
-                marginTop: "30px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/anunciacao_gozozos.jpg"
               alt="Anunciação do anjo"
             />
@@ -557,11 +546,7 @@ const Rosario = () => {
             >
               1º mistério gozoso: a Anunciação do anjo a Virgem Maria
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/anunciacao_misterios_gozozos.jpg"
               alt="Anunciação do anjo"
             />
@@ -656,13 +641,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               2º mistério gozoso: a visitação de Maria a sua prima Santa Isabel
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                height: "600px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/visitacao_maria.jpg"
               alt="Visitação de Nossa Senhora a sua prima Santa Isabel"
             />
@@ -756,15 +735,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               3º mistério gozoso: o nascimento de Jesus em Belém
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                objectFit: "cover",
-              }}
-              src="assets/rosario/nascimento_jesus.jpg"
-              alt="Presépio"
-            />
+            <S.Image src="assets/rosario/nascimento_jesus.jpg" alt="Presépio" />
             <S.SmallText>
               <cite>
                 <span>
@@ -849,13 +820,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               4º mistério gozoso: a apresentação do Menino Jesus no templo
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                height: "600px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/apresentacao_jesus.jpg"
               alt="Apresentação do menino Jesus"
             />
@@ -945,11 +910,7 @@ const Rosario = () => {
               5º mistério gozoso: a perda e o reencontro de Jesus no templo
               entre os doutores
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/jesus_doutores.jpg"
               alt="Jesus entre os doutores"
             />
@@ -1068,12 +1029,7 @@ const Rosario = () => {
               <span>15. Lucas 2, 41-52</span>
               <span>16. Lc 2, 19</span>
             </S.SmallText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "820px",
-                marginTop: "30px",
-              }}
+            <S.Image
               src="assets/rosario/eucaristia_anjos.jpg"
               alt="Eucaristia e anjos"
             />
@@ -1114,11 +1070,7 @@ const Rosario = () => {
             >
               1º mistério luminoso: o batismo de Jesus no Rio Jordão
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/batismo_jesus.jpg"
               alt="Batismo de Jesus"
             />
@@ -1216,10 +1168,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               2º mistério luminoso: a autorrevelação de Jesus nas Bodas de Caná
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-              }}
+            <S.Image
               src="assets/rosario/bodas_cana.jpg"
               alt="Milagre nas bodas de Caná"
             />
@@ -1300,11 +1249,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               3º mistério luminoso: o anúncio do Reino de Deus
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/anuncio_reino.jpg"
               alt="Anúncio do Reino de Deus"
             />
@@ -1376,13 +1321,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               4º mistério luminoso: a transfiguração de Jesus no Monte Tabor
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                height: "650px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/transfiguracao.jpg"
               alt="Transfiguração"
             />
@@ -1464,14 +1403,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               5º mistério luminoso: a instituição da Eucaristia
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
-              src="assets/rosario/ultima_ceia.jpg"
-              alt="A Última Ceia"
-            />
+            <S.Image src="assets/rosario/ultima_ceia.jpg" alt="A Última Ceia" />
             <S.SmallText>
               <cite>
                 <span>
@@ -1553,11 +1485,7 @@ const Rosario = () => {
               <span>8. CIC, 556</span>
               <span>9. Mt 26, 26-30</span>
             </S.SmallText>
-            <img
-              style={{
-                borderRadius: "20px",
-                marginTop: "30px",
-              }}
+            <S.Image
               src="assets/rosario/crucificacao_paisagem.jpg"
               alt="Maria e Jesus morto"
             />
@@ -1607,13 +1535,7 @@ const Rosario = () => {
             >
               1º mistério doloroso: a agonia de Jesus no Horto das Oliveiras
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                height: "600px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/agonia_jesus.jpg"
               alt="Agonia no Horto das Oliveiras"
             />
@@ -1696,10 +1618,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               2º mistério doloroso: a flagelação de Jesus
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-              }}
+            <S.Image
               src="assets/rosario/flagelado_jesus.jpg"
               alt="Flagelação de Jesus"
             />
@@ -1778,11 +1697,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               3º mistério doloroso: a coroação de espinhos de Jesus
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/coroacao_espinhos.jpg"
               alt="Coroação de Espinhos"
             />
@@ -1866,10 +1781,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               4º mistério doloroso: a subida ao Calvário
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-              }}
+            <S.Image
               src="assets/rosario/subida_calvario.jpg"
               alt="Subida ao Calvário"
             />
@@ -1978,12 +1890,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               5º mistério doloroso: a crucificação e morte de Nosso Senhor
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                height: "650px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/crucificacao_vertical.jpg"
               alt="Jesus crucificado"
             />
@@ -2120,12 +2027,7 @@ const Rosario = () => {
                 Cristo. p.34
               </span>
             </S.SmallText>
-            <img
-              style={{
-                borderRadius: "20px",
-                marginTop: "30px",
-                width: "800px",
-              }}
+            <S.Image
               src="assets/rosario/ressureicao_banner.png"
               alt="Coroação de Nossa Senhora"
             />
@@ -2178,12 +2080,7 @@ const Rosario = () => {
             >
               1º mistério glorioso: a ressurreição de Jesus Cristo
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/ressureicao_jesus.jpg"
               alt="Ressureição de Jesus Cristo"
             />
@@ -2280,13 +2177,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               2º mistério glorioso: a ascensão de Jesus ao Céu
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                height: "650px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/ascencao_jesus.jpg"
               alt="Ascenção de Jesus"
             />
@@ -2380,12 +2271,7 @@ const Rosario = () => {
               3º mistério glorioso: a descida do Espírito Santo sobre Maria e os
               Apóstolos
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "800px",
-                objectFit: "cover",
-              }}
+            <S.Image
               src="assets/rosario/pentecostes.jpg"
               alt="Ascenção de Jesus"
             />
@@ -2453,10 +2339,7 @@ const Rosario = () => {
             <S.DefaultText style={{ padding: "30px 0px", fontWeight: "bold" }}>
               4º mistério glorioso: a assunção de Maria ao Céu
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-              }}
+            <S.Image
               src="assets/rosario/assuncao_maria.jpg"
               alt="Ascenção de Jesus"
             />
@@ -2529,11 +2412,7 @@ const Rosario = () => {
               5º mistério glorioso: a coroação de Maria como Rainha do Céu e da
               Terra
             </S.DefaultText>
-            <img
-              style={{
-                borderRadius: "20px",
-                height: "600px",
-              }}
+            <S.Image
               src="assets/rosario/coroacao_nossa.jpg"
               alt="Coroação de Nossa Senhora"
             />

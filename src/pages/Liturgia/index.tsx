@@ -4,11 +4,7 @@ const Liturgia = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{ height: "600px" }}
-          src="assets/liturgia/missa.jpg"
-          alt="Missa"
-        />
+        <S.Image src="assets/liturgia/missa.jpg" alt="Missa" />
       </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source src="assets/liturgia/liturgia.mp3" type="audio/mp3" />
@@ -719,14 +715,7 @@ const Liturgia = () => {
           <S.DefaultText style={{ fontWeight: "bold", marginTop: "20px" }}>
             Os tempos litúrgicos
           </S.DefaultText>
-          <img
-            style={{
-              borderRadius: "20px",
-              marginTop: "20px",
-            }}
-            src="assets/liturgia/anoLiturgico.jpg"
-            alt="Ano Litúrgico"
-          />
+          <S.Image src="assets/liturgia/anoLiturgico.jpg" alt="Ano Litúrgico" />
           <S.SmallText>
             <strong>Advento</strong>: é o tempo de preparação para a solenidade
             do Natal. Começa 4 semanas antes, marcando o início do Ano

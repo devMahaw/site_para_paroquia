@@ -29,7 +29,7 @@ const Footer = () => {
           <NavbarSubItemsText href="">Horários das missas</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText href="/trindade" target="_blank">
+          <NavbarSubItemsText href="">
             Catequese
           </NavbarSubItemsText>
         </li>

@@ -4,8 +4,7 @@ const Crisma = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{ height: "600px" }}
+        <S.Image
           src="assets/crisma/crismaa.jpg"
           alt="Crisma"
         />

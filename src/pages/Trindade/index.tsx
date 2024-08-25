@@ -4,13 +4,7 @@ const Trindade = () => {
   return (
     <div style={{ margin: "50px 100px" }}>
       <S.ImageContainer>
-        <S.StartImage
-          style={{
-            height: "700px",
-          }}
-          src="assets/trindade/trindade.jpg"
-          alt="Santíssima Trindade"
-        />
+        <S.Image src="assets/trindade/trindade.jpg" alt="Santíssima Trindade" />
       </S.ImageContainer>
       <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
         <source src="assets/trindade/trindade.mp3" type="audio/mp3" />

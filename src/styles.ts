@@ -119,9 +119,17 @@ export const DotList = styled.li`
   margin-left: 40px;
 `;
 
-export const StartImage = styled.img`
+export const Image = styled.img`
+  max-width: 800px;
+  max-height: 600px;
+  object-fit: cover;
   border-radius: 20px;
   margin: 120px 0px;
+
+  @media (max-width: ${breakpoints.phone}) {
+    max-width: 400px;
+    max-height: 400px;
+  }
 `;
 
 export const ImageContainer = styled.div`
