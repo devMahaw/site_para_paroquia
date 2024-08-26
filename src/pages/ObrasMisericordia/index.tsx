@@ -2,22 +2,22 @@ import * as S from "../../styles";
 
 const ObrasMisericordia = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image
           src="assets/obras_misericordia/filantropia.jpg"
           alt="Filantropia"
         />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source
           src="assets/obras_misericordia/obrasMisericordia.mp3"
           type="audio/mp3"
         />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>As obras de misericórdia e a vida espiritual</S.BigText>
           <S.DefaultText
             style={{
@@ -336,7 +336,7 @@ const ObrasMisericordia = () => {
             <span>3. Lc 3,11</span>
             <span>4. Mt 5, 7</span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-obras">O que são as obras de misericórdia?</a>
@@ -350,7 +350,7 @@ const ObrasMisericordia = () => {
             O papel das obras de misericórdia na nossa vida espiritual
           </a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };

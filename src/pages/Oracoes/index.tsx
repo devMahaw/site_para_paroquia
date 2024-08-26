@@ -2,7 +2,7 @@ import * as S from "../../styles";
 
 const Oracoes = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image src="assets/oracoes/oracao.jpg" alt="Crisma" />
       </S.ImageContainer>

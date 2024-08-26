@@ -2,16 +2,16 @@ import * as S from "../../styles";
 
 const Trindade = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image src="assets/trindade/trindade.jpg" alt="Santíssima Trindade" />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source src="assets/trindade/trindade.mp3" type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>
             Santíssima Trindade: um mistério para se celebrar
           </S.BigText>
@@ -432,7 +432,7 @@ const Trindade = () => {
             <span>3. Jo 20, 17</span>
             <span>4. Mt 3,16-17</span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-trindade">O que é a Santíssima Trindade?</a>
@@ -444,7 +444,7 @@ const Trindade = () => {
           </a>
           <a href="#devocao-trindade">A devoção à Santíssima Trindade</a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };

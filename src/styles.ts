@@ -44,6 +44,63 @@ export const GlobalCss = createGlobalStyle`
   }
 `;
 
+export const Container = styled.div`
+  display: flex;
+
+  @media (max-width: ${breakpoints.phone}) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const TextContainer = styled.div`
+  width: 80%;
+
+  @media (max-width: ${breakpoints.phone}) {
+    width: 90vw;
+  }
+`;
+
+export const LinksContainer = styled.div`
+  text-align: center;
+  height: 100%;
+  background: ${colors.lightBlue};
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 20%;
+  border-radius: 10px;
+  margin-left: 100px;
+  position: sticky;
+  top: 120px;
+
+  h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 25px;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: ${colors.darkBlue};
+
+    &:hover {
+      color: ${colors.purple};
+    }
+  }
+
+  @media (max-width: ${breakpoints.phone}) {
+    width: 90vw;
+    order: -1;
+    position: relative;
+    top: 0px;
+    margin: 10px 0px;
+  }
+`;
+
 export const BigText = styled.h2`
   font-weight: bold;
   font-size: 40px;
@@ -83,37 +140,6 @@ export const SmallText = styled.p`
   }
 `;
 
-export const LinksContainer = styled.div`
-  height: 100%;
-  background: ${colors.lightBlue};
-  display: flex;
-  flex-direction: column;
-  padding: 25px;
-  width: 20%;
-  border-radius: 10px;
-  margin-left: 100px;
-  position: sticky;
-  top: 120px;
-
-  h3 {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 120%;
-    margin-bottom: 25px;
-  }
-
-  a {
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 15px;
-    color: ${colors.darkBlue};
-
-    &:hover {
-      color: ${colors.purple};
-    }
-  }
-`;
-
 export const DotList = styled.li`
   list-style: disc;
   margin-left: 40px;
@@ -124,11 +150,11 @@ export const Image = styled.img`
   max-height: 600px;
   object-fit: cover;
   border-radius: 20px;
-  margin: 120px 0px;
+  margin: 55px 0px;
 
   @media (max-width: ${breakpoints.phone}) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
   }
 `;
 
@@ -136,4 +162,15 @@ export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+export const Audio = styled.audio`
+  transform: scale(1.5);
+  margin-left: 50px;
+
+  @media (max-width: ${breakpoints.phone}) {
+    display: flex;
+    transform: scale(1.2);
+    margin-left: 0px;
+  }
 `;

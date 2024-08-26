@@ -1,9 +1,9 @@
 import * as S from "../../styles";
-import { ParocoContainer } from "./styles";
+import { ParocoYellow, ParocoContainer } from "./styles";
 
 const Paroco = () => {
   return (
-    <div>
+    <ParocoContainer>
       <S.ImageContainer>
         <S.Image
           src="assets/paroco.jpg"
@@ -17,7 +17,7 @@ const Paroco = () => {
         </S.BigText>
       </S.ImageContainer>
       <S.ImageContainer>
-        <ParocoContainer>
+        <ParocoYellow>
           <svg
             aria-hidden="true"
             viewBox="0 0 576 512"
@@ -31,9 +31,9 @@ const Paroco = () => {
             Ordenação
           </S.DefaultText>
           <S.SmallText>18.11.2006</S.SmallText>
-        </ParocoContainer>
+        </ParocoYellow>
       </S.ImageContainer>
-    </div>
+    </ParocoContainer>
   );
 };
 

@@ -2,16 +2,16 @@ import * as S from "../../styles";
 
 const Liturgia = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image src="assets/liturgia/missa.jpg" alt="Missa" />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source src="assets/liturgia/liturgia.mp3" type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>Estrutura e partes da Santa Missa</S.BigText>
           <S.DefaultText
             style={{
@@ -792,7 +792,7 @@ const Liturgia = () => {
             <span>12. CIC, 1354</span>
             <span>13. CIC, 1355</span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-missa">O que é a Santa Missa?</a>
@@ -800,7 +800,7 @@ const Liturgia = () => {
           <a href="#todas-missa">Todas as partes da Missa</a>
           <a href="#ano-liturgico">O ano litúrgico</a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };

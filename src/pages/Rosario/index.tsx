@@ -2,7 +2,7 @@ import * as S from "../../styles";
 
 const Rosario = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <div>
         <S.ImageContainer>
           <S.Image
@@ -10,12 +10,12 @@ const Rosario = () => {
             alt="Nossa Senhora com Rosário"
           />
         </S.ImageContainer>
-        <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+        <S.Audio controls>
           <source src="assets/rosario/rosario.mp3" type="audio/mp3" />
           Seu navegador não suporta o elemento de áudio.
-        </audio>
-        <div style={{ display: "flex" }}>
-          <div style={{ width: "80%" }}>
+        </S.Audio>
+        <S.Container>
+          <S.TextContainer>
             <S.BigText>Um guia para rezar o rosário</S.BigText>
             <S.DefaultText
               style={{
@@ -2517,7 +2517,7 @@ const Rosario = () => {
               <span>10. Ap 12,1-6</span>
               <span>11. 1Rs 2, 19</span>
             </S.SmallText>
-          </div>
+          </S.TextContainer>
           <S.LinksContainer>
             <h3>O que você vai encontrar neste artigo?</h3>
             <a href="#oque-rosario">O que é o rosário?</a>
@@ -2534,7 +2534,7 @@ const Rosario = () => {
             <a href="#dolorosos">Mistérios Dolorosos</a>
             <a href="#gloriosos">Mistérios Gloriosos</a>
           </S.LinksContainer>
-        </div>
+        </S.Container>
       </div>
     </div>
   );

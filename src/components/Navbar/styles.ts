@@ -92,29 +92,7 @@ export const NavbarSubMenu = styled.ul`
   padding: 0;
   margin: 0;
   z-index: 1;
-
-  > li {
-    padding: 10px 20px;
-  }
-
-  @media (max-width: ${breakpoints.phone}) {
-    position: static;
-
-    &.open {
-      display: block;
-    }
-  }
-`;
-
-export const NavbarSubSubMenu = styled.ul`
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 60%;
-  background-color: ${colors.white};
-  padding: 0;
-  margin: 0;
-  z-index: 2;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
   > li {
     padding: 10px 20px;

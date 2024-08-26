@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../styles";
+import { breakpoints, colors } from "../../styles";
 
 export const FooterContainer = styled.div`
   background-color: ${colors.blue};
@@ -16,5 +16,9 @@ export const FooterContainer = styled.div`
     li {
       margin-top: 16px;
     }
+  }
+
+  @media (max-width: ${breakpoints.phone}) {
+    display: block;
   }
 `;

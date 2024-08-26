@@ -12,7 +12,9 @@ const Footer = () => {
           <NavbarSubItemsText href="">História</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText href="">Pároco</NavbarSubItemsText>
+          <NavbarSubItemsText href="/paroco" target="_blank">
+            Pároco
+          </NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Secretaria</NavbarSubItemsText>
@@ -29,9 +31,7 @@ const Footer = () => {
           <NavbarSubItemsText href="">Horários das missas</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText href="">
-            Catequese
-          </NavbarSubItemsText>
+          <NavbarSubItemsText href="">Catequese</NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Pastorais</NavbarSubItemsText>

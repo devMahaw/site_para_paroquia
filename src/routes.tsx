@@ -10,11 +10,13 @@ import Liturgia from "./pages/Liturgia";
 import Paroco from "./pages/Paroco";
 import Crisma from "./pages/Crisma";
 import Oracoes from "./pages/Oracoes";
+import Catequese from "./pages/Catequese";
 
 const RoutesVar = () => (
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/rosario" element={<Rosario />} />
+    <Route path="/catequese" element={<Catequese />} />
     <Route path="/trindade" element={<Trindade />} />
     <Route path="/batismo" element={<Batismo />} />
     <Route path="/dogmascatolicos" element={<DogmasCatolicos />} />

@@ -2,22 +2,22 @@ import * as S from "../../styles";
 
 const DogmasCatolicos = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image
           src="assets/dogmas_catolicos/dogmas_catolicos.jpg"
           alt="Doutores da Igreja"
         />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source
           src="assets/dogmas_catolicos/dogmasCatolicos.mp3"
           type="audio/mp3"
         />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>Os dogmas da Igreja Católica</S.BigText>
           <S.DefaultText
             style={{
@@ -940,7 +940,7 @@ const DogmasCatolicos = () => {
               Acesso 27/8/013.
             </span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-dogma">O que é um dogma?</a>
@@ -956,7 +956,7 @@ const DogmasCatolicos = () => {
           <a href="#dogmas-sacramentos">Dogmas sobre os Sacramentos</a>
           <a href="#dogmas-ultimas">Dogmas sobre as últimas coisas</a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };

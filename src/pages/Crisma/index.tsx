@@ -2,19 +2,16 @@ import * as S from "../../styles";
 
 const Crisma = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
-        <S.Image
-          src="assets/crisma/crismaa.jpg"
-          alt="Crisma"
-        />
+        <S.Image src="assets/crisma/crismaa.jpg" alt="Crisma" />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source src="assets/crisma/crisma.mp3" type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>O que é o Sacramento do Crisma?</S.BigText>
           <S.DefaultText
             style={{
@@ -553,7 +550,7 @@ const Crisma = () => {
               do mundo
             </span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-crisma">O que é o sacramento do Crisma?</a>
@@ -563,7 +560,7 @@ const Crisma = () => {
             Os efeitos do sacramento do Crisma na nossa vida
           </a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };

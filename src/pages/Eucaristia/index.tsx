@@ -2,16 +2,16 @@ import * as S from "../../styles";
 
 const Eucaristia = () => {
   return (
-    <div style={{ margin: "50px 100px" }}>
+    <div style={{ margin: "50px" }}>
       <S.ImageContainer>
         <S.Image src="assets/eucaristia/santaCeia.png" alt="Eucaristia" />
       </S.ImageContainer>
-      <audio controls style={{ transform: "scale(1.5)", marginLeft: "50px" }}>
+      <S.Audio controls>
         <source src="assets/eucaristia/eucaristia.mp3" type="audio/mp3" />
         Seu navegador não suporta o elemento de áudio.
-      </audio>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "80%" }}>
+      </S.Audio>
+      <S.Container>
+        <S.TextContainer>
           <S.BigText>O que é o Sacramento da Eucaristia?</S.BigText>
           <S.DefaultText
             style={{
@@ -569,7 +569,7 @@ const Eucaristia = () => {
               33. Bento XVI, Sacramentum Caritatis, Exortação Apostólica
             </span>
           </S.SmallText>
-        </div>
+        </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
           <a href="#oque-eucaristia">O que é o sacramento da Eucaristia?</a>
@@ -581,7 +581,7 @@ const Eucaristia = () => {
             Sacramento da Eucaristia na nossa vida diária: os frutos da comunhão
           </a>
         </S.LinksContainer>
-      </div>
+      </S.Container>
     </div>
   );
 };
