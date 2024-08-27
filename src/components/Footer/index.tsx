@@ -31,7 +31,9 @@ const Footer = () => {
           <NavbarSubItemsText href="">Horários das missas</NavbarSubItemsText>
         </li>
         <li>
-          <NavbarSubItemsText href="">Catequese</NavbarSubItemsText>
+          <NavbarSubItemsText href="/catequese" target="_blank">
+            Catequese
+          </NavbarSubItemsText>
         </li>
         <li>
           <NavbarSubItemsText href="">Pastorais</NavbarSubItemsText>
