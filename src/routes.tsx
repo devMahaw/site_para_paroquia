@@ -18,7 +18,7 @@ const RoutesVar = () => (
     <Route path="/" element={<Home />} />
     <Route path="/rosario" element={<Rosario />} />
     <Route path="/catequese" element={<Catequese />} />
-    <Route path="/catequese/sacramentos" element={<SeteSacramentos />} />
+    <Route path="/sacramentos" element={<SeteSacramentos />} />
     <Route path="/trindade" element={<Trindade />} />
     <Route path="/batismo" element={<Batismo />} />
     <Route path="/dogmascatolicos" element={<DogmasCatolicos />} />

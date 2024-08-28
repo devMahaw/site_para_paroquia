@@ -4,55 +4,71 @@ const SeteSacramentos = () => {
   return (
     <S.CatequeseContainer>
       <div>
-        <a href="">
+        <a href="/batismo" target="_blank">
           <S.CatequeseImage src="assets/batismo/batismo_bb.jpg" alt="Batismo" />
         </a>
         <S.BigText>
-          <a href="">Batismo</a>
+          <a href="/batismo" target="_blank">
+            Batismo
+          </a>
+        </S.BigText>
+      </div>
+      <div>
+        <a href="/eucaristia" target="_blank">
+          <S.CatequeseImage
+            src="assets/eucaristia/santaCeia.png"
+            alt="Eucaristia"
+          />
+        </a>
+        <S.BigText>
+          <a href="/eucaristia" target="_blank">
+            Eucaristia
+          </a>
+        </S.BigText>
+      </div>
+      <div>
+        <a href="/crisma" target="_blank">
+          <S.CatequeseImage src="assets/crisma/crismaa.jpg" alt="Crisma" />
+        </a>
+        <S.BigText>
+          <a href="/crisma" target="_blank">
+            Crisma
+          </a>
         </S.BigText>
       </div>
       <div>
         <a href="">
-          <S.CatequeseImage
-            src="assets/dogmas_catolicos/dogmas_catolicos.jpg"
-            alt="Dogmas Católicos"
-          />
+          <S.CatequeseImage src="assets/construcao.png" alt="Confissão" />
         </a>
         <S.BigText>
-          <a href="">Dogmas da Igreja Católica</a>
+          <a href="">Confissão</a>
         </S.BigText>
       </div>
       <div>
         <a href="">
           <S.CatequeseImage
             src="assets/construcao.png"
-            alt="Os 10 Mandamentos"
+            alt="Unção dos Enfermos"
           />
         </a>
         <S.BigText>
-          <a href="">Os 10 Mandamentos</a>
+          <a href="">Unção dos Enfermos</a>
         </S.BigText>
       </div>
       <div>
         <a href="">
-          <S.CatequeseImage
-            src="assets/rosario/eucaristia_anjos.jpg"
-            alt="Os 7 Sacramentos"
-          />
+          <S.CatequeseImage src="assets/construcao.png" alt="Ordem" />
         </a>
         <S.BigText>
-          <a href="">Os 7 Sacramentos</a>
+          <a href="">Ordem</a>
         </S.BigText>
       </div>
       <div>
         <a href="">
-          <S.CatequeseImage
-            src="assets/construcao.png"
-            alt="Os dons do Espírito Santo"
-          />
+          <S.CatequeseImage src="assets/construcao.png" alt="Matrimônio" />
         </a>
         <S.BigText>
-          <a href="">Os Dons do Espírito Santo</a>
+          <a href="">Matrimônio</a>
         </S.BigText>
       </div>
     </S.CatequeseContainer>

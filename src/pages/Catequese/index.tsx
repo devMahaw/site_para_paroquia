@@ -41,14 +41,14 @@ const Catequese = () => {
         </S.BigText>
       </div>
       <div>
-        <a href="/catequese/setesacramentos" target="_blank">
+        <a href="/sacramentos" target="_blank">
           <S.CatequeseImage
             src="assets/rosario/eucaristia_anjos.jpg"
             alt="Os 7 Sacramentos"
           />
         </a>
         <S.BigText>
-          <a href="/catequese/setesacramentos" target="_blank">
+          <a href="/sacramentos" target="_blank">
             Os 7 Sacramentos
           </a>
         </S.BigText>
@@ -65,11 +65,13 @@ const Catequese = () => {
         </S.BigText>
       </div>
       <div>
-        <a href="">
+        <a href="/liturgia" target="_blank">
           <S.CatequeseImage src="assets/liturgia/missa.jpg" alt="Liturgia" />
         </a>
         <S.BigText>
-          <a href="">Liturgia</a>
+          <a href="/liturgia" target="_blank">
+            Liturgia
+          </a>
         </S.BigText>
       </div>
       <div>
@@ -81,22 +83,26 @@ const Catequese = () => {
         </S.BigText>
       </div>
       <div>
-        <a href="">
+        <a href="/obrasmisericordia" target="_blank">
           <S.CatequeseImage
             src="assets/obras_misericordia/filantropia.jpg"
             alt="As Obras de Misericórdia"
           />
         </a>
         <S.BigText>
-          <a href="">As Obras de Misericórdia</a>
+          <a href="/obrasmisericordia" target="_blank">
+            As Obras de Misericórdia
+          </a>
         </S.BigText>
       </div>
       <div>
-        <a href="">
+        <a href="/oracoes" target="_blank">
           <S.CatequeseImage src="assets/oracoes/oracao.jpg" alt="Orações" />
         </a>
         <S.BigText>
-          <a href="">Orações</a>
+          <a href="/oracoes" target="_blank">
+            Orações
+          </a>
         </S.BigText>
       </div>
       <div>
