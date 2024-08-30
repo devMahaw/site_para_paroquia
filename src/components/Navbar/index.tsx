@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <S.NavbarContainer>
-      <a href="">
+      <a href="/">
         <h1>
           <img
             src="/assets/nsps_logo.png"
