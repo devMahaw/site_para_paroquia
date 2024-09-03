@@ -51,12 +51,21 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const TextContainer = styled.div`
   width: 80%;
 
   @media (max-width: ${breakpoints.phone}) {
+    width: 90vw;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     width: 90vw;
   }
 `;
@@ -94,6 +103,14 @@ export const LinksContainer = styled.div`
   }
 
   @media (max-width: ${breakpoints.phone}) {
+    width: 90vw;
+    order: -1;
+    position: relative;
+    top: 0px;
+    margin: 10px 0px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     width: 90vw;
     order: -1;
     position: relative;
@@ -157,6 +174,11 @@ export const Image = styled.img`
     max-width: 350px;
     max-height: 350px;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    max-width: 350px;
+    max-height: 350px;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -170,6 +192,12 @@ export const Audio = styled.audio`
   margin-left: 50px;
 
   @media (max-width: ${breakpoints.phone}) {
+    display: flex;
+    transform: scale(1.2);
+    margin-left: 0px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     display: flex;
     transform: scale(1.2);
     margin-left: 0px;
@@ -199,6 +227,10 @@ export const CatequeseContainer = styled.div`
   @media (max-width: ${breakpoints.phone}) {
     grid-template-columns: 1fr;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const CatequeseImage = styled.img`
@@ -210,6 +242,11 @@ export const CatequeseImage = styled.img`
   border-radius: 20px;
 
   @media (max-width: ${breakpoints.phone}) {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     max-width: 350px;
     max-height: 350px;
   }

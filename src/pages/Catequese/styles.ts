@@ -24,6 +24,10 @@ export const CatequeseContainer = styled.div`
   @media (max-width: ${breakpoints.phone}) {
     grid-template-columns: 1fr;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const CatequeseImage = styled.img`
@@ -35,6 +39,11 @@ export const CatequeseImage = styled.img`
   border-radius: 20px;
 
   @media (max-width: ${breakpoints.phone}) {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     max-width: 350px;
     max-height: 350px;
   }

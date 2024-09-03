@@ -15,6 +15,10 @@ export const ParocoYellow = styled.div`
   @media (max-width: ${breakpoints.phone}) {
     width: 350px;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    width: 350px;
+  }
 `;
 
 export const ParocoContainer = styled.div`
@@ -23,6 +27,12 @@ export const ParocoContainer = styled.div`
   }
 
   @media (max-width: ${breakpoints.phone}) {
+    h2 {
+      margin: 20px;
+    }
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
     h2 {
       margin: 20px;
     }

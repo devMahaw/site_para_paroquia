@@ -21,4 +21,8 @@ export const FooterContainer = styled.div`
   @media (max-width: ${breakpoints.phone}) {
     display: block;
   }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    display: block;
+  }
 `;
