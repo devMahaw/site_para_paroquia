@@ -27,12 +27,12 @@ export const NavbarContainer = styled.nav`
     }
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     padding: 20px;
     justify-content: space-between;
 
     img {
-      width: 250px;
+      width: 400px;
     }
   }
 `;
@@ -91,7 +91,7 @@ export const NavbarItemsList = styled.ul`
     }
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     display: none;
     flex-direction: column;
     gap: 0;
@@ -135,7 +135,7 @@ export const NavbarSubMenu = styled.ul`
     }
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     position: static;
 
     &.open {
@@ -177,12 +177,12 @@ export const HamburgerIcon = styled.div`
     }
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     display: block;
     cursor: pointer;
 
     img {
-      width: 20px;
+      width: 30px;
     }
   }
 `;

@@ -22,7 +22,7 @@ export const FooterContainer = styled.div`
     display: block;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     display: block;
   }
 `;

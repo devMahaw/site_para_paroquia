@@ -52,7 +52,7 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     flex-direction: column;
     align-items: center;
   }
@@ -65,7 +65,7 @@ export const TextContainer = styled.div`
     width: 90vw;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     width: 90vw;
   }
 `;
@@ -110,7 +110,7 @@ export const LinksContainer = styled.div`
     margin: 10px 0px;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     width: 90vw;
     order: -1;
     position: relative;
@@ -175,9 +175,9 @@ export const Image = styled.img`
     max-height: 350px;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
-    max-width: 350px;
-    max-height: 350px;
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
+    max-width: 600px;
+    max-height: 600px;
   }
 `;
 
@@ -197,7 +197,7 @@ export const Audio = styled.audio`
     margin-left: 0px;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     display: flex;
     transform: scale(1.2);
     margin-left: 0px;
@@ -227,10 +227,6 @@ export const CatequeseContainer = styled.div`
   @media (max-width: ${breakpoints.phone}) {
     grid-template-columns: 1fr;
   }
-
-  @media (max-width: ${breakpoints.desktop}) {
-    grid-template-columns: 1fr;
-  }
 `;
 
 export const CatequeseImage = styled.img`
@@ -246,7 +242,7 @@ export const CatequeseImage = styled.img`
     max-height: 350px;
   }
 
-  @media (max-width: ${breakpoints.desktop}) {
+  @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
     max-width: 350px;
     max-height: 350px;
   }
