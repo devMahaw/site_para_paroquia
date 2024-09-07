@@ -13,6 +13,7 @@ export const NavbarContainer = styled.nav`
   top: 0;
   left: 0;
   z-index: 1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
   img {
     width: 350px;
