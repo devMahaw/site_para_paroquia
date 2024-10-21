@@ -132,7 +132,7 @@ const Catequese = () => {
           <S.CatequeseImage src="assets/construcao.png" alt="Pecados" />
         </a>
         <S.BigText>
-          <a href="">Pecados</a>
+          <a href="">Exame de Consciência</a>
         </S.BigText>
       </div>
       <div>

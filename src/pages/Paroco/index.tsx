@@ -6,7 +6,7 @@ const Paroco = () => {
     <ParocoContainer>
       <S.ImageContainer>
         <S.Image
-          src="assets/paroco.jpg"
+          src="assets/paroco/paroco.jpg"
           alt="Pároco"
           style={{ borderRadius: "50%", border: "6px solid #FFC42E" }}
         />
