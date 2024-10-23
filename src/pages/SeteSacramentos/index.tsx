@@ -37,11 +37,16 @@ const SeteSacramentos = () => {
         </S.BigText>
       </div>
       <div>
-        <a href="">
-          <S.CatequeseImage src="assets/construcao.png" alt="Confissão" />
+        <a href="/confissao" target="_blank">
+          <S.CatequeseImage
+            src="assets/confissao/confissaoo.jpg"
+            alt="Confissão"
+          />
         </a>
         <S.BigText>
-          <a href="">Confissão</a>
+          <a href="/confissao" target="_blank">
+            Confissão
+          </a>
         </S.BigText>
       </div>
       <div>
