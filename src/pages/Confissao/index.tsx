@@ -241,7 +241,202 @@ const Confissao = () => {
           <S.BigText id="celebracao-reconciliacao">
             Celebração do Sacramento da Reconciliação
           </S.BigText>
+          <S.SmallText>
+            O rito começa com a saudação e a bênção do sacerdote, em seguida,
+            ocorre a leitura da Palavra de Deus, para iluminar a consciência do
+            penitente, despertar a contrição e preparar o seu coração para o
+            arrependimento.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1420-1532_po.html"
+                target="blank"
+              >
+                15
+              </a>
+            </sup>
+            A seguir, o indivíduo reconhece seus pecados — que são a matéria do
+            sacramento — e os confessa ao sacerdote.
+          </S.SmallText>
+          <S.SmallText>
+            Logo após, ocorre a imposição e a aceitação da penitência. O
+            sacerdote prescreve uma penitência ao penitente, o qual aceita como
+            um ato de reparação pelos pecados cometidos e como parte do processo
+            de reconciliação.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1420-1532_po.html"
+                target="blank"
+              >
+                16
+              </a>
+            </sup>
+            O próximo passo no rito é a absolvição, o sacerdote, agindo em nome
+            de Cristo, pronuncia as palavras de absolvição (a forma), perdoando
+            os pecados do penitente: “Deus, Pai de misericórdia, que, pela morte
+            e ressurreição de seu Filho, reconciliou o mundo consigo e enviou o
+            Espírito Santo para a remissão dos pecados, te conceda, pelo
+            ministério da Igreja, o perdão e a paz. E Eu te absolvo dos teus
+            pecados em nome do Pai, e do Filho e do Espírito Santo.”
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1420-1532_po.html"
+                target="blank"
+              >
+                17
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            Depois disso, o penitente expressa louvor e ação de graças a Deus, e
+            o rito se encerra com a despedida e a bênção do sacerdote.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1420-1532_po.html"
+                target="blank"
+              >
+                18
+              </a>
+            </sup>
+            O penitente parte da confissão renovado espiritualmente — pois Deus
+            o devolveu a graça santificante, que é remédio espiritual.
+          </S.SmallText>
+          <S.SmallText>
+            Em situações de grave necessidade, pode-se recorrer à celebração
+            comunitária da reconciliação, envolvendo uma confissão geral e uma
+            absolvição geral. Tal necessidade pode ocorrer quando há perigo
+            iminente de morte ou quando o número de penitentes é grande demais
+            para os confessores ouvirem individualmente todas as confissões em
+            um período razoável. No entanto, para que a absolvição seja válida,
+            os fiéis devem ter a intenção de confessar seus pecados
+            individualmente assim que possível.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1420-1532_po.html"
+                target="blank"
+              >
+                19
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.BigText id="efeitos-confissao">
+            Efeitos do Sacramento da Confissão na nossa vida
+          </S.BigText>
+          <S.SmallText>
+            A prática do Sacramento da Penitência abrange três elementos: a
+            contrição, que é o pesar pelo pecado acompanhado da intenção de não
+            repeti-lo; a confissão completa dos pecados; e a reparação da
+            ofensa, realizada por meio de boas ações.
+          </S.SmallText>
+          <S.SmallText>
+            Assim como na vida corporal, quando alguém adoece e não encontra
+            cura, pode perecer, da mesma maneira na vida espiritual, a pessoa
+            fica debilitada pelo pecado. Logo, é imprescindível um remédio para
+            restaurar a saúde espiritual. E essa cura é proporcionada através da
+            graça concedida no sacramento da Penitência.
+          </S.SmallText>
+          <S.SmallText>
+            O Sacramento da Penitência é uma grande graça de Deus, um meio pelo
+            qual Ele nos acolhe novamente sem se lembrar dos nossos erros. Além
+            disso,
+            <strong>
+              somos fortalecidos para seguir ou recomeçar a nossa vida de fé com
+              retidão, coragem e perseverança.
+            </strong>
+            Dessa forma, os efeitos espirituais do sacramento da Penitência são:
+          </S.SmallText>
+          <ul>
+            <S.DotList>
+              <S.SmallText>
+                a reconciliação com Deus, pela qual o penitente recupera a
+                graça;
+              </S.SmallText>
+            </S.DotList>
+            <S.DotList>
+              <S.SmallText>a reconciliação com a Igreja;</S.SmallText>
+            </S.DotList>
+            <S.DotList>
+              <S.SmallText>
+                a remissão da pena eterna, em que incorreu pelos pecados
+                mortais;
+              </S.SmallText>
+            </S.DotList>
+            <S.DotList>
+              <S.SmallText>
+                a remissão, ao menos em parte, das penas temporais, consequência
+                do pecado;
+              </S.SmallText>
+            </S.DotList>
+            <S.DotList>
+              <S.SmallText>
+                a paz e a serenidade da consciência e a consolação espiritual;
+              </S.SmallText>
+            </S.DotList>
+            <S.DotList>
+              <S.SmallText>
+                o acréscimo das forças espirituais para o combate cristão.
+              </S.SmallText>
+            </S.DotList>
+          </ul>
+          <S.SmallText>
+            “[…] A confissão integral dos pecados educa o penitente para a
+            humildade, o reconhecimento da sua fragilidade pessoal e, ao mesmo
+            tempo, para a consciência da necessidade do perdão de Deus e a
+            confiança de que a Graça divina pode transformar a sua vida.”{" "}
+            <sup>
+              <a
+                href="https://www.vatican.va/content/benedict-xvi/pt/speeches/2010/march/documents/hf_ben-xvi_spe_20100311_penitenzieria.html"
+                target="blank"
+              >
+                20
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.DefaultText style={{ fontWeight: "bold", margin: "30px 0px" }}>
+            Referências
+          </S.DefaultText>
+          <S.SmallText
+            style={{
+              paddingBottom: "30px",
+              borderBottom: "1px solid #D4D4D4",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <span>1, 2. CIC, 1446</span>
+            <span>3. CIC, 1452</span>
+            <span>4. CIC, 1442</span>
+            <span>5. CIC, 1449</span>
+            <span>6. CIC, 1458</span>
+            <span>7. Sl, 51</span>
+            <span>8. Lv 15, 1-33</span>
+            <span>9. Mc 2, 5-10</span>
+            <span>10. Jo 20, 21-23</span>
+            <span>11. CIC, 1444</span>
+            <span>14. Hb 6, 2</span>
+            <span>15. CIC, 1288</span>
+            <span>16. CIC, 1295</span>
+            <span>17. CIC, 1297</span>
+            <span>18. CIC, 1298</span>
+            <span>19, 20. CIC, 1299</span>
+            <span>21, 22. CIC, 1300</span>
+            <span>23. CIC, 1304</span>
+            <span>24. CIC, 1305</span>
+            <span>25. CIC,1303</span>
+            <span>
+              26. VATICAN NEWS, Papa: com o Sacramento do Crisma ser sal e luz
+              do mundo
+            </span>
+          </S.SmallText>
         </S.TextContainer>
+        <S.LinksContainer>
+          <h3>O que você vai encontrar neste artigo?</h3>
+          <a href="#oque-crisma">O que é o sacramento do Crisma?</a>
+          <a href="#crisma-biblia">Sacramento do Crisma na Bíblia</a>
+          <a href="#sinais-crisma">Sinais e rito do sacramento do Crisma</a>
+          <a href="#efeito-crisma">
+            Os efeitos do sacramento do Crisma na nossa vida
+          </a>
+        </S.LinksContainer>
       </S.Container>
     </div>
   );
