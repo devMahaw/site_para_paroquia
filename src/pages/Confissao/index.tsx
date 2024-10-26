@@ -405,36 +405,32 @@ const Confissao = () => {
             <span>1, 2. CIC, 1446</span>
             <span>3. CIC, 1452</span>
             <span>4. CIC, 1442</span>
-            <span>5. CIC, 1449</span>
+            <span>5, 17. CIC, 1449</span>
             <span>6. CIC, 1458</span>
             <span>7. Sl, 51</span>
             <span>8. Lv 15, 1-33</span>
             <span>9. Mc 2, 5-10</span>
             <span>10. Jo 20, 21-23</span>
-            <span>11. CIC, 1444</span>
-            <span>14. Hb 6, 2</span>
-            <span>15. CIC, 1288</span>
-            <span>16. CIC, 1295</span>
-            <span>17. CIC, 1297</span>
-            <span>18. CIC, 1298</span>
-            <span>19, 20. CIC, 1299</span>
-            <span>21, 22. CIC, 1300</span>
-            <span>23. CIC, 1304</span>
-            <span>24. CIC, 1305</span>
-            <span>25. CIC,1303</span>
+            <span>11, 13. CIC, 1444</span>
+            <span>12. Mt 16,19</span>
+            <span>14. CIC, 1445</span>
+            <span>15, 16, 18. CIC, 1480</span>
+            <span>19. CIC, 1483</span>
             <span>
-              26. VATICAN NEWS, Papa: com o Sacramento do Crisma ser sal e luz
-              do mundo
+              20. Discurso do Papa Bento XVI aos participantes no curso
+              promovido pela Penitenciaria Apostólica
             </span>
           </S.SmallText>
         </S.TextContainer>
         <S.LinksContainer>
           <h3>O que você vai encontrar neste artigo?</h3>
-          <a href="#oque-crisma">O que é o sacramento do Crisma?</a>
-          <a href="#crisma-biblia">Sacramento do Crisma na Bíblia</a>
-          <a href="#sinais-crisma">Sinais e rito do sacramento do Crisma</a>
-          <a href="#efeito-crisma">
-            Os efeitos do sacramento do Crisma na nossa vida
+          <a href="#oque-confissao">O que é o Sacramento da Confissão?</a>
+          <a href="#confissao-biblia">Sacramento da Confissão na Bíblia</a>
+          <a href="#celebracao-reconciliacao">
+            Celebração do Sacramento da Reconciliação
+          </a>
+          <a href="#efeitos-confissao">
+            Efeitos do Sacramento da Confissão na nossa vida
           </a>
         </S.LinksContainer>
       </S.Container>
