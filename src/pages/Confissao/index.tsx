@@ -51,6 +51,25 @@ const Confissao = () => {
             O que é o sacramento da Confissão?
           </S.BigText>
           <S.SmallText>
+            O Sacramento da Penitência, também conhecido como Sacramento da
+            Confissão, é uma forma de reconciliação com Jesus, onde nossos
+            pecados são perdoados e recebemos de volta a graça perdida ao
+            cometer pecados mortais. Jesus deu autoridade aos apóstolos para
+            perdoar nossos pecados, conforme relatado no (
+            <a
+              href="https://www.bibliaonline.com.br/acf/jo/20/22,23"
+              target="blank"
+            >
+              Jo 20, 22-23
+            </a>
+            ).. Atualmente, os bispos e padres, como sucessores dos santos
+            apóstolos, continuam a exercer essa autoridade. No Batismo, a graça
+            é derramada em nossa alma, mas, ao pecarmos mortalmente, essa graça
+            é perdida. O Santo Sacramento da Reconciliação nos concede a graça
+            santificante por meio da absolvição sacramental, restaurando-nos à
+            amizade com Deus.
+          </S.SmallText>
+          <S.SmallText>
             O Sacramento da Confissão é o sacramento instituído por Jesus Cristo
             para perdoar os pecados cometidos após o Batismo.
             <sup>
@@ -62,7 +81,7 @@ const Confissao = () => {
               </a>
             </sup>
             Ele oferece aos fiéis a oportunidade de se arrependerem de seus
-            pecados, confessá-los a um sacerdote e receber o perdão divino.{" "}
+            pecados, confessá-los a um sacerdote e receber o perdão divino.
             <strong>
               O arrependimento sincero e a contrição perfeita são partes
               fundamentais da confissão
