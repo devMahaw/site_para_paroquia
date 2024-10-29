@@ -61,11 +61,11 @@ const SeteSacramentos = () => {
         </S.BigText>
       </div>
       <div>
-        <a href="">
-          <S.CatequeseImage src="assets/construcao.png" alt="Ordem" />
+        <a href="/ordem">
+          <S.CatequeseImage src="assets/ordem/ordeem.jpg" alt="Ordem" />
         </a>
         <S.BigText>
-          <a href="">Ordem</a>
+          <a href="/ordem">Ordem</a>
         </S.BigText>
       </div>
       <div>

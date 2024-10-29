@@ -13,6 +13,7 @@ import Oracoes from "./pages/Oracoes";
 import Catequese from "./pages/Catequese";
 import SeteSacramentos from "./pages/SeteSacramentos";
 import Confissao from "./pages/Confissao";
+import Ordem from "./pages/Ordem";
 
 const RoutesVar = () => (
   <Routes>
@@ -30,6 +31,7 @@ const RoutesVar = () => (
     <Route path="/crisma" element={<Crisma />} />
     <Route path="/oracoes" element={<Oracoes />} />
     <Route path="/confissao" element={<Confissao />} />
+    <Route path="/ordem" element={<Ordem />} />
   </Routes>
 );
 
