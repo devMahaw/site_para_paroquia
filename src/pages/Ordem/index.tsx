@@ -98,6 +98,79 @@ const Ordem = () => {
               </a>
             </sup>
           </S.SmallText>
+          <S.SmallText>
+            O Sacramento da Ordem possui três graus: o episcopado, o
+            presbiterado e o diaconato. Cada um destes graus tem suas próprias
+            funções e responsabilidades dentro da Igreja. O episcopado,
+            reservado aos bispos, é o grau mais elevado e confere a plenitude do
+            sacramento, incluindo a capacidade de administrar todos os
+            sacramentos e liderar uma diocese.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+                target="blank"
+              >
+                2
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            Já o presbiterado, atribuído aos padres, confere o poder de celebrar
+            a Eucaristia, perdoar os pecados em nome de Deus e administrar
+            outros sacramentos.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+                target="blank"
+              >
+                3
+              </a>
+            </sup>
+            O diaconato, por fim, concedido aos diáconos, é um grau de serviço
+            que inclui a pregação da Palavra, a assistência nas celebrações e a
+            caridade junto aos mais necessitados.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+                target="blank"
+              >
+                4
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            O Sacramento da Ordem é conferido através de um rito solene que
+            envolve a imposição das mãos por parte do bispo, juntamente com a
+            oração consecratória.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+                target="blank"
+              >
+                5
+              </a>
+            </sup>
+            Além disso, é através deste rito que o ordenando é configurado de
+            maneira especial a Cristo — o Sumo Sacerdote — e é revestido com os
+            dons espirituais necessários para cumprir sua missão pastoral e
+            sacramental na comunidade de fé.
+            <sup>
+              <a
+                href="https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap3_1533-1666_po.html"
+                target="blank"
+              >
+                6
+              </a>
+            </sup>
+          </S.SmallText>
+          <S.SmallText>
+            Os ordenados têm, portanto, a responsabilidade de liderar a Igreja,
+            servindo como <strong>mediadores entre Deus e os fiéis</strong>.
+            Eles administram os sacramentos, pregam a Palavra de Deus,
+            pastoreiam o rebanho e conduzem os fiéis no caminho da santidade.
+            São chamados a serem exemplos de vida cristã e a guiar a comunidade
+            na busca da verdade, da justiça e da salvação.
+          </S.SmallText>
         </S.TextContainer>
       </S.Container>
     </div>
