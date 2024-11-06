@@ -35,4 +35,47 @@ export const AtividadeDiv = styled.div`
     }
 `;
 
-export const FrenteDiv = styled.div``;
+export const ImageDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/frente_igreja.png') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+`;
+
+export const FrenteDiv = styled.div`
+    width: 650px;
+    height: 950px;
+    margin-left: 500px;
+    background-color: ${colors.white};
+
+    svg {
+        width: 30px;
+        fill: ${colors.brown};
+    }
+`;
+
+export const WhatsappButton = styled.button`
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    margin-top: 40px;
+    background-color: ${colors.lightGreen};
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    border-radius: 99px 99px 99px 99px;
+    border: none;
+
+    svg {
+        width: 22px;
+        height: 24px;
+        fill: #FDFDFD;
+        margin-right: 10px;
+    }
+`;
