@@ -45,6 +45,11 @@ export const ImageDiv = styled.div`
     background-size: cover;
     width: 100%;
     height: 1200px;
+
+    span {
+        font-weight: bold;
+        color: ${colors.black};
+    }
 `;
 
 export const FrenteDiv = styled.div`
@@ -68,14 +73,72 @@ export const WhatsappButton = styled.button`
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #FDFDFD;
+    color: ${colors.white};
+    fill: ${colors.white};
     border-radius: 99px 99px 99px 99px;
     border: none;
+    transition: all 0.3s;
+
+    &:hover,
+    &:active {
+        background-color: ${colors.darkGray};
+        transform: translateY(-3%);
+    };
 
     svg {
         width: 22px;
         height: 24px;
-        fill: #FDFDFD;
+        fill: ${colors.white};
+        margin-right: 10px;
+    }
+`;
+
+export const RedeDiv = styled.div`
+    width: 100px;
+
+        svg {
+            fill: ${colors.darkBlue};
+
+            &:hover {
+                fill:rgb(66, 138, 253);
+            }
+
+            transition: fill 0.3s ease, transform 0.3s ease;
+        }
+`;
+
+export const HistoriaDiv = styled.div`
+    span {
+        font-weight: bold;
+        color: ${colors.black};
+    }
+`;
+
+export const BrownButton = styled.button`
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    margin-top: 40px;
+    background-color: ${colors.yellow};
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: ${colors.black};
+    border-radius: 99px 99px 99px 99px;
+    border: none;
+    transition: all 0.3s;
+
+    &:hover,
+    &:active {
+        background-color: ${colors.brown};
+        transform: translateY(-3%);
+        color: ${colors.white};
+    };
+
+    svg {
+        width: 22px;
+        height: 24px;
+        fill: ${colors.white};
         margin-right: 10px;
     }
 `;
