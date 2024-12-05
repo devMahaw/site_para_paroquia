@@ -6,6 +6,10 @@ const Confissao = () => {
       <S.ImageContainer>
         <S.Image src="assets/confissao/confissaoo.jpg" alt="Confissão" />
       </S.ImageContainer>
+      <S.Audio controls>
+        <source src="assets/confissao/confissao.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </S.Audio>
       <S.Container>
         <S.TextContainer>
           <S.BigText>O que é o Sacramento da Confissão?</S.BigText>
