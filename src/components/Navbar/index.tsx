@@ -99,6 +99,11 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
+                <S.NavbarSubItemsText href="">
+                  Confissão
+                </S.NavbarSubItemsText>
+              </li>
+              <li>
                 <S.NavbarSubItemsText href="/catequese" target="_blank">
                   Catequese
                 </S.NavbarSubItemsText>
