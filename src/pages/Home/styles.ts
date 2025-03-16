@@ -180,6 +180,11 @@ export const WhatsappButton = styled.button`
         fill: ${colors.white};
         margin-right: 10px;
     }
+
+    @media (max-width: ${breakpoints.phone}) {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 `;
 
 export const RedeDiv = styled.div`
