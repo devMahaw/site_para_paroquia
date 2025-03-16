@@ -43,7 +43,7 @@ export const DefaultText = styled.p`
 export const AtividadeDivContainer = styled.div`
     display: flex;
     margin-bottom: 100px;
-    textAlign: center;
+    text-align: center;
 
     @media (max-width: ${breakpoints.phone}) {
         flex-direction: column;

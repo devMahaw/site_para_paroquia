@@ -14,6 +14,20 @@ import Catequese from "./pages/Catequese";
 import SeteSacramentos from "./pages/SeteSacramentos";
 import Confissao from "./pages/Confissao";
 import Ordem from "./pages/Ordem";
+import Contato from "./pages/Contato";
+import Avisos from "./pages/Avisos";
+import Dizimo from "./pages/Dizimo";
+import EvangelhoDiario from "./pages/EvangelhoDiario";
+import Historia from "./pages/Historia";
+import HorarioConfissao from "./pages/HorarioConfissao";
+import HorariosMissas from "./pages/HorariosMissas";
+import NoticiasParoquia from "./pages/NoticiasParoquia";
+import Nsps from "./pages/Nsps";
+import Pastorais from "./pages/Pastorais";
+import RedeSociais from "./pages/RedeSociais";
+import SantoDia from "./pages/SantoDia";
+import Secretaria from "./pages/Secretaria";
+import TercoHomens from "./pages/TercoHomens";
 
 const RoutesVar = () => (
   <Routes>
@@ -32,6 +46,20 @@ const RoutesVar = () => (
     <Route path="/oracoes" element={<Oracoes />} />
     <Route path="/confissao" element={<Confissao />} />
     <Route path="/ordem" element={<Ordem />} />
+    <Route path="/contato" element={<Contato />} />
+    <Route path="/avisos" element={<Avisos />} />
+    <Route path="/dizimo" element={<Dizimo />} />
+    <Route path="/evangelhodiario" element={<EvangelhoDiario />} />
+    <Route path="/historia" element={<Historia />} />
+    <Route path="/horarioconfissao" element={<HorarioConfissao />} />
+    <Route path="/horariosmissas" element={<HorariosMissas />} />
+    <Route path="/noticiasparoquia" element={<NoticiasParoquia />} />
+    <Route path="/nsps" element={<Nsps />} />
+    <Route path="/pastorais" element={<Pastorais />} />
+    <Route path="/redesociais" element={<RedeSociais />} />
+    <Route path="/santodia" element={<SantoDia />} />
+    <Route path="/secretaria" element={<Secretaria />} />
+    <Route path="/tercohomens" element={<TercoHomens />} />
   </Routes>
 );
 

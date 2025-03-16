@@ -48,10 +48,10 @@ const Navbar = () => {
             </div>
             <S.NavbarSubMenu className={activeSubMenu === 1 ? "open" : ""}>
               <li>
-                <S.NavbarSubItemsText href="">NSPS</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/nsps">NSPS</S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">História</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/historia">História</S.NavbarSubItemsText>
               </li>
               <li>
                 <S.NavbarSubItemsText href="/paroco" target="_blank">
@@ -59,7 +59,7 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">Secretaria</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/secretaria">Secretaria</S.NavbarSubItemsText>
               </li>
             </S.NavbarSubMenu>
           </li>
@@ -84,22 +84,22 @@ const Navbar = () => {
             </div>
             <S.NavbarSubMenu className={activeSubMenu === 2 ? "open" : ""}>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="/evangelhodiario">
                   Evangelho diário
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="/santodia">
                   Santo do dia
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="/horariosmissas">
                   Horários das missas
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="/horarioconfissao">
                   Confissão
                 </S.NavbarSubItemsText>
               </li>
@@ -109,10 +109,10 @@ const Navbar = () => {
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">Pastorais</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/pastorais">Pastorais</S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="/tercohomens">
                   Terço dos homens
                 </S.NavbarSubItemsText>
               </li>
@@ -144,15 +144,15 @@ const Navbar = () => {
             </div>
             <S.NavbarSubMenu className={activeSubMenu === 3 ? "open" : ""}>
               <li>
-                <S.NavbarSubItemsText href="">Avisos</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="avisos">Avisos</S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="noticiasparoquia">
                   Notícias da paróquia
                 </S.NavbarSubItemsText>
               </li>
               <li>
-                <S.NavbarSubItemsText href="">
+                <S.NavbarSubItemsText href="redesociais">
                   Redes sociais
                 </S.NavbarSubItemsText>
               </li>
@@ -178,12 +178,12 @@ const Navbar = () => {
             </div>
             <S.NavbarSubMenu className={activeSubMenu === 4 ? "open" : ""}>
               <li>
-                <S.NavbarSubItemsText href="">Dízimo</S.NavbarSubItemsText>
+                <S.NavbarSubItemsText href="/dizimo">Dízimo</S.NavbarSubItemsText>
               </li>
             </S.NavbarSubMenu>
           </li>
           <li>
-            <a href="" style={{ letterSpacing: "1px" }}>
+            <a href="/contato" style={{ letterSpacing: "1px" }}>
               Contato
             </a>
           </li>
