@@ -134,6 +134,8 @@ export const NavbarSubMenu = styled.ul`
     &.open {
       display: block;
     }
+
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
   }
 
   @media (min-width: ${breakpoints.phone}) and (max-width: ${breakpoints.desktop}) {
@@ -142,6 +144,8 @@ export const NavbarSubMenu = styled.ul`
     &.open {
       display: block;
     }
+
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
   }
 `;
 
