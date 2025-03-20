@@ -14,6 +14,7 @@ export const NavbarContainer = styled.nav`
   left: 0;
   z-index: 1;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  outline: none;
 
   img {
     width: 350px;
@@ -41,6 +42,7 @@ export const NavbarContainer = styled.nav`
 export const NavbarItemsList = styled.ul`
   display: flex;
   gap: 40px;
+  outline: none;
 
   > li {
     position: relative;
@@ -123,6 +125,7 @@ export const NavbarSubMenu = styled.ul`
   margin: 0;
   z-index: 1;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  outline: none;
 
   > li {
     padding: 10px 20px;
@@ -156,6 +159,7 @@ export const NavbarSubItemsText = styled.a`
   white-space: nowrap;
   padding: 2px;
   color: ${colors.white};
+  outline: none;
 `;
 
 export const NavbarText = styled.span`
@@ -163,6 +167,7 @@ export const NavbarText = styled.span`
   letter-spacing: 1px;
   margin-right: 6px;
   cursor: default;
+  outline: none;
 
   &:hover,
   &:active {
@@ -172,6 +177,7 @@ export const NavbarText = styled.span`
 
 export const HamburgerIcon = styled.div`
   display: none;
+  outline: none;
 
   @media (max-width: ${breakpoints.phone}) {
     display: block;
